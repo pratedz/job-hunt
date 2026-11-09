@@ -1,0 +1,475 @@
+[
+  {
+    "id": 1,
+    "rank": null,
+    "company": "TikTok Shop",
+    "title": "Accelerated Development Program (E-Commerce, Thailand) - 2027 Start",
+    "location": "Bangkok, Thailand",
+    "source": "manual",
+    "url": "https://lifeattiktok.com/search/A65110A",
+    "posted_at": null,
+    "first_seen_at": "2026-11-07T15:16:19Z",
+    "verdict": "CENTRE",
+    "status": "new",
+    "scores": {
+      "love": 5,
+      "good_at": 5,
+      "needs": 5,
+      "paid": 3
+    },
+    "paid_estimated": true,
+    "weakest": {
+      "circle": "paid",
+      "score": 3
+    },
+    "mean": 4.5,
+    "gate": {
+      "result": "pass",
+      "fails": [],
+      "questions": []
+    },
+    "prefilter_reason": null,
+    "tracked": null,
+    "error": null,
+    "reasons": {
+      "love": "The rotational e-commerce programme covers category growth and seller development, directly matching his preferred commercial roles.",
+      "good_at": "F10 and F21 support seller and partnership work, F31 and F26 show analytical work, and F20 and F25 show leadership and communication in a student-run company.",
+      "needs": "The posting offers structured rotations across category growth, seller development and operations at an established e-commerce platform.",
+      "paid": "estimate, THB 30,000-50,000 per month -> about THB 40,000/month. Estimated gross monthly range for a Bangkok e-commerce graduate programme; the posting states no salary."
+    },
+    "summary": "Strong commercial and timing fit; the main risk is the competitive multi-stage selection process.",
+    "facts": {
+      "min_years_experience": null,
+      "gpa_floor": null,
+      "start_kind": "fixed_date",
+      "start_date": "2027-06",
+      "graduation_years": [
+        2027
+      ],
+      "degree_completed_required": false,
+      "required_languages": [
+        "Thai",
+        "English"
+      ],
+      "required_test_scores": [],
+      "location_city": "Bangkok",
+      "location_country": "Thailand",
+      "remote": false,
+      "job_type": "graduate_programme",
+      "other_hard_requirements": []
+    },
+    "salary": {
+      "min": null,
+      "max": null,
+      "currency": "THB",
+      "period": "month",
+      "stated": false,
+      "thb_month_mid": 40000.0
+    },
+    "jd_text": "Bachelor/Master Graduate - 2027 Start. The Accelerated Development Program (ADP) is a rotational programme for 2027 graduates joining TikTok Shop Thailand e-commerce. Rotations cover category growth, seller development and operations. Programme starts June 2027 in Bangkok. Requirements: bachelor's or master's degree graduating in 2027; strong analytical and communication skills; leadership experience; fluent Thai and English. Selection: online test, HR interview, case day, leaders interview. Applications close 30 November 2026 or earlier when full.",
+    "jd_missing": false,
+    "email_snippet": null
+  },
+  {
+    "id": 2,
+    "rank": null,
+    "company": "Agoda",
+    "title": "Associate Analyst, Marketing (Bangkok)",
+    "location": "Bangkok, Thailand",
+    "source": "greenhouse",
+    "url": "https://job-boards.greenhouse.io/agoda/jobs/8194690",
+    "posted_at": null,
+    "first_seen_at": "2026-11-07T15:16:19Z",
+    "verdict": "LOW",
+    "status": "new",
+    "scores": {
+      "love": 3,
+      "good_at": 3,
+      "needs": 4,
+      "paid": 2
+    },
+    "paid_estimated": true,
+    "weakest": {
+      "circle": "paid",
+      "score": 2
+    },
+    "mean": 3.0,
+    "gate": {
+      "result": "ask",
+      "fails": [],
+      "questions": [
+        "Hiring immediately; you are available from 2027-06. Will they hold the role until then?",
+        "The posting also requires: Bachelor's degree in a quantitative subject or related field. Do you meet it?"
+      ]
+    },
+    "prefilter_reason": null,
+    "tracked": null,
+    "error": null,
+    "reasons": {
+      "love": "The role focuses on marketing analytics, reporting and experiments.",
+      "good_at": "F26 and F71 support Excel and KPI reporting, while F31 shows AI-assisted SQL analysis; direct marketing-channel experimentation is not evidenced.",
+      "needs": "Agoda is a well-established regional travel platform, and the role offers exposure to marketing performance and experiments.",
+      "paid": "estimate, THB 30,000-45,000 per month -> about THB 37,500/month. Estimated gross monthly range for an entry-level marketing analyst in Bangkok; the posting states no salary."
+    },
+    "summary": "The analytics work has some overlap with his experience, but confirm whether a June start is possible.",
+    "facts": {
+      "min_years_experience": 0,
+      "gpa_floor": null,
+      "start_kind": "immediate",
+      "start_date": null,
+      "graduation_years": [],
+      "degree_completed_required": null,
+      "required_languages": [
+        "English"
+      ],
+      "required_test_scores": [],
+      "location_city": "Bangkok",
+      "location_country": "Thailand",
+      "remote": false,
+      "job_type": "full_time",
+      "other_hard_requirements": [
+        "Bachelor's degree in a quantitative subject or related field"
+      ]
+    },
+    "salary": {
+      "min": null,
+      "max": null,
+      "currency": "THB",
+      "period": "month",
+      "stated": false,
+      "thb_month_mid": 37500.0
+    },
+    "jd_text": "Fresh Graduates are welcome to apply! You will analyse marketing channel performance, build reports and run experiments with the marketing team. Requirements: bachelor's degree in a quantitative subject or related fields; strong Excel; SQL or Python is a plus; excellent English communication. This is a full-time position based in Bangkok. Relocation package provided for candidates outside Thailand.",
+    "jd_missing": false,
+    "email_snippet": null
+  },
+  {
+    "id": 3,
+    "rank": null,
+    "company": "Agoda",
+    "title": "Account Specialist, Homes",
+    "location": "Bangkok, Thailand",
+    "source": "greenhouse",
+    "url": "https://job-boards.greenhouse.io/agoda/jobs/8242288",
+    "posted_at": null,
+    "first_seen_at": "2026-11-07T15:16:19Z",
+    "verdict": "FILTERED",
+    "status": "new",
+    "scores": {
+      "love": 5,
+      "good_at": 4,
+      "needs": 4,
+      "paid": 3
+    },
+    "paid_estimated": true,
+    "weakest": {
+      "circle": "paid",
+      "score": 3
+    },
+    "mean": 4.0,
+    "gate": {
+      "result": "fail",
+      "fails": [
+        "Requires at least 2 years of experience; you have 0 years (student-run companies are not corporate experience)."
+      ],
+      "questions": [
+        "Hiring immediately; you are available from 2027-06. Will they hold the role until then?"
+      ]
+    },
+    "prefilter_reason": null,
+    "tracked": null,
+    "error": null,
+    "reasons": {
+      "love": "Managing and growing a portfolio of vacation-rental partners is a commercial account role at a consumer platform.",
+      "good_at": "F21 supports negotiation and partnership development, F10 supports e-commerce channel work, and F26 shows KPI reporting; direct vacation-rental portfolio experience is not evidenced.",
+      "needs": "Agoda is a well-established regional travel platform, and the posting offers ownership of a partner portfolio.",
+      "paid": "estimate, THB 35,000-55,000 per month -> about THB 45,000/month. Estimated gross monthly range for a Bangkok account specialist role requiring prior commercial experience; the posting states no salary."
+    },
+    "summary": "The account work fits his interests, but the required prior experience is the main eligibility barrier.",
+    "facts": {
+      "min_years_experience": 2,
+      "gpa_floor": null,
+      "start_kind": "immediate",
+      "start_date": null,
+      "graduation_years": [],
+      "degree_completed_required": null,
+      "required_languages": [
+        "Thai",
+        "English"
+      ],
+      "required_test_scores": [],
+      "location_city": "Bangkok",
+      "location_country": "Thailand",
+      "remote": false,
+      "job_type": "full_time",
+      "other_hard_requirements": []
+    },
+    "salary": {
+      "min": null,
+      "max": null,
+      "currency": "THB",
+      "period": "month",
+      "stated": false,
+      "thb_month_mid": 45000.0
+    },
+    "jd_text": "Manage a portfolio of vacation-rental partners and grow their bookings on Agoda. Requirements: minimum 2 years of experience in business development, account management or sales; strong negotiation skills; fluent Thai and English; data-driven mindset. Full-time, Bangkok.",
+    "jd_missing": false,
+    "email_snippet": null
+  },
+  {
+    "id": 4,
+    "rank": null,
+    "company": "Krungthai Bank",
+    "title": "Management Trainee Program 2027",
+    "location": "Bangkok, Thailand",
+    "source": "manual",
+    "url": "https://krungthai.com/careers/management-trainee-2027",
+    "posted_at": null,
+    "first_seen_at": "2026-11-07T15:16:19Z",
+    "verdict": "FILTERED",
+    "status": "new",
+    "scores": {
+      "love": 3,
+      "good_at": null,
+      "needs": 4,
+      "paid": 2
+    },
+    "paid_estimated": true,
+    "weakest": {
+      "circle": "paid",
+      "score": 2
+    },
+    "mean": 3.0,
+    "gate": {
+      "result": "fail",
+      "fails": [
+        "Requires a minimum GPA of 3.00; your GPAX is 2.48 (transcript)."
+      ],
+      "questions": []
+    },
+    "prefilter_reason": null,
+    "tracked": null,
+    "error": null,
+    "reasons": {
+      "love": "The programme offers corporate banking, retail banking and digital rotations, fitting his interest in finance graduate programmes.",
+      "good_at": "The posting does not specify skill requirements to assess against his finance coursework and commercial experience in F60 and F26.",
+      "needs": "The posting offers structured rotations across banking and digital functions at an established Thai bank.",
+      "paid": "estimate, THB 25,000-40,000 per month -> about THB 32,500/month. Estimated gross monthly range for a Bangkok bank management trainee programme; the posting states no salary."
+    },
+    "summary": "The programme offers useful banking exposure, but its GPA floor makes him ineligible.",
+    "facts": {
+      "min_years_experience": 0,
+      "gpa_floor": 3.0,
+      "start_kind": "fixed_date",
+      "start_date": "2027-07",
+      "graduation_years": [
+        2026,
+        2027
+      ],
+      "degree_completed_required": null,
+      "required_languages": [],
+      "required_test_scores": [],
+      "location_city": "Bangkok",
+      "location_country": "Thailand",
+      "remote": false,
+      "job_type": "graduate_programme",
+      "other_hard_requirements": []
+    },
+    "salary": {
+      "min": null,
+      "max": null,
+      "currency": "THB",
+      "period": "month",
+      "stated": false,
+      "thb_month_mid": 32500.0
+    },
+    "jd_text": "Krungthai Management Trainee Program for new graduates. Rotations across corporate banking, retail banking and digital. Requirements: bachelor's degree in business, finance, economics or related fields; minimum GPA 3.00; Thai nationality; graduating in 2026 or 2027. Programme starts July 2027.",
+    "jd_missing": false,
+    "email_snippet": null
+  },
+  {
+    "id": 5,
+    "rank": null,
+    "company": "Deliveree (Thailand) Limited",
+    "title": "Fresh Graduate Management Trainee Program (MT)",
+    "location": "Bangkok",
+    "source": "jobsdb",
+    "url": "https://th.jobsdb.com/job/95340875",
+    "posted_at": null,
+    "first_seen_at": "2026-11-07T15:16:19Z",
+    "verdict": "FILTERED",
+    "status": "new",
+    "scores": {
+      "love": 5,
+      "good_at": null,
+      "needs": 4,
+      "paid": 1
+    },
+    "paid_estimated": false,
+    "weakest": {
+      "circle": "paid",
+      "score": 1
+    },
+    "mean": 3.3333,
+    "gate": {
+      "result": "fail",
+      "fails": [
+        "Requires a minimum GPA of 2.70; your GPAX is 2.48 (transcript).",
+        "Requires the degree to be completed when you apply; yours is conferred after May 2027."
+      ],
+      "questions": [
+        "Hiring immediately; you are available from 2027-06. Will they hold the role until then?"
+      ]
+    },
+    "prefilter_reason": null,
+    "tracked": null,
+    "error": null,
+    "reasons": {
+      "love": "The MT programme rotates through operations, sales and marketing, matching his commercial interests.",
+      "good_at": "The posting does not specify enough skill requirements to assess his fit, although F10, F21 and F26 show relevant commercial and operational work.",
+      "needs": "The posting describes a structured programme with rotations across three functions.",
+      "paid": "THB 25,000-30,000 per month -> about THB 27,500/month. The posting states a salary of THB 25,000 to 30,000 per month."
+    },
+    "summary": "The rotations fit his interests, but the completed-degree requirement and GPA floor make him ineligible.",
+    "facts": {
+      "min_years_experience": 0,
+      "gpa_floor": 2.7,
+      "start_kind": "immediate",
+      "start_date": null,
+      "graduation_years": [],
+      "degree_completed_required": true,
+      "required_languages": [],
+      "required_test_scores": [],
+      "location_city": "Bangkok",
+      "location_country": "Thailand",
+      "remote": false,
+      "job_type": "graduate_programme",
+      "other_hard_requirements": []
+    },
+    "salary": {
+      "min": 25000,
+      "max": 30000,
+      "currency": "THB",
+      "period": "month",
+      "stated": true,
+      "thb_month_mid": 27500.0
+    },
+    "jd_text": "We are looking for fresh graduates who have completed a bachelor's degree, with GPA 2.70 or above, to join our 12-month MT program rotating across operations, sales and marketing. Start: immediately. Salary 25,000-30,000 THB/month.",
+    "jd_missing": false,
+    "email_snippet": null
+  },
+  {
+    "id": 6,
+    "rank": null,
+    "company": "Example FMCG Co.",
+    "title": "Senior Key Account Manager - Modern Trade",
+    "location": "Bangkok, Thailand",
+    "source": "linkedin",
+    "url": "https://www.linkedin.com/jobs/view/4400000001",
+    "posted_at": null,
+    "first_seen_at": "2026-11-07T15:16:19Z",
+    "verdict": "FILTERED",
+    "status": "new",
+    "scores": {
+      "love": null,
+      "good_at": null,
+      "needs": null,
+      "paid": null
+    },
+    "paid_estimated": false,
+    "weakest": null,
+    "mean": null,
+    "gate": {
+      "result": null,
+      "fails": [],
+      "questions": []
+    },
+    "prefilter_reason": "title_exclude: \\bsenior\\b",
+    "tracked": null,
+    "error": null,
+    "reasons": {
+      "love": null,
+      "good_at": null,
+      "needs": null,
+      "paid": null
+    },
+    "summary": null,
+    "facts": {},
+    "salary": null,
+    "jd_text": "Lead modern trade key accounts. 7+ years of FMCG key account experience required.",
+    "jd_missing": false,
+    "email_snippet": null
+  },
+  {
+    "id": 7,
+    "rank": null,
+    "company": "Lalamove",
+    "title": "Graduate Trainee Program 2027",
+    "location": "Hong Kong",
+    "source": "manual",
+    "url": "https://www.lalamove.com/careers/graduate-trainee-program-2027",
+    "posted_at": null,
+    "first_seen_at": "2026-11-07T15:16:19Z",
+    "verdict": "CENTRE",
+    "status": "new",
+    "scores": {
+      "love": 5,
+      "good_at": 3,
+      "needs": 5,
+      "paid": 5
+    },
+    "paid_estimated": true,
+    "weakest": {
+      "circle": "good_at",
+      "score": 3
+    },
+    "mean": 4.5,
+    "gate": {
+      "result": "ask",
+      "fails": [],
+      "questions": [
+        "Based in Hong Kong, Hong Kong; that needs a visa and relocation. Is that acceptable?"
+      ]
+    },
+    "prefilter_reason": null,
+    "tracked": null,
+    "error": null,
+    "reasons": {
+      "love": "The graduate programme rotates through operations, business development and strategy, matching his commercial interests.",
+      "good_at": "The posting lists rotations but gives too little detail on skill requirements; F10, F21 and F26 provide relevant commercial and strategy evidence.",
+      "needs": "The posting describes structured rotations across three functions at Lalamove, a well-established regional logistics company.",
+      "paid": "estimate, HKD 18,000-26,000 per month -> about THB 92,400/month. Estimated gross monthly range for a Hong Kong graduate trainee role; the posting states no salary."
+    },
+    "summary": "Commercial rotations are attractive, but confirm visa sponsorship and whether the Hong Kong salary covers living costs.",
+    "facts": {
+      "min_years_experience": null,
+      "gpa_floor": null,
+      "start_kind": "fixed_date",
+      "start_date": "2027-08",
+      "graduation_years": [
+        2027
+      ],
+      "degree_completed_required": null,
+      "required_languages": [
+        "English"
+      ],
+      "required_test_scores": [],
+      "location_city": "Hong Kong",
+      "location_country": "Hong Kong",
+      "remote": false,
+      "job_type": "graduate_programme",
+      "other_hard_requirements": []
+    },
+    "salary": {
+      "min": null,
+      "max": null,
+      "currency": "THB",
+      "period": "month",
+      "stated": false,
+      "thb_month_mid": 92400.0
+    },
+    "jd_text": "Lalamove Graduate Trainee Program for 2027 graduates, based in Hong Kong, starting August 2027. Rotations across operations, business development and strategy. Requirements: bachelor's degree graduating 2027; Chinese is highly preferred; English fluency. Applications close 31 December 2026.",
+    "jd_missing": false,
+    "email_snippet": null
+  }
+]

@@ -1,0 +1,77 @@
+{
+ "id": 2,
+ "rank": null,
+ "company": "Agoda",
+ "title": "Associate Analyst, Marketing (Bangkok)",
+ "location": "Bangkok, Thailand",
+ "source": "greenhouse",
+ "url": "https://job-boards.greenhouse.io/agoda/jobs/8194690",
+ "posted_at": null,
+ "first_seen_at": "2026-11-07T15:16:19Z",
+ "verdict": "LOW",
+ "status": "new",
+ "scores": {
+  "love": 3,
+  "good_at": 3,
+  "needs": 4,
+  "paid": 2
+ },
+ "paid_estimated": true,
+ "weakest": {
+  "circle": "paid",
+  "score": 2
+ },
+ "mean": 3.0,
+ "gate": {
+  "result": "ask",
+  "fails": [],
+  "questions": [
+   "Hiring immediately; you are available from 2027-06. Will they hold the role until then?",
+   "The posting also requires: Bachelor's degree in a quantitative subject or related field. Do you meet it?"
+  ]
+ },
+ "prefilter_reason": null,
+ "tracked": {
+  "file": "61 Application Records/Agoda — Associate Analyst, Marketing (Bangkok).md",
+  "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FAgoda%20%E2%80%94%20Associate%20Analyst%2C%20Marketing%20%28Bangkok%29.md",
+  "my_status": "To apply"
+ },
+ "error": null,
+ "reasons": {
+  "love": "The role focuses on marketing analytics, reporting and experiments.",
+  "good_at": "F26 and F71 support Excel and KPI reporting, while F31 shows AI-assisted SQL analysis; direct marketing-channel experimentation is not evidenced.",
+  "needs": "Agoda is a well-established regional travel platform, and the role offers exposure to marketing performance and experiments.",
+  "paid": "estimate, THB 30,000-45,000 per month -> about THB 37,500/month. Estimated gross monthly range for an entry-level marketing analyst in Bangkok; the posting states no salary."
+ },
+ "summary": "The analytics work has some overlap with his experience, but confirm whether a June start is possible.",
+ "facts": {
+  "min_years_experience": 0,
+  "gpa_floor": null,
+  "start_kind": "immediate",
+  "start_date": null,
+  "graduation_years": [],
+  "degree_completed_required": null,
+  "required_languages": [
+   "English"
+  ],
+  "required_test_scores": [],
+  "location_city": "Bangkok",
+  "location_country": "Thailand",
+  "remote": false,
+  "job_type": "full_time",
+  "other_hard_requirements": [
+   "Bachelor's degree in a quantitative subject or related field"
+  ]
+ },
+ "salary": {
+  "min": null,
+  "max": null,
+  "currency": "THB",
+  "period": "month",
+  "stated": false,
+  "thb_month_mid": 37500.0
+ },
+ "jd_text": "Fresh Graduates are welcome to apply! You will analyse marketing channel performance, build reports and run experiments with the marketing team. Requirements: bachelor's degree in a quantitative subject or related fields; strong Excel; SQL or Python is a plus; excellent English communication. This is a full-time position based in Bangkok. Relocation package provided for candidates outside Thailand.",
+ "jd_missing": false,
+ "email_snippet": null
+}

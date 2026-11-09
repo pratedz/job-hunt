@@ -1,0 +1,75 @@
+{
+ "id": 112,
+ "rank": null,
+ "company": "P&G Thailand",
+ "title": "Account Manager, Customer Business Development",
+ "location": "Bangkok, Thailand",
+ "source": "workday",
+ "url": "https://example.wd3.myworkdayjobs.com/en-US/careers/job/112",
+ "posted_at": null,
+ "first_seen_at": "2026-11-03T12:05:00Z",
+ "verdict": "CENTRE",
+ "status": "to_apply",
+ "scores": {
+  "love": 5,
+  "good_at": 5,
+  "needs": 5,
+  "paid": 4
+ },
+ "paid_estimated": true,
+ "weakest": {
+  "circle": "paid",
+  "score": 4
+ },
+ "mean": 4.75,
+ "gate": {
+  "result": "pass",
+  "fails": [],
+  "questions": []
+ },
+ "prefilter_reason": null,
+ "tracked": {
+  "file": "61 Application Records/P&G Thailand — ⭐ Account Manager, Customer Business Development.md",
+  "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FP%26G%20Thailand%20%E2%80%94%20%E2%AD%90%20Account%20Manager%2C%20Customer%20Business%20Development.md",
+  "my_status": "To apply"
+ },
+ "error": null,
+ "reasons": {
+  "love": "Commercial rotation in FMCG / e-commerce, one of his preferred tracks.",
+  "good_at": "F10 and F21 match the partnership and seller work; F26 shows the reporting the JD asks for.",
+  "needs": "Structured rotations and a published path to manager at a growing regional company.",
+  "paid": "Estimate: the posting states no salary. THB 50,000-65,000 per month. for a comparable Bangkok graduate role."
+ },
+ "summary": "Good commercial fit with a clear growth path.",
+ "facts": {
+  "min_years_experience": 0,
+  "gpa_floor": null,
+  "start_kind": "fixed_date",
+  "start_date": "2027-06",
+  "graduation_years": [
+   2027
+  ],
+  "degree_completed_required": false,
+  "required_languages": [
+   "Thai",
+   "English"
+  ],
+  "required_test_scores": [],
+  "location_city": "Bangkok",
+  "location_country": "Thailand",
+  "remote": false,
+  "job_type": "graduate_programme",
+  "other_hard_requirements": []
+ },
+ "salary": {
+  "min": null,
+  "max": null,
+  "currency": "THB",
+  "period": "month",
+  "stated": false,
+  "thb_month_mid": 55000
+ },
+ "jd_text": "P&G Thailand is hiring for Account Manager, Customer Business Development in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+ "jd_missing": false,
+ "email_snippet": null
+}

@@ -1,0 +1,42 @@
+{
+ "id": 150,
+ "rank": null,
+ "company": "TikTok",
+ "title": "Creator Operation Graduate (TikTok LIVE) 2027",
+ "location": "Bangkok, Thailand",
+ "source": "linkedin",
+ "url": "https://www.linkedin.com/jobs/view/4400000150",
+ "posted_at": "2026-10-26T06:05:00Z",
+ "first_seen_at": "2026-10-29T06:05:00Z",
+ "verdict": null,
+ "status": "new",
+ "scores": {
+  "love": null,
+  "good_at": null,
+  "needs": null,
+  "paid": null
+ },
+ "paid_estimated": false,
+ "weakest": null,
+ "mean": null,
+ "gate": {
+  "result": null,
+  "fails": [],
+  "questions": []
+ },
+ "prefilter_reason": null,
+ "tracked": null,
+ "error": "codex timeout after 120 s; will retry next run",
+ "reasons": {
+  "love": null,
+  "good_at": null,
+  "needs": null,
+  "paid": null
+ },
+ "summary": null,
+ "facts": {},
+ "salary": null,
+ "jd_text": "TikTok is hiring for Creator Operation Graduate (TikTok LIVE) 2027 in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+ "jd_missing": false,
+ "email_snippet": null
+}

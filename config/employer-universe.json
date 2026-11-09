@@ -1,0 +1,1640 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-11-08",
+  "next_review": "2026-11-22",
+  "scope": "Reviewed employer discovery seeds; neither a complete index export nor an eligibility/quality whitelist. Runtime queries are explicitly in profile.toml.",
+  "expansion_policy": {
+    "cadence": "Manual review every14days and after SET/S&P constituent changes; no expansion scheduler installed",
+    "steps": [
+      "Review pending candidates and employers discovered by broad role search, referrals, campus and other indexes/non-index lists",
+      "Verify official Thailand employment/office evidence and actual hiring entity; separate index status/date",
+      "Classify industry as analyst metadata; do not infer user preference, Tier A or graduate eligibility",
+      "Add distinct employer/query variants to coverage.targets and this registry; retain broad keyword search",
+      "Inspect coverage cadence, never/stale/error/partial results; raise budgets only within existing host caps",
+      "Prioritize promising public career pages for separately tested direct ingestion"
+    ]
+  },
+  "employers": [
+    {
+      "name": "Agoda",
+      "queries": [
+        "Agoda"
+      ],
+      "industry": "travel technology",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "Unilever",
+      "queries": [
+        "Unilever"
+      ],
+      "direct_names": [
+        "Unilever",
+        "Unilever (Early Careers)"
+      ],
+      "industry": "FMCG/consumer",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "Mondelez",
+      "queries": [
+        "Mondelez"
+      ],
+      "aliases": [
+        "Mondelēz International",
+        "Mondelez International"
+      ],
+      "industry": "FMCG/food",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "Mars",
+      "queries": [
+        "Mars"
+      ],
+      "industry": "FMCG/food",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "Pernod Ricard",
+      "queries": [
+        "Pernod Ricard"
+      ],
+      "industry": "FMCG/beverages",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "Cartier / Richemont",
+      "queries": [
+        "Cartier",
+        "Richemont"
+      ],
+      "industry": "consumer retail",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "Kraft Heinz",
+      "queries": [
+        "Kraft Heinz"
+      ],
+      "industry": "FMCG/food",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "Abbott",
+      "queries": [
+        "Abbott"
+      ],
+      "industry": "healthcare commercial",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "HP",
+      "queries": [
+        "HP"
+      ],
+      "aliases": [
+        "HP Inc.",
+        "HP Inc"
+      ],
+      "industry": "B2B commercial technology",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "P&G",
+      "queries": [
+        "P&G",
+        "Procter & Gamble"
+      ],
+      "aliases": [
+        "Procter & Gamble"
+      ],
+      "industry": "FMCG/consumer",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "Michelin",
+      "queries": [
+        "Michelin"
+      ],
+      "industry": "industrial/automotive",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "ShopBack",
+      "queries": [
+        "ShopBack"
+      ],
+      "industry": "e-commerce",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "Lalamove",
+      "queries": [
+        "Lalamove"
+      ],
+      "industry": "logistics",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "AlphaSights",
+      "queries": [
+        "AlphaSights"
+      ],
+      "industry": "professional services",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "optional-consulting",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "Minor International",
+      "queries": [
+        "Minor International",
+        "Minor Food"
+      ],
+      "industry": "hospitality/food service",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "Grab",
+      "queries": [
+        "Grab"
+      ],
+      "industry": "platform commerce",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "Shopee",
+      "queries": [
+        "Shopee"
+      ],
+      "industry": "e-commerce",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "Sea",
+      "queries": [
+        "Sea"
+      ],
+      "aliases": [
+        "Sea Limited"
+      ],
+      "industry": "platform commerce",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "TikTok / TikTok Shop / ByteDance",
+      "queries": [
+        "TikTok",
+        "ByteDance"
+      ],
+      "industry": "e-commerce",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "L'Oreal",
+      "queries": [
+        "L'Oreal"
+      ],
+      "aliases": [
+        "L’Oréal",
+        "L'Oréal",
+        "LOreal"
+      ],
+      "industry": "FMCG/consumer",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "Nestle",
+      "queries": [
+        "Nestle"
+      ],
+      "aliases": [
+        "Nestlé"
+      ],
+      "industry": "FMCG/food",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "HEINEKEN",
+      "queries": [
+        "HEINEKEN"
+      ],
+      "industry": "FMCG/beverages",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "CP Axtra",
+      "queries": [
+        "CP Axtra",
+        "Makro",
+        "Lotus's"
+      ],
+      "industry": "retail",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "LINE MAN Wongnai",
+      "queries": [
+        "LINE MAN Wongnai"
+      ],
+      "industry": "platform commerce",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "Central Group",
+      "queries": [
+        "Central Group",
+        "Central Retail"
+      ],
+      "industry": "retail",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "Marriott",
+      "queries": [
+        "Marriott"
+      ],
+      "industry": "hospitality",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "Thai Union",
+      "queries": [
+        "Thai Union"
+      ],
+      "industry": "FMCG/food",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "True",
+      "queries": [
+        "True"
+      ],
+      "aliases": [
+        "True Corporation"
+      ],
+      "industry": "telecom",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "DKSH",
+      "queries": [
+        "DKSH"
+      ],
+      "industry": "commercial distribution",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "Beiersdorf",
+      "queries": [
+        "Beiersdorf"
+      ],
+      "industry": "FMCG/consumer",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "Coca-Cola ThaiNamthip",
+      "queries": [
+        "ThaiNamthip"
+      ],
+      "industry": "FMCG/beverages",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "Suntory PepsiCo Thailand",
+      "queries": [
+        "Suntory PepsiCo"
+      ],
+      "industry": "FMCG/beverages",
+      "industry_basis": "analyst classification; inherited source audit, not a new user preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "existing_roster",
+      "index_family": null,
+      "index_status": "not checked in M5",
+      "thailand_evidence_url": null,
+      "thailand_evidence": "Inherited target, see reviews/source-expansion-research.md; M5 does not reverify presence.",
+      "checked_at": "2026-11-08",
+      "next_review": "2026-11-22",
+      "direct_mode": "existing configuration; see companies entries",
+      "evidence_file": "reviews/source-expansion-research.md"
+    },
+    {
+      "name": "BJC / Berli Jucker",
+      "queries": [
+        "Berli Jucker",
+        "BJC"
+      ],
+      "aliases": [
+        "Big C"
+      ],
+      "industry": "FMCG/retail",
+      "thailand_evidence_url": "https://careers.bjc.co.th/job/search",
+      "thailand_evidence": "Official recruitment page identifies Berli Jucker HR in Bangkok; indexed jobs include key account and category roles.",
+      "career_url": "https://careers.bjc.co.th/job/search",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "SET100 primary-site search-index observation, table dated2026-11-07; symbol BJC. Direct HTML did not expose constituents; not a downloaded official full list.",
+      "index_symbol": "BJC",
+      "index_family": "SET100",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Explore business/commercial roles; role-specific graduate, location and start-date gates still apply.",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "CPF",
+      "queries": [
+        "Charoen Pokphand Foods",
+        "CPF"
+      ],
+      "aliases": [],
+      "industry": "FMCG/food",
+      "thailand_evidence_url": "https://careers.cp-hrexp.com/go/",
+      "thailand_evidence": "CPF careers describes Thailand careers and links its Future Leader Program; no current intake eligibility established.",
+      "career_url": "https://careers.cp-hrexp.com/go/",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "SET100 primary-site search-index observation, table dated2026-11-07; symbol CPF. Direct HTML did not expose constituents; not a downloaded official full list.",
+      "index_symbol": "CPF",
+      "index_family": "SET100",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Explore business/commercial roles; role-specific graduate, location and start-date gates still apply.",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "CP ALL",
+      "queries": [
+        "CP ALL"
+      ],
+      "aliases": [
+        "CPALL"
+      ],
+      "industry": "retail",
+      "thailand_evidence_url": "https://www.linkedin.com/company/cp-all-plc",
+      "thailand_evidence": "Official employer page describes Thai 7-Eleven operations and a 2026 commercial career event. Dedicated recruitment URL returned403; event is not treated as an open vacancy.",
+      "career_url": null,
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "SET100 primary-site search-index observation, table dated2026-11-07; symbol CPALL. Direct HTML did not expose constituents; not a downloaded official full list.",
+      "index_symbol": "CPALL",
+      "index_family": "SET100",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Explore business/commercial roles; role-specific graduate, location and start-date gates still apply.",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "Osotspa",
+      "queries": [
+        "Osotspa"
+      ],
+      "aliases": [
+        "โอสถสภา"
+      ],
+      "industry": "FMCG/consumer",
+      "thailand_evidence_url": "https://www.osotspa.com/th/careers/contact-hr-team",
+      "thailand_evidence": "Official recruitment contact and Bangkok company address.",
+      "career_url": "https://www.osotspa.com/th/careers/contact-hr-team",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "SET100 primary-site search-index observation, table dated2026-11-07; symbol OSP. Direct HTML did not expose constituents; not a downloaded official full list.",
+      "index_symbol": "OSP",
+      "index_family": "SET100",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Explore business/commercial roles; role-specific graduate, location and start-date gates still apply.",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "Carabao Group",
+      "queries": [
+        "Carabao"
+      ],
+      "aliases": [
+        "Carabao Group"
+      ],
+      "industry": "FMCG/consumer",
+      "thailand_evidence_url": "https://investor.carabaogroup.com/en/information-request/ir-contact",
+      "thailand_evidence": "Official investor relations office in Bangkok. Presence only; no vacancy verified.",
+      "career_url": null,
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "SET100 primary-site search-index observation, table dated2026-11-07; symbol CBG. Direct HTML did not expose constituents; not a downloaded official full list.",
+      "index_symbol": "CBG",
+      "index_family": "SET100",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Explore business/commercial roles; role-specific graduate, location and start-date gates still apply.",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "Com7",
+      "queries": [
+        "Com7"
+      ],
+      "aliases": [
+        "Comseven"
+      ],
+      "industry": "retail",
+      "thailand_evidence_url": "https://www.comseven.com/en_US/careers/",
+      "thailand_evidence": "Official careers page identifies Com7 and Bangkok address; describes internships.",
+      "career_url": "https://www.comseven.com/en_US/careers/",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "SET100 primary-site search-index observation, table dated2026-11-07; symbol COM7. Direct HTML did not expose constituents; not a downloaded official full list.",
+      "index_symbol": "COM7",
+      "index_family": "SET100",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Explore business/commercial roles; role-specific graduate, location and start-date gates still apply.",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "Central Pattana",
+      "queries": [
+        "Central Pattana"
+      ],
+      "aliases": [
+        "CPN"
+      ],
+      "industry": "property/retail",
+      "thailand_evidence_url": "https://www.centralpattana.co.th/th/job-opportunity",
+      "thailand_evidence": "Official page separates Thailand and Malaysia job opportunities; underlying group careers includes trainee category.",
+      "career_url": "https://www.centralpattana.co.th/th/job-opportunity",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "SET100 primary-site search-index observation, table dated2026-11-07; symbol CPN. Direct HTML did not expose constituents; not a downloaded official full list.",
+      "index_symbol": "CPN",
+      "index_family": "SET100",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Explore business/commercial roles; role-specific graduate, location and start-date gates still apply.",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "Centara",
+      "queries": [
+        "Centara"
+      ],
+      "aliases": [
+        "Central Plaza Hotel"
+      ],
+      "industry": "hospitality",
+      "thailand_evidence_url": "https://www.centarahotelsresorts.com/cosihotels/digital-performance-analyst",
+      "thailand_evidence": "Official corporate-head-office digital performance analyst posting in Bangkok; not proof of graduate eligibility.",
+      "career_url": null,
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "SET100 primary-site search-index observation, table dated2026-11-07; symbol CENTEL. Direct HTML did not expose constituents; not a downloaded official full list.",
+      "index_symbol": "CENTEL",
+      "index_family": "SET100",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Explore business/commercial roles; role-specific graduate, location and start-date gates still apply.",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "Betagro",
+      "queries": [
+        "Betagro"
+      ],
+      "aliases": [
+        "เบทาโกร"
+      ],
+      "industry": "FMCG/food",
+      "thailand_evidence_url": "https://careers.betagro.com/viewalljobs/?locale=en_GB",
+      "thailand_evidence": "Official careers has Thailand Sales, Marketing and Bangkok-area categories. No eligibility claim.",
+      "career_url": "https://careers.betagro.com/viewalljobs/?locale=en_GB",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "SET100 primary-site search-index observation, table dated2026-11-07; symbol BTG. Direct HTML did not expose constituents; not a downloaded official full list.",
+      "index_symbol": "BTG",
+      "index_family": "SET100",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Explore business/commercial roles; role-specific graduate, location and start-date gates still apply.",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "AIS",
+      "queries": [
+        "Advanced Info Service"
+      ],
+      "aliases": [
+        "AIS",
+        "Advanced Info Service Public Company Limited"
+      ],
+      "industry": "telecom",
+      "thailand_evidence_url": "https://ais.wd3.myworkdayjobs.com/en-US/Careers/job/AIS-Contact-Center--BKK-_R20000017",
+      "thailand_evidence": "Official AIS Workday posting gives Bangkok full-time service and sales role; used as employment-presence evidence only.",
+      "career_url": "https://ais.wd3.myworkdayjobs.com/en-US/Careers/job/AIS-Contact-Center--BKK-_R20000017",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "SET100 primary-site search-index observation, table dated2026-11-07; symbol ADVANC. Direct HTML did not expose constituents; not a downloaded official full list.",
+      "index_symbol": "ADVANC",
+      "index_family": "SET100",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Explore business/commercial roles; role-specific graduate, location and start-date gates still apply.",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "AP Thailand",
+      "queries": [
+        "AP Thailand"
+      ],
+      "aliases": [
+        "AP (Thailand)"
+      ],
+      "industry": "property",
+      "thailand_evidence_url": "https://apbootcamp.apthai.com/",
+      "thailand_evidence": "Official AP sales bootcamp page gives Bangkok company address and a November2026 sales event. Intake/start-date eligibility not established.",
+      "career_url": "https://apbootcamp.apthai.com/",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "SET100 primary-site search-index observation, table dated2026-11-07; symbol AP. Direct HTML did not expose constituents; not a downloaded official full list.",
+      "index_symbol": "AP",
+      "index_family": "SET100",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Explore business/commercial roles; role-specific graduate, location and start-date gates still apply.",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "AMATA",
+      "queries": [
+        "AMATA"
+      ],
+      "aliases": [
+        "Amata Corporation"
+      ],
+      "industry": "industrial/property",
+      "thailand_evidence_url": "https://amata.com/ja/?id=92&view=category",
+      "thailand_evidence": "Official career archive lists Bangkok and Chonburi office roles including sales. Postings dated2024 prove historical hiring, not current vacancy.",
+      "career_url": null,
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "SET100 primary-site search-index observation, table dated2026-11-07; symbol AMATA. Direct HTML did not expose constituents; not a downloaded official full list.",
+      "index_symbol": "AMATA",
+      "index_family": "SET100",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Explore business/commercial roles; role-specific graduate, location and start-date gates still apply.",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "PTG Energy",
+      "queries": [
+        "PTG Energy"
+      ],
+      "aliases": [],
+      "industry": "energy/retail",
+      "thailand_evidence_url": "https://www.ptgenergy.co.th/Careers",
+      "thailand_evidence": "Official Thai careers page links vacancies and headquarters; no individual graduate job verified.",
+      "career_url": "https://www.ptgenergy.co.th/Careers",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "SET100 primary-site search-index observation, table dated2026-11-07; symbol PTG. Direct HTML did not expose constituents; not a downloaded official full list.",
+      "index_symbol": "PTG",
+      "index_family": "SET100",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Explore business/commercial roles; role-specific graduate, location and start-date gates still apply.",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "PTT",
+      "queries": [
+        "PTT"
+      ],
+      "aliases": [
+        "PTT Public Company Limited"
+      ],
+      "industry": "energy",
+      "thailand_evidence_url": "https://www.pttplc.com/",
+      "thailand_evidence": "Official corporate home page supplies Bangkok headquarters and recruitment navigation. Parent and subsidiaries require individual employer checks.",
+      "career_url": null,
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "SET100 primary-site search-index observation, table dated2026-11-07; symbol PTT. Direct HTML did not expose constituents; not a downloaded official full list.",
+      "index_symbol": "PTT",
+      "index_family": "SET100",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Explore business/commercial roles; role-specific graduate, location and start-date gates still apply.",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "PTT Oil and Retail",
+      "queries": [
+        "PTT Oil and Retail"
+      ],
+      "aliases": [
+        "PTT Oil and Retail Business"
+      ],
+      "industry": "energy/retail",
+      "thailand_evidence_url": "https://investor.pttor.com/en/information-inquiry/contact",
+      "thailand_evidence": "Official OR contact identifies the company and Bangkok office. Presence only, no current vacancy verified.",
+      "career_url": null,
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "SET100 primary-site search-index observation, table dated2026-11-07; symbol OR. Direct HTML did not expose constituents; not a downloaded official full list.",
+      "index_symbol": "OR",
+      "index_family": "SET100",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Explore business/commercial roles; role-specific graduate, location and start-date gates still apply.",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "Erawan Group",
+      "queries": [
+        "Erawan Group"
+      ],
+      "aliases": [
+        "The Erawan Group"
+      ],
+      "industry": "hospitality",
+      "thailand_evidence_url": "https://www.theerawan.com/en/contact/head-office",
+      "thailand_evidence": "Official head-office address in Bangkok. Hotel owner and operating brand may be different hiring entities.",
+      "career_url": null,
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "SET100 primary-site search-index observation, table dated2026-11-07; symbol ERW. Direct HTML did not expose constituents; not a downloaded official full list.",
+      "index_symbol": "ERW",
+      "index_family": "SET100",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Explore business/commercial roles; role-specific graduate, location and start-date gates still apply.",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "Microsoft",
+      "queries": [
+        "Microsoft"
+      ],
+      "aliases": [
+        "Microsoft Corporation"
+      ],
+      "industry": "B2B commercial technology",
+      "thailand_evidence_url": "https://apply.careers.microsoft.com/careers/job/1970393557041415",
+      "thailand_evidence": "Official Microsoft Careers posting Digital Solution Area Specialist (Thailand), job 200062116, dated 16 Oct 2026, location Thailand, Bangkok, full-time, 2 days a week in office. Separate 2026 Microsoft Careers pages also list Bangkok and Chonburi data-center roles.",
+      "career_url": "https://apply.careers.microsoft.com/careers/job/1970393557041415",
+      "index_evidence_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-500-etf-trust-spy",
+      "index_status": "fund-holdings proxy: MICROSOFT CORP is in the SPDR S&P 500 ETF Trust top holdings as of 5 Nov 2026. Not an official S&P constituent file.",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Bangkok commercial cloud-security sales role. The visible requirement is 3+ years of technology sales, so this is not evidence of a fresh-graduate programme.",
+      "hiring_entity_note": "Posted by Microsoft Careers. The page does not name a Thai subsidiary.",
+      "index_family": "S&P500 candidate",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "Accenture",
+      "queries": [
+        "Accenture"
+      ],
+      "aliases": [
+        "Accenture plc"
+      ],
+      "industry": "consulting/professional services",
+      "thailand_evidence_url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00291011_en",
+      "thailand_evidence": "Official Accenture job R00291011, Thailand Future Leadership Talent – Technology, location Bangkok, describes an Accenture Thailand Bangkok office serving Southeast Asia clients. The Thailand careers search at accenture.com/th-en/careers/jobsearch showed 68 Bangkok results on 8 Nov 2026.",
+      "career_url": "https://www.accenture.com/th-en/careers/jobsearch",
+      "index_evidence_url": "https://www.ishares.com/us/products/342676/ishares-s-p-500-3-capped-etf/latest-holdings.csv",
+      "index_status": "fund-holdings proxy: ACCENTURE PLC CLASS A is in the iShares S&P 500 3% Capped ETF holdings as of 5 Nov 2026, and in the iShares Core S&P 500 UCITS ETF holdings CSV as of 27 Oct 2026. Not an official S&P constituent file.",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Technology consulting employer with Bangkok jobs. The leadership posting asks for 10+ years. A search card also lists an IT One SAP internship; that card was not opened as a full JD, so it is not treated as a verified Accenture graduate programme.",
+      "hiring_entity_note": "The opened leadership job is Accenture. One search-result card is titled IT One, so not every Bangkok card is necessarily Accenture plc.",
+      "index_family": "S&P500 candidate",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "optional-consulting",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "Johnson & Johnson",
+      "queries": [
+        "Johnson & Johnson"
+      ],
+      "aliases": [
+        "J&J",
+        "Johnson and Johnson"
+      ],
+      "industry": "healthcare commercial",
+      "thailand_evidence_url": "https://www.careers.jnj.com/en/locations/asia-pacific/thailand/",
+      "thailand_evidence": "Official J&J Careers Thailand page lists Bangkok openings, including Product Specialist (MedTech sales) and Commercial Excellence & Strategic Insights and Analytics Manager, MedTech Thailand & Vietnam. The Product Specialist requisition r-108576 was posted 3 Nov 2026 for Bangkok.",
+      "career_url": "https://www.careers.jnj.com/en/jobs/r-108576/product-specialist",
+      "index_evidence_url": "https://www.ishares.com/us/products/342676/ishares-s-p-500-3-capped-etf/latest-holdings.csv",
+      "index_status": "fund-holdings proxy: JOHNSON & JOHNSON is in the iShares S&P 500 3% Capped ETF holdings as of 5 Nov 2026, and in the iShares Core S&P 500 UCITS ETF holdings CSV as of 27 Oct 2026. Not an official S&P constituent file.",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Bangkok MedTech commercial and pharma sales roles. The opened Product Specialist page does not state a new-graduate programme.",
+      "hiring_entity_note": "Posted on Johnson & Johnson Careers. One related Bangkok posting names DePuy Synthes, a J&J MedTech business.",
+      "index_family": "S&P500 candidate",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "IBM",
+      "queries": [
+        "IBM"
+      ],
+      "aliases": [
+        "International Business Machines"
+      ],
+      "industry": "B2B commercial technology",
+      "thailand_evidence_url": "https://www.ibm.com/contact/global",
+      "thailand_evidence": "Official IBM global contacts names IBM Thailand Co., Ltd. at IBM Building, 388 Phaholyothin Road, Bangkok. Lead reopen of the career JD returned a JS robot check; presence independently verified from corporate contact page.",
+      "career_url": "https://careers.ibm.com/en_US/careers/JobDetail/Associate-Business-Analyst/128822",
+      "index_evidence_url": "https://www.ishares.com/us/products/342676/ishares-s-p-500-3-capped-etf/latest-holdings.csv",
+      "index_status": "fund-holdings proxy: INTERNATIONAL BUSINESS MACHINES CO is in the iShares S&P 500 3% Capped ETF holdings as of 5 Nov 2026, and in the iShares Core S&P 500 UCITS ETF holdings CSV as of 27 Oct 2026. Not an official S&P constituent file.",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Technology/consulting employer. Grok observed an Entry Level business analyst page, but lead could not reproduce the JD body; no current vacancy or fresh-graduate eligibility claim.",
+      "hiring_entity_note": "Official global contact page names IBM Thailand Co., Ltd. The unreproduced career posting did not establish which legal entity employed that particular role.",
+      "index_family": "S&P500 candidate",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "Colgate-Palmolive",
+      "queries": [
+        "Colgate-Palmolive"
+      ],
+      "aliases": [
+        "Colgate"
+      ],
+      "industry": "FMCG/consumer",
+      "thailand_evidence_url": "https://jobs.colgate.com/job/Key-Account-Executive-%28Local-Modern-Trade%29/176407-en_US/",
+      "thailand_evidence": "Official Colgate-Palmolive job 176407, Key Account Executive (Local Modern Trade), Bangkok, posting start 30 Oct 2026. The description scopes work to Colgate customer execution in Thailand. A separate privacy page names Colgate-Palmolive (Thailand) Limited and Colgate-Palmolive IHQ Services (Thailand) Limited.",
+      "career_url": "https://jobs.colgate.com/job/Key-Account-Executive-%28Local-Modern-Trade%29/176407-en_US/",
+      "index_evidence_url": "https://www.blackrock.com/no/professionals/products/287102/ishares-s-p-500-consumer-staples-sector-ucits-etf/latest-holdings.csv",
+      "index_status": "fund-holdings proxy: COLGATE-PALMOLIVE (CL) is in the iShares S&P 500 Consumer Staples Sector UCITS ETF holdings as of 3 Nov 2026. That is a sector slice, not the official full S&P constituent file.",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Direct commercial key-account work. The JD asks for a bachelor's degree and 0-2 years in consumer goods plus 1-3 years of functional experience. That is early commercial experience, not a verified fresh-graduate programme.",
+      "hiring_entity_note": "Colgate-Palmolive Company job board. The FP&A posting for Bangkok explicitly says Colgate Thailand subsidiary.",
+      "index_family": "S&P500 candidate",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "Kimberly-Clark",
+      "queries": [
+        "Kimberly-Clark"
+      ],
+      "aliases": [
+        "Kimberly Clark"
+      ],
+      "industry": "FMCG/consumer",
+      "thailand_evidence_url": "https://careers.kimberly-clark.com/en/jobs/885398/asia-category-manager-intimate-care--bangkok-office",
+      "thailand_evidence": "Official Kimberly-Clark careers job 885398, Asia Category Manager, primary location Bangkok Office. A second official posting, Machine Operator 1 job 883518, is at Samut Prakarn South Mill, so the company both staffs a Bangkok office and runs a mill.",
+      "career_url": "https://careers.kimberly-clark.com/en/jobs/885398/asia-category-manager-intimate-care--bangkok-office",
+      "index_evidence_url": "https://www.blackrock.com/no/professionals/products/287102/ishares-s-p-500-consumer-staples-sector-ucits-etf/latest-holdings.csv",
+      "index_status": "fund-holdings proxy: KIMBERLY CLARK (KMB) is in the iShares S&P 500 Consumer Staples Sector UCITS ETF holdings as of 3 Nov 2026. The iShares Core S&P 500 UCITS annual report also lists Kimberly-Clark Corp as at 31 July 2026. Not an official S&P constituent file.",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Bangkok category role asks for 7-10 years of brand management. Mill roles are operations. No fresh-graduate programme was read.",
+      "hiring_entity_note": "Kimberly-Clark Careers. The Bangkok role is an employee posting and says it is for candidates already authorized to work in the country.",
+      "index_family": "S&P500 candidate",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "Nike",
+      "queries": [
+        "Nike"
+      ],
+      "aliases": [
+        "NIKE, Inc."
+      ],
+      "industry": "consumer retail",
+      "thailand_evidence_url": "https://careers.nike.com/senior-sales-rep-thailand/job/R-75053",
+      "thailand_evidence": "Official NIKE, Inc. careers job R-75053, Senior Sales Rep, Thailand, states the role is based in Bangkok and reports to the Country Sales Director on the Nike SEA&I sales team.",
+      "career_url": "https://careers.nike.com/senior-sales-rep-thailand/job/R-75053",
+      "index_evidence_url": "https://www.sec.gov/Archives/edgar/data/1100663/000207169126019760/iSCoreSP500.htm",
+      "index_status": "fund-holdings proxy: NIKE, Inc., Class B is in the iShares Core S&P 500 ETF schedule of investments as of 30 June 2026 (SEC filing). The iShares Core S&P 500 UCITS annual report also lists NIKE Inc as at 31 July 2026. Not a current official S&P constituent file.",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Bangkok account-sales role. The page asks for 5-7 years of business experience. Not a graduate programme.",
+      "hiring_entity_note": "NIKE, Inc. careers. The page does not say whether a local distributor employs the role.",
+      "index_family": "S&P500 candidate",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "core-aligned",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "Alphabet / Google",
+      "queries": [
+        "Google"
+      ],
+      "aliases": [
+        "Alphabet",
+        "Google"
+      ],
+      "industry": "B2B commercial technology",
+      "thailand_evidence_url": "https://about.google/company-info/locations/",
+      "thailand_evidence": "Google's official office list includes Bangkok at 14th Floor, Park Ventures Ecoplex, 57 Witthayu Rd, Lumphini, Pathum Wan, Bangkok 10330. That is an office address, not product availability.",
+      "career_url": null,
+      "index_evidence_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-500-etf-trust-spy",
+      "index_status": "fund-holdings proxy: ALPHABET INC CL A and CL C are in the SPDR S&P 500 ETF Trust top holdings as of 5 Nov 2026. Not an official S&P constituent file.",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Office presence only on the page that was read. No Thailand job description was opened, so no graduate or commercial eligibility is claimed.",
+      "hiring_entity_note": "The locations page is Google. Alphabet is the listed parent in the fund holding. No Thai employer name was on that page.",
+      "index_family": "S&P500 candidate",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "Amazon / AWS",
+      "queries": [
+        "Amazon Web Services"
+      ],
+      "aliases": [
+        "Amazon",
+        "AWS"
+      ],
+      "industry": "B2B commercial technology",
+      "thailand_evidence_url": "https://www.amazon.jobs/en-gb/jobs/3174429/senior-account-manager-thailand-fsi-thailand",
+      "thailand_evidence": "Official Amazon.jobs posting 3174429, Senior Account Manager, Thailand, FSI, location THA, Bangkok, names the employer Amazon Web Services (Thailand) Limited. A separate posting names Amazon Data Services (Thailand) Limited for a Thailand data-center controls role.",
+      "career_url": "https://www.amazon.jobs/en-gb/jobs/3174429/senior-account-manager-thailand-fsi-thailand",
+      "index_evidence_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-500-etf-trust-spy",
+      "index_status": "fund-holdings proxy: AMAZON.COM INC is in the SPDR S&P 500 ETF Trust top holdings as of 5 Nov 2026. Not an official S&P constituent file.",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Thailand commercial account management. The visible preference is 5 years of financial-services account management. Not a graduate programme.",
+      "hiring_entity_note": "Amazon Web Services (Thailand) Limited on the account-manager posting. Data-center work is posted by Amazon Data Services (Thailand) Limited. Retail Amazon.sg or marketplace sellers are not this employer.",
+      "index_family": "S&P500 candidate",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "FedEx",
+      "queries": [
+        "FedEx"
+      ],
+      "aliases": [
+        "Federal Express"
+      ],
+      "industry": "logistics",
+      "thailand_evidence_url": "https://careers.fedex.com/strategic-business-development-executive/job/101F2DB22B822C37EFD7F57CC9CC689F",
+      "thailand_evidence": "Official FedEx Careers posting, Strategic Business Development Executive, company FedEx Logistics AMEA, regular full-time, location Bangk 10260, Thailand. Another Federal Express Corporation AMEA posting is also in Bangkok.",
+      "career_url": "https://careers.fedex.com/strategic-business-development-executive/job/101F2DB22B822C37EFD7F57CC9CC689F",
+      "index_evidence_url": null,
+      "index_status": "unverified candidate. No primary S&P or full-index fund file read on 8 Nov 2026 named FedEx. Thailand evidence does not depend on index membership.",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Bangkok commercial logistics development. The page asks for a bachelor's degree and eight years of ocean and freight-forward sales. Not a graduate programme.",
+      "hiring_entity_note": "FedEx Logistics AMEA on this posting. A different Bangkok posting is Federal Express Corporation AMEA.",
+      "index_family": "S&P500 candidate",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "Pfizer",
+      "queries": [
+        "Pfizer"
+      ],
+      "aliases": [],
+      "industry": "healthcare commercial",
+      "thailand_evidence_url": "https://www.pfizer.com/about/careers/job/4960196",
+      "thailand_evidence": "Official Pfizer careers job 4960196, Health Representative (Bangkok Area), location Thailand - Bangkok, full-time. Other opened Pfizer pages list a Bangkok Market Access Manager and a Bangkok marketing coordinator.",
+      "career_url": "https://www.pfizer.com/about/careers/job/4960196",
+      "index_evidence_url": null,
+      "index_status": "unverified candidate. No primary S&P or full-index fund file read on 8 Nov 2026 named Pfizer. Thailand evidence does not depend on index membership.",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Bangkok commercial health-representative work. The page prefers 2-3 years of pharmaceutical selling. Not a fresh-graduate programme.",
+      "hiring_entity_note": "Pfizer careers site. No Thai subsidiary name was on the opened page.",
+      "index_family": "S&P500 candidate",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "Oracle",
+      "queries": [
+        "Oracle"
+      ],
+      "aliases": [
+        "Oracle Corporation"
+      ],
+      "industry": "B2B commercial technology",
+      "thailand_evidence_url": "https://careers.oracle.com/en/job/337344",
+      "thailand_evidence": "Official Oracle Careers job 337344, Cloud Infrastructure Sales Representative, location BANGKOK, Thailand, regular employee. The Oracle Thailand job search also lists a Bangkok data-center construction manager.",
+      "career_url": "https://careers.oracle.com/en/job/337344",
+      "index_evidence_url": null,
+      "index_status": "unverified candidate. No primary S&P or full-index fund file read on 8 Nov 2026 named Oracle. Thailand evidence does not depend on index membership.",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Bangkok cloud sales. The page asks for at least 5 years of direct sales. Visa sponsorship is not available. Not a graduate programme.",
+      "hiring_entity_note": "Oracle Careers. No Thai legal-entity name was on the page.",
+      "index_family": "S&P500 candidate",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "Salesforce",
+      "queries": [
+        "Salesforce"
+      ],
+      "aliases": [
+        "Salesforce, Inc."
+      ],
+      "industry": "B2B commercial technology",
+      "thailand_evidence_url": "https://www.salesforce.com/company/careers/locations/southeast-asia/thailand/",
+      "thailand_evidence": "Official Salesforce careers page says the company has a Bangkok office and is hiring across sales and customer success in Thailand. The ASEAN page calls Bangkok one of its hubs.",
+      "career_url": "https://www.salesforce.com/company/careers/locations/southeast-asia/thailand/",
+      "index_evidence_url": null,
+      "index_status": "unverified candidate. No primary S&P or full-index fund file read on 8 Nov 2026 named Salesforce. Thailand evidence does not depend on index membership.",
+      "checked_at": "2026-11-08",
+      "relevance_note": "The page describes sales and customer-success hiring. No individual job description was opened, so no graduate eligibility is claimed.",
+      "hiring_entity_note": "Salesforce corporate careers page. It does not name a Thai subsidiary.",
+      "index_family": "S&P500 candidate",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "UPS",
+      "queries": [
+        "UPS"
+      ],
+      "aliases": [
+        "United Parcel Service"
+      ],
+      "industry": "logistics",
+      "thailand_evidence_url": "https://www.ups.com/th/en/locations",
+      "thailand_evidence": "Official UPS Thailand locations page lists UPS Thailand (Head Office) at UM Tower, 20th Floor, 9/201-207 Ramkhamhaeng Road, Suanluang, Bangkok 10250, with weekday operating hours, plus a Lasalle Bangkok location.",
+      "career_url": null,
+      "index_evidence_url": null,
+      "index_status": "unverified candidate. No primary S&P or full-index fund file read on 8 Nov 2026 named UPS. Thailand evidence does not depend on index membership.",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Proves a staffed Bangkok head office. No job description was opened, so no role level or graduate eligibility is claimed.",
+      "hiring_entity_note": "The page says UPS Thailand. It does not show whether roles are employed by UPS or a local agent.",
+      "index_family": "S&P500 candidate",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "Hilton",
+      "queries": [
+        "Hilton"
+      ],
+      "aliases": [
+        "Hilton Worldwide"
+      ],
+      "industry": "hospitality",
+      "thailand_evidence_url": "https://jobs.hilton.com/apac/en/job/HOT0CG39/Housekeeping-Team-Leader-Canopy-Bangkok",
+      "thailand_evidence": "Official Hilton jobs page for Housekeeping Team Leader at Canopy by Hilton Bangkok Sukhumvit, Bangkok 10110, posted 7 Apr 2026. Hilton's Asia Pacific careers page also names Millennium Hilton Bangkok and says the regional headquarters is in Singapore.",
+      "career_url": "https://jobs.hilton.com/apac/en/job/HOT0CG39/Housekeeping-Team-Leader-Canopy-Bangkok",
+      "index_evidence_url": null,
+      "index_status": "unverified candidate. No primary S&P or full-index fund file read on 8 Nov 2026 named Hilton. Thailand evidence does not depend on index membership.",
+      "checked_at": "2026-11-08",
+      "relevance_note": "Hotel operations in Bangkok, not a corporate commercial or graduate programme. The line 'University / Pre-university graduate' is an education requirement for this housekeeping role.",
+      "hiring_entity_note": "Posted on jobs.hilton.com for a named Bangkok hotel. Hotels may be managed or franchised; this page does not prove a Hilton corporate office in Thailand.",
+      "index_family": "S&P500 candidate",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    },
+    {
+      "name": "Cisco",
+      "queries": [
+        "Cisco"
+      ],
+      "aliases": [
+        "Cisco Systems"
+      ],
+      "industry": "B2B commercial technology",
+      "thailand_evidence_url": "https://careers.cisco.com/global/en/job/CISCISGLOBAL2005840EXTERNALENGLOBAL/Partner-Account-Executive-SMB-Mid-Market",
+      "thailand_evidence": "Official Cisco Careers job title is Partner Account Executive - SMB & Mid-Market in Bangkok, Thailand. The Thai contact page gives Cisco support and partner contacts but lists the legal postal address as San Jose, not a Bangkok street address.",
+      "career_url": "https://careers.cisco.com/global/en/job/CISCISGLOBAL2005840EXTERNALENGLOBAL/Partner-Account-Executive-SMB-Mid-Market",
+      "index_evidence_url": null,
+      "index_status": "unverified candidate. No primary S&P or full-index fund file read on 8 Nov 2026 named Cisco. Thailand evidence does not depend on index membership.",
+      "checked_at": "2026-11-08",
+      "relevance_note": "The job title is a Bangkok partner-sales role. The fetched body was mostly general Cisco hiring text, so years of experience and graduate eligibility were not verified.",
+      "hiring_entity_note": "Cisco Careers. The Thailand contact page does not by itself prove a Bangkok office.",
+      "index_family": "S&P500 candidate",
+      "industry_basis": "analyst classification from business/career evidence; not user-confirmed sector preference",
+      "focus_status": "exploratory",
+      "selection_state": "active_crosssearch",
+      "origin": "index_led_research",
+      "next_review": "2026-11-22",
+      "direct_mode": "not_integrated"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Asia Aviation",
+      "index_symbol": "AAV",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "symbol observed in primary-site indexed SET100 table dated2026-11-07",
+      "selection_state": "presence_review_pending",
+      "next_action": "Verify employer identity, Thailand hiring presence, business-role relevance, aliases and career URL before activation"
+    },
+    {
+      "name": "AEON Thana Sinsap",
+      "index_symbol": "AEONTS",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "symbol observed in primary-site indexed SET100 table dated2026-11-07",
+      "selection_state": "presence_review_pending",
+      "next_action": "Verify employer identity, Thailand hiring presence, business-role relevance, aliases and career URL before activation"
+    },
+    {
+      "name": "Airports of Thailand",
+      "index_symbol": "AOT",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "symbol observed in primary-site indexed SET100 table dated2026-11-07",
+      "selection_state": "presence_review_pending",
+      "next_action": "Verify employer identity, Thailand hiring presence, business-role relevance, aliases and career URL before activation"
+    },
+    {
+      "name": "BCPG",
+      "index_symbol": "BCPG",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "symbol observed in primary-site indexed SET100 table dated2026-11-07",
+      "selection_state": "presence_review_pending",
+      "next_action": "Verify employer identity, Thailand hiring presence, business-role relevance, aliases and career URL before activation"
+    },
+    {
+      "name": "Bangkok Dusit Medical Services",
+      "index_symbol": "BDMS",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "symbol observed in primary-site indexed SET100 table dated2026-11-07",
+      "selection_state": "presence_review_pending",
+      "next_action": "Verify employer identity, Thailand hiring presence, business-role relevance, aliases and career URL before activation"
+    },
+    {
+      "name": "Bangkok Expressway and Metro",
+      "index_symbol": "BEM",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "symbol observed in primary-site indexed SET100 table dated2026-11-07",
+      "selection_state": "presence_review_pending",
+      "next_action": "Verify employer identity, Thailand hiring presence, business-role relevance, aliases and career URL before activation"
+    },
+    {
+      "name": "B.Grimm Power",
+      "index_symbol": "BGRIM",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "symbol observed in primary-site indexed SET100 table dated2026-11-07",
+      "selection_state": "presence_review_pending",
+      "next_action": "Verify employer identity, Thailand hiring presence, business-role relevance, aliases and career URL before activation"
+    },
+    {
+      "name": "Bumrungrad",
+      "index_symbol": "BH",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "symbol observed in primary-site indexed SET100 table dated2026-11-07",
+      "selection_state": "presence_review_pending",
+      "next_action": "Verify employer identity, Thailand hiring presence, business-role relevance, aliases and career URL before activation"
+    },
+    {
+      "name": "Bangkok Life Assurance",
+      "index_symbol": "BLA",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "symbol observed in primary-site indexed SET100 table dated2026-11-07",
+      "selection_state": "presence_review_pending",
+      "next_action": "Verify employer identity, Thailand hiring presence, business-role relevance, aliases and career URL before activation"
+    },
+    {
+      "name": "BTS Group",
+      "index_symbol": "BTS",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "symbol observed in primary-site indexed SET100 table dated2026-11-07",
+      "selection_state": "presence_review_pending",
+      "next_action": "Verify employer identity, Thailand hiring presence, business-role relevance, aliases and career URL before activation"
+    },
+    {
+      "name": "Cal-Comp Electronics",
+      "index_symbol": "CCET",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "symbol observed in primary-site indexed SET100 table dated2026-11-07",
+      "selection_state": "presence_review_pending",
+      "next_action": "Verify employer identity, Thailand hiring presence, business-role relevance, aliases and career URL before activation"
+    },
+    {
+      "name": "Chularat Hospital",
+      "index_symbol": "CHG",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "symbol observed in primary-site indexed SET100 table dated2026-11-07",
+      "selection_state": "presence_review_pending",
+      "next_action": "Verify employer identity, Thailand hiring presence, business-role relevance, aliases and career URL before activation"
+    },
+    {
+      "name": "CH Karnchang",
+      "index_symbol": "CK",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "symbol observed in primary-site indexed SET100 table dated2026-11-07",
+      "selection_state": "presence_review_pending",
+      "next_action": "Verify employer identity, Thailand hiring presence, business-role relevance, aliases and career URL before activation"
+    },
+    {
+      "name": "Delta Electronics Thailand",
+      "index_symbol": "DELTA",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "symbol observed in primary-site indexed SET100 table dated2026-11-07",
+      "selection_state": "presence_review_pending",
+      "next_action": "Verify employer identity, Thailand hiring presence, business-role relevance, aliases and career URL before activation"
+    },
+    {
+      "name": "Dohome",
+      "index_symbol": "DOHOME",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "symbol observed in primary-site indexed SET100 table dated2026-11-07",
+      "selection_state": "presence_review_pending",
+      "next_action": "Verify employer identity, Thailand hiring presence, business-role relevance, aliases and career URL before activation"
+    },
+    {
+      "name": "Energy Absolute",
+      "index_symbol": "EA",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "symbol observed in primary-site indexed SET100 table dated2026-11-07",
+      "selection_state": "presence_review_pending",
+      "next_action": "Verify employer identity, Thailand hiring presence, business-role relevance, aliases and career URL before activation"
+    },
+    {
+      "name": "Electricity Generating",
+      "index_symbol": "EGCO",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "symbol observed in primary-site indexed SET100 table dated2026-11-07",
+      "selection_state": "presence_review_pending",
+      "next_action": "Verify employer identity, Thailand hiring presence, business-role relevance, aliases and career URL before activation"
+    },
+    {
+      "name": "Muangthai Capital",
+      "index_symbol": "MTC",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "symbol observed in primary-site indexed SET100 table dated2026-11-07",
+      "selection_state": "presence_review_pending",
+      "next_action": "Verify employer identity, Thailand hiring presence, business-role relevance, aliases and career URL before activation"
+    },
+    {
+      "name": "Plan B Media",
+      "index_symbol": "PLANB",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "symbol observed in primary-site indexed SET100 table dated2026-11-07",
+      "selection_state": "presence_review_pending",
+      "next_action": "Verify employer identity, Thailand hiring presence, business-role relevance, aliases and career URL before activation"
+    },
+    {
+      "name": "Praram9 Hospital",
+      "index_symbol": "PR9",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "symbol observed in primary-site indexed SET100 table dated2026-11-07",
+      "selection_state": "presence_review_pending",
+      "next_action": "Verify employer identity, Thailand hiring presence, business-role relevance, aliases and career URL before activation"
+    },
+    {
+      "name": "Prima Marine",
+      "index_symbol": "PRM",
+      "index_evidence_url": "https://www.set.or.th/en/market/index/set100/overview",
+      "index_status": "symbol observed in primary-site indexed SET100 table dated2026-11-07",
+      "selection_state": "presence_review_pending",
+      "next_action": "Verify employer identity, Thailand hiring presence, business-role relevance, aliases and career URL before activation"
+    }
+  ],
+  "limits": [
+    "SET100 was observed through primary-page search index; direct HTML table empty and downloadable current constituent file login-gated. No full100 verified claim.",
+    "S&P statuses include primary fund-holdings proxies (some historical) and unverified candidates; not all16 verified current constituents.",
+    "Only official Thailand employment/office evidence is required for activating search; openings may be senior, expired or ineligible.",
+    "New32 are board keyword searches, not32 new direct-site adapters.",
+    "Existing umbrella targets can overlap subsidiaries;64 is search target groups, not64 distinct legal companies."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+ "items": [
+  {
+   "id": 7,
+   "company": "CP Axtra",
+   "url": "https://www.cpaxtra.com/en/careers",
+   "detected_at": "2026-11-07T00:02:00Z",
+   "new_links": [
+    {
+     "href": "https://www.cpaxtra.com/en/careers/future-leader-22",
+     "text": "Future Leader Program 22 - register interest"
+    },
+    {
+     "href": "https://careers.example-retail.invalid/job/Bangkok-Retail-Management-Trainee-13976/59380144/",
+     "text": "59380144"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "company": "Boon Rawd Brewery",
+   "url": "https://www.boonrawd.co.th/careers",
+   "detected_at": "2026-11-06T00:03:00Z",
+   "new_links": []
+  }
+ ]
+}

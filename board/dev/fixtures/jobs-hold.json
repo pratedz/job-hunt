@@ -1,0 +1,104 @@
+{
+ "total": 3,
+ "jobs": [
+  {
+   "id": 108,
+   "rank": 1,
+   "company": "Siam Piwat",
+   "title": "Management Trainee Program - Retail & Leasing",
+   "location": "Bangkok, Thailand",
+   "source": "manual",
+   "url": "https://example.invalid/jobs/108",
+   "posted_at": null,
+   "first_seen_at": "2026-11-04T16:05:00Z",
+   "verdict": "HOLD",
+   "status": "new",
+   "scores": {
+    "love": null,
+    "good_at": 4,
+    "needs": 4,
+    "paid": null
+   },
+   "paid_estimated": false,
+   "weakest": {
+    "circle": "good_at",
+    "score": 4
+   },
+   "mean": 4.0,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 106,
+   "rank": 2,
+   "company": "Mondelēz Thailand",
+   "title": "Taste The Future Management Trainee - Commercial",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000106",
+   "posted_at": "2026-10-30T06:05:00Z",
+   "first_seen_at": "2026-11-05T06:05:00Z",
+   "verdict": "HOLD",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 3,
+    "needs": 4,
+    "paid": null
+   },
+   "paid_estimated": false,
+   "weakest": {
+    "circle": "good_at",
+    "score": 3
+   },
+   "mean": 4.0,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 175,
+   "rank": 3,
+   "company": "Gulf Development",
+   "title": "GULF Graduate Associate Program",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000175",
+   "posted_at": "2026-10-21T01:05:00Z",
+   "first_seen_at": "2026-10-26T01:05:00Z",
+   "verdict": "HOLD",
+   "status": "new",
+   "scores": {
+    "love": 3,
+    "good_at": 3,
+    "needs": 5,
+    "paid": null
+   },
+   "paid_estimated": false,
+   "weakest": {
+    "circle": "love",
+    "score": 3
+   },
+   "mean": 3.6667,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  }
+ ]
+}

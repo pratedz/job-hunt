@@ -1,0 +1,64 @@
+{
+ "id": 175,
+ "rank": null,
+ "company": "Gulf Development",
+ "title": "GULF Graduate Associate Program",
+ "location": "Bangkok, Thailand",
+ "source": "linkedin",
+ "url": "https://www.linkedin.com/jobs/view/4400000175",
+ "posted_at": "2026-10-21T01:05:00Z",
+ "first_seen_at": "2026-10-26T01:05:00Z",
+ "verdict": "HOLD",
+ "status": "new",
+ "scores": {
+  "love": 3,
+  "good_at": 3,
+  "needs": 5,
+  "paid": null
+ },
+ "paid_estimated": false,
+ "weakest": {
+  "circle": "love",
+  "score": 3
+ },
+ "mean": 3.6667,
+ "gate": {
+  "result": "pass",
+  "fails": [],
+  "questions": []
+ },
+ "prefilter_reason": null,
+ "tracked": null,
+ "error": null,
+ "reasons": {
+  "love": "Partly commercial; much of the role is back-office support.",
+  "good_at": "Some overlap via F26 (reporting); the domain experience the JD wants is not evidenced.",
+  "needs": "Structured rotations and a published path to manager at a growing regional company.",
+  "paid": "The posting does not say enough to score this circle."
+ },
+ "summary": "Good commercial fit with a clear growth path.",
+ "facts": {
+  "min_years_experience": 0,
+  "gpa_floor": null,
+  "start_kind": "fixed_date",
+  "start_date": "2027-06",
+  "graduation_years": [
+   2027
+  ],
+  "degree_completed_required": false,
+  "required_languages": [
+   "Thai",
+   "English"
+  ],
+  "required_test_scores": [],
+  "location_city": "Bangkok",
+  "location_country": "Thailand",
+  "remote": false,
+  "job_type": "graduate_programme",
+  "other_hard_requirements": []
+ },
+ "salary": null,
+ "jd_text": "Gulf Development is hiring for GULF Graduate Associate Program in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+ "jd_missing": false,
+ "email_snippet": null
+}

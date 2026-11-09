@@ -1,0 +1,42 @@
+{
+ "id": 152,
+ "rank": null,
+ "company": "Monee (ShopeePay)",
+ "title": "Business Development - Digital Products",
+ "location": "Bangkok, Thailand",
+ "source": "gmail",
+ "url": "https://example.invalid/jobs/152",
+ "posted_at": null,
+ "first_seen_at": "2026-10-28T16:05:00Z",
+ "verdict": null,
+ "status": "new",
+ "scores": {
+  "love": null,
+  "good_at": null,
+  "needs": null,
+  "paid": null
+ },
+ "paid_estimated": false,
+ "weakest": null,
+ "mean": null,
+ "gate": {
+  "result": null,
+  "fails": [],
+  "questions": []
+ },
+ "prefilter_reason": null,
+ "tracked": null,
+ "error": "codex reply failed schema validation (scores.paid: 7 is above maximum 5)",
+ "reasons": {
+  "love": null,
+  "good_at": null,
+  "needs": null,
+  "paid": null
+ },
+ "summary": null,
+ "facts": {},
+ "salary": null,
+ "jd_text": "Monee (ShopeePay) is hiring for Business Development - Digital Products in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+ "jd_missing": false,
+ "email_snippet": null
+}

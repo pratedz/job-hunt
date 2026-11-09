@@ -1,0 +1,41 @@
+# Runtime data, databases, built-in local wiki, downloaded assets, drafts, logs and locks
+/data/
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.db
+*.log
+*.lock
+
+# Personal Career Wiki & configuration (generated locally via Onboarding or edited by user)
+/config/profile.toml
+/config/facts.md
+/config/rubric.md
+/config/cover_email.md
+/migration-snapshot/
+.env
+.env.*
+!.env.example
+*credentials*.json
+*secret*.json
+*.pem
+*.key
+
+# Local reviews and agent coordination
+/board/reviews/
+/reviews/
+/pair/
+/WORKSPLIT.md
+/.agents/
+/.claude/
+/.codex/
+
+# Python / OS / editors
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,313 @@
+{
+ "total": 9,
+ "jobs": [
+  {
+   "id": 119,
+   "rank": 1,
+   "company": "Boon Rawd (Singha)",
+   "title": "Singha Management Trainee 2027",
+   "location": "Bangkok, Thailand",
+   "source": "manual",
+   "url": "https://example.invalid/jobs/119",
+   "posted_at": "2026-10-31T11:05:00Z",
+   "first_seen_at": "2026-11-01T11:05:00Z",
+   "verdict": "LOW",
+   "status": "new",
+   "scores": {
+    "love": 4,
+    "good_at": 3,
+    "needs": 4,
+    "paid": 2
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 2
+   },
+   "mean": 3.25,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 174,
+   "rank": 2,
+   "company": "Kraft Heinz Thailand",
+   "title": "E-commerce Sales Coordinator",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000174",
+   "posted_at": null,
+   "first_seen_at": "2026-10-26T08:05:00Z",
+   "verdict": "LOW",
+   "status": "new",
+   "scores": {
+    "love": 4,
+    "good_at": 4,
+    "needs": 3,
+    "paid": 2
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 2
+   },
+   "mean": 3.25,
+   "gate": {
+    "result": "ask",
+    "fails": [],
+    "questions": [
+     "Contract role (12 months). Is a fixed-term contract acceptable?"
+    ]
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 2,
+   "rank": 3,
+   "company": "Agoda",
+   "title": "Associate Analyst, Marketing (Bangkok)",
+   "location": "Bangkok, Thailand",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/agoda/jobs/8194690",
+   "posted_at": null,
+   "first_seen_at": "2026-11-07T15:16:19Z",
+   "verdict": "LOW",
+   "status": "new",
+   "scores": {
+    "love": 3,
+    "good_at": 3,
+    "needs": 4,
+    "paid": 2
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 2
+   },
+   "mean": 3.0,
+   "gate": {
+    "result": "ask",
+    "fails": [],
+    "questions": [
+     "Hiring immediately; you are available from 2027-06. Will they hold the role until then?",
+     "The posting also requires: Bachelor's degree in a quantitative subject or related field. Do you meet it?"
+    ]
+   },
+   "prefilter_reason": null,
+   "tracked": {
+    "file": "61 Application Records/Agoda — Associate Analyst, Marketing (Bangkok).md",
+    "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FAgoda%20%E2%80%94%20Associate%20Analyst%2C%20Marketing%20%28Bangkok%29.md",
+    "my_status": "To apply"
+   },
+   "error": null
+  },
+  {
+   "id": 114,
+   "rank": 4,
+   "company": "Krungsri (Bank of Ayudhya)",
+   "title": "Relationship Manager Trainee - SME Banking",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000114",
+   "posted_at": "2026-10-28T22:05:00Z",
+   "first_seen_at": "2026-11-02T22:05:00Z",
+   "verdict": "LOW",
+   "status": "new",
+   "scores": {
+    "love": 3,
+    "good_at": 3,
+    "needs": 4,
+    "paid": 2
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 2
+   },
+   "mean": 3.0,
+   "gate": {
+    "result": "ask",
+    "fails": [],
+    "questions": [
+     "The posting asks for an investment consultant licence (IC). Can you get it before the start date?"
+    ]
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 172,
+   "rank": 5,
+   "company": "JD Central",
+   "title": "Category Management Associate",
+   "location": "Bangkok, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000172",
+   "posted_at": "2026-10-24T22:05:00Z",
+   "first_seen_at": "2026-10-26T22:05:00Z",
+   "verdict": "LOW",
+   "status": "new",
+   "scores": {
+    "love": 4,
+    "good_at": 3,
+    "needs": 3,
+    "paid": 2
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 2
+   },
+   "mean": 3.0,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 113,
+   "rank": 6,
+   "company": "Ninja Van Thailand",
+   "title": "Sales Executive (B2B Logistics)",
+   "location": "Bangkok, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000113",
+   "posted_at": "2026-10-30T05:05:00Z",
+   "first_seen_at": "2026-11-03T05:05:00Z",
+   "verdict": "LOW",
+   "status": "new",
+   "scores": {
+    "love": 3,
+    "good_at": 3,
+    "needs": 2,
+    "paid": 2
+   },
+   "paid_estimated": false,
+   "weakest": {
+    "circle": "needs",
+    "score": 2
+   },
+   "mean": 2.5,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 173,
+   "rank": 7,
+   "company": "Minor Food",
+   "title": "Management Trainee - Restaurants",
+   "location": "Bangkok, Thailand",
+   "source": "manual",
+   "url": "https://example.invalid/jobs/173",
+   "posted_at": "2026-10-23T15:05:00Z",
+   "first_seen_at": "2026-10-26T15:05:00Z",
+   "verdict": "LOW",
+   "status": "new",
+   "scores": {
+    "love": 3,
+    "good_at": 2,
+    "needs": 3,
+    "paid": 2
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 2
+   },
+   "mean": 2.5,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 118,
+   "rank": 8,
+   "company": "Central Retail",
+   "title": "Data Engineer Graduate",
+   "location": "Bangkok, Thailand",
+   "source": "lever",
+   "url": "https://jobs.lever.co/example/0118-0000",
+   "posted_at": "2026-11-01T18:05:00Z",
+   "first_seen_at": "2026-11-01T18:05:00Z",
+   "verdict": "LOW",
+   "status": "new",
+   "scores": {
+    "love": 2,
+    "good_at": 1,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 1
+   },
+   "mean": 2.5,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 116,
+   "rank": 9,
+   "company": "Example Logistics Co.",
+   "title": "Warehouse Admin Officer",
+   "location": "Chonburi, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000116",
+   "posted_at": null,
+   "first_seen_at": "2026-11-02T08:05:00Z",
+   "verdict": "LOW",
+   "status": "new",
+   "scores": {
+    "love": 1,
+    "good_at": 2,
+    "needs": 2,
+    "paid": 1
+   },
+   "paid_estimated": false,
+   "weakest": {
+    "circle": "love",
+    "score": 1
+   },
+   "mean": 1.5,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  }
+ ]
+}

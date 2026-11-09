@@ -1,0 +1,73 @@
+{
+ "id": 3,
+ "rank": null,
+ "company": "Agoda",
+ "title": "Account Specialist, Homes",
+ "location": "Bangkok, Thailand",
+ "source": "greenhouse",
+ "url": "https://job-boards.greenhouse.io/agoda/jobs/8242288",
+ "posted_at": null,
+ "first_seen_at": "2026-11-07T15:16:19Z",
+ "verdict": "FILTERED",
+ "status": "new",
+ "scores": {
+  "love": 5,
+  "good_at": 4,
+  "needs": 4,
+  "paid": 3
+ },
+ "paid_estimated": true,
+ "weakest": {
+  "circle": "paid",
+  "score": 3
+ },
+ "mean": 4.0,
+ "gate": {
+  "result": "fail",
+  "fails": [
+   "Requires at least 2 years of experience; you have 0 years (student-run companies are not corporate experience)."
+  ],
+  "questions": [
+   "Hiring immediately; you are available from 2027-06. Will they hold the role until then?"
+  ]
+ },
+ "prefilter_reason": null,
+ "tracked": null,
+ "error": null,
+ "reasons": {
+  "love": "Managing and growing a portfolio of vacation-rental partners is a commercial account role at a consumer platform.",
+  "good_at": "F21 supports negotiation and partnership development, F10 supports e-commerce channel work, and F26 shows KPI reporting; direct vacation-rental portfolio experience is not evidenced.",
+  "needs": "Agoda is a well-established regional travel platform, and the posting offers ownership of a partner portfolio.",
+  "paid": "estimate, THB 35,000-55,000 per month -> about THB 45,000/month. Estimated gross monthly range for a Bangkok account specialist role requiring prior commercial experience; the posting states no salary."
+ },
+ "summary": "The account work fits his interests, but the required prior experience is the main eligibility barrier.",
+ "facts": {
+  "min_years_experience": 2,
+  "gpa_floor": null,
+  "start_kind": "immediate",
+  "start_date": null,
+  "graduation_years": [],
+  "degree_completed_required": null,
+  "required_languages": [
+   "Thai",
+   "English"
+  ],
+  "required_test_scores": [],
+  "location_city": "Bangkok",
+  "location_country": "Thailand",
+  "remote": false,
+  "job_type": "full_time",
+  "other_hard_requirements": []
+ },
+ "salary": {
+  "min": null,
+  "max": null,
+  "currency": "THB",
+  "period": "month",
+  "stated": false,
+  "thb_month_mid": 45000.0
+ },
+ "jd_text": "Manage a portfolio of vacation-rental partners and grow their bookings on Agoda. Requirements: minimum 2 years of experience in business development, account management or sales; strong negotiation skills; fluent Thai and English; data-driven mindset. Full-time, Bangkok.",
+ "jd_missing": false,
+ "email_snippet": null
+}

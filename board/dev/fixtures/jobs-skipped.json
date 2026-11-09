@@ -1,0 +1,101 @@
+{
+ "total": 3,
+ "jobs": [
+  {
+   "id": 160,
+   "rank": 1,
+   "company": "Cartier Thailand",
+   "title": "Commercial - Retail Trainee",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000160",
+   "posted_at": "2026-10-22T09:05:00Z",
+   "first_seen_at": "2026-10-28T09:05:00Z",
+   "verdict": "CENTRE",
+   "status": "skipped",
+   "scores": {
+    "love": 3,
+    "good_at": 3,
+    "needs": 3,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "love",
+    "score": 3
+   },
+   "mean": 3.0,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 161,
+   "rank": 2,
+   "company": "Prudential Thailand",
+   "title": "Agency Development Management Associate",
+   "location": "Bangkok, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000161",
+   "posted_at": "2026-10-21T02:05:00Z",
+   "first_seen_at": "2026-10-28T02:05:00Z",
+   "verdict": "LOW",
+   "status": "skipped",
+   "scores": {
+    "love": 2,
+    "good_at": 3,
+    "needs": 3,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "love",
+    "score": 2
+   },
+   "mean": 2.75,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 162,
+   "rank": 3,
+   "company": "Example Insurance",
+   "title": "Telesales Officer",
+   "location": "Bangkok, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000162",
+   "posted_at": "2026-10-19T19:05:00Z",
+   "first_seen_at": "2026-10-27T19:05:00Z",
+   "verdict": "FILTERED",
+   "status": "skipped",
+   "scores": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "paid_estimated": false,
+   "weakest": null,
+   "mean": null,
+   "gate": {
+    "result": null,
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": "title_exclude: \\btelesales\\b",
+   "tracked": null,
+   "error": null
+  }
+ ]
+}

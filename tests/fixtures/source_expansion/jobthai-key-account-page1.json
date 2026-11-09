@@ -1,0 +1,82 @@
+{
+  "fetched": "2026-11-08",
+  "url": "https://www.jobthai.com/en/jobs?keyword=key%20account&orderBy=RELEVANCE_SEARCH",
+  "http": 200,
+  "total": 687,
+  "page_size_observed": 20,
+  "note": "First page only. Embedded SSR JSON, not a documented public API. Titles are keyword-noisy.",
+  "jobs": [
+    {
+      "id": 1224829,
+      "title": "Key Account",
+      "company": "บริษัท ซอยฮะอินเตอร์กรุ๊ป จำกัด",
+      "location": "Bang Bua Thong, Nonthaburi",
+      "salary": null,
+      "updated_at": "2026-11-06T09:53:45.000Z",
+      "url": "https://www.jobthai.com/en/company/job/1224829"
+    },
+    {
+      "id": 1913343,
+      "title": "Key Account",
+      "company": "VIQ GROUP CO.,LTD. (Head Office)",
+      "location": "Yan Nawa, Bangkok",
+      "salary": "Negotiable",
+      "updated_at": "2026-11-06T06:31:47.000Z",
+      "url": "https://www.jobthai.com/en/company/job/1913343"
+    },
+    {
+      "id": 1698317,
+      "title": "Key Account",
+      "company": "VIQ GROUP CO.,LTD. (Head Office)",
+      "location": "Yan Nawa, Bangkok",
+      "salary": "Negotiable",
+      "updated_at": "2026-11-06T06:31:47.000Z",
+      "url": "https://www.jobthai.com/en/company/job/1698317"
+    },
+    {
+      "id": 1903326,
+      "title": "Key Account TikTok",
+      "company": "10X Plus Co., Ltd. (บริษัท สิบเอ็กซ์ พลัส จำกัด)",
+      "location": "Mueang Nonthaburi, Nonthaburi",
+      "salary": "20,000 - 23,000 THB",
+      "updated_at": "2026-11-06T08:24:08.000Z",
+      "url": "https://www.jobthai.com/en/company/job/1903326"
+    },
+    {
+      "id": 1971890,
+      "title": "Key account manager",
+      "company": "บริษัท อีฟอร์ เทเลคอม (ไทยแลนด์) จำกัด",
+      "location": "Nikhom Phatthana, Rayong",
+      "salary": "Based on experience",
+      "updated_at": "2026-11-04T02:16:39.000Z",
+      "url": "https://www.jobthai.com/en/company/job/1971890"
+    },
+    {
+      "id": 1961971,
+      "title": "Key Account Officer",
+      "company": "บริษัท คิทซ์โช อินเตอร์เนชั่นแนล จำกัด",
+      "location": "Bang Phlat, Bangkok",
+      "salary": "Negotiable",
+      "updated_at": "2026-11-06T02:34:16.000Z",
+      "url": "https://www.jobthai.com/en/company/job/1961971"
+    },
+    {
+      "id": 1924574,
+      "title": "Key Account E-commerce",
+      "company": "บริษัท เบทเตอร์เวย์ อินเตอร์เนชั่นแนล จำกัด",
+      "location": "Saphan Sung, Bangkok",
+      "salary": "20,000 - 28,000 THB",
+      "updated_at": "2026-11-06T04:35:40.000Z",
+      "url": "https://www.jobthai.com/en/company/job/1924574"
+    },
+    {
+      "id": 1976680,
+      "title": "Key Account E-Commerce",
+      "company": "บริษัท พัมคิน คอร์ปอเรชั่น จำกัด",
+      "location": "Bang Khun Thian, Bangkok",
+      "salary": "Based on company’s structure",
+      "updated_at": "2026-11-07T01:21:59.000Z",
+      "url": "https://www.jobthai.com/en/company/job/1976680"
+    }
+  ]
+}

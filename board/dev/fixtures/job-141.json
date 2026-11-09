@@ -1,0 +1,42 @@
+{
+ "id": 141,
+ "rank": null,
+ "company": "Shopee",
+ "title": "Lead Software Engineer, Payments",
+ "location": "Singapore",
+ "source": "linkedin",
+ "url": "https://www.linkedin.com/jobs/view/4400000141",
+ "posted_at": "2026-10-30T03:05:00Z",
+ "first_seen_at": "2026-10-30T03:05:00Z",
+ "verdict": "FILTERED",
+ "status": "new",
+ "scores": {
+  "love": null,
+  "good_at": null,
+  "needs": null,
+  "paid": null
+ },
+ "paid_estimated": false,
+ "weakest": null,
+ "mean": null,
+ "gate": {
+  "result": null,
+  "fails": [],
+  "questions": []
+ },
+ "prefilter_reason": "title_exclude: \\b(engineer|developer)\\b",
+ "tracked": null,
+ "error": null,
+ "reasons": {
+  "love": null,
+  "good_at": null,
+  "needs": null,
+  "paid": null
+ },
+ "summary": null,
+ "facts": {},
+ "salary": null,
+ "jd_text": "Shopee is hiring for Lead Software Engineer, Payments in Singapore. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+ "jd_missing": false,
+ "email_snippet": null
+}

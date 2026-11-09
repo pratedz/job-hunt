@@ -1,0 +1,580 @@
+{
+ "total": 17,
+ "jobs": [
+  {
+   "id": 111,
+   "rank": 1,
+   "company": "ShopBack",
+   "title": "Management Associate - SEA Regional Track",
+   "location": "Singapore",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/example/jobs/8000111",
+   "posted_at": "2026-11-01T19:05:00Z",
+   "first_seen_at": "2026-11-03T19:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 4,
+    "needs": 5,
+    "paid": 5
+   },
+   "paid_estimated": false,
+   "weakest": {
+    "circle": "good_at",
+    "score": 4
+   },
+   "mean": 4.75,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 101,
+   "rank": 2,
+   "company": "Unilever Thailand",
+   "title": "Unilever Future Leaders Programme 2027 - Customer Development",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000101",
+   "posted_at": "2026-11-05T17:05:00Z",
+   "first_seen_at": "2026-11-06T17:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 4,
+    "needs": 5,
+    "paid": 4
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 4
+   },
+   "mean": 4.5,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 103,
+   "rank": 3,
+   "company": "L'Oréal Thailand",
+   "title": "SeedZ Management Trainee - E-Commerce",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000103",
+   "posted_at": "2026-11-03T03:05:00Z",
+   "first_seen_at": "2026-11-06T03:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 4,
+    "needs": 4,
+    "paid": 4
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 4
+   },
+   "mean": 4.25,
+   "gate": {
+    "result": "ask",
+    "fails": [],
+    "questions": [
+     "The posting asks for TOEIC 750 or IELTS 6.5. Do you have a recent score?"
+    ]
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 1,
+   "rank": 4,
+   "company": "TikTok Shop",
+   "title": "Accelerated Development Program (E-Commerce, Thailand) - 2027 Start",
+   "location": "Bangkok, Thailand",
+   "source": "manual",
+   "url": "https://lifeattiktok.com/search/A65110A",
+   "posted_at": null,
+   "first_seen_at": "2026-11-07T15:16:19Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 5,
+    "needs": 5,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 3
+   },
+   "mean": 4.5,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 7,
+   "rank": 5,
+   "company": "Lalamove",
+   "title": "Graduate Trainee Program 2027",
+   "location": "Hong Kong",
+   "source": "manual",
+   "url": "https://www.lalamove.com/careers/graduate-trainee-program-2027",
+   "posted_at": null,
+   "first_seen_at": "2026-11-07T15:16:19Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 3,
+    "needs": 5,
+    "paid": 5
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 3
+   },
+   "mean": 4.5,
+   "gate": {
+    "result": "ask",
+    "fails": [],
+    "questions": [
+     "Based in Hong Kong, Hong Kong; that needs a visa and relocation. Is that acceptable?"
+    ]
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 102,
+   "rank": 6,
+   "company": "Nestlé Thailand",
+   "title": "Management Trainee - Sales (Modern Trade)",
+   "location": "Bangkok, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000102",
+   "posted_at": "2026-11-04T10:05:00Z",
+   "first_seen_at": "2026-11-06T10:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 4,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 3
+   },
+   "mean": 4.0,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 104,
+   "rank": 7,
+   "company": "Shopee",
+   "title": "Seller Relationship Management (MKP) - Fresh Graduate",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000104",
+   "posted_at": null,
+   "first_seen_at": "2026-11-05T20:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 4,
+    "good_at": 5,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 3
+   },
+   "mean": 4.0,
+   "gate": {
+    "result": "ask",
+    "fails": [],
+    "questions": [
+     "Hiring immediately; you are available from 2027-06. Will they hold the role until then?",
+     "Based in Bangkok with occasional travel to the Singapore office. Is that acceptable?",
+     "The posting also requires: own transport for warehouse visits. Do you meet it?"
+    ]
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 171,
+   "rank": 8,
+   "company": "Suntory PepsiCo",
+   "title": "Management Trainee (Sales - Commercial)",
+   "location": "Bangkok, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000171",
+   "posted_at": "2026-10-26T05:05:00Z",
+   "first_seen_at": "2026-10-27T05:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 4,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 3
+   },
+   "mean": 4.0,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 105,
+   "rank": 9,
+   "company": "Grab Thailand",
+   "title": "Associate, Key Account Management (GrabFood)",
+   "location": "Bangkok, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000105",
+   "posted_at": "2026-10-31T13:05:00Z",
+   "first_seen_at": "2026-11-05T13:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 4,
+    "needs": 3,
+    "paid": 3
+   },
+   "paid_estimated": false,
+   "weakest": {
+    "circle": "needs",
+    "score": 3
+   },
+   "mean": 3.75,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 109,
+   "rank": 10,
+   "company": "DKSH Thailand",
+   "title": "Management Trainee - Client Management, Consumer Goods Business Unit, Bangkok Head Office (2027 intake, rotations across Sales, Marketing and Supply Chain)",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000109",
+   "posted_at": "2026-11-04T09:05:00Z",
+   "first_seen_at": "2026-11-04T09:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 4,
+    "good_at": 4,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 3
+   },
+   "mean": 3.75,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 110,
+   "rank": 11,
+   "company": "Lazada Thailand",
+   "title": "LazMall Brand Partnership Associate",
+   "location": "Bangkok, Thailand",
+   "source": "gmail",
+   "url": "https://example.invalid/jobs/110",
+   "posted_at": "2026-11-03T02:05:00Z",
+   "first_seen_at": "2026-11-04T02:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 4,
+    "needs": 3,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "needs",
+    "score": 3
+   },
+   "mean": 3.75,
+   "gate": {
+    "result": "ask",
+    "fails": [],
+    "questions": [
+     "Hiring immediately; you are available from 2027-06. Will they hold the role until then?"
+    ]
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 120,
+   "rank": 12,
+   "company": "Accenture",
+   "title": "Strategy Analyst - Commodity Markets",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000120",
+   "posted_at": null,
+   "first_seen_at": "2026-11-01T04:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 4,
+    "good_at": 3,
+    "needs": 4,
+    "paid": 4
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 3
+   },
+   "mean": 3.75,
+   "gate": {
+    "result": "ask",
+    "fails": [],
+    "questions": [
+     "Start date not stated. Will they hold a June 2027 start for a May 2027 graduate?"
+    ]
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 170,
+   "rank": 13,
+   "company": "Beiersdorf (NIVEA)",
+   "title": "WINNERSHIP Graduate Program - Sales",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000170",
+   "posted_at": null,
+   "first_seen_at": "2026-10-27T12:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 3,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 3
+   },
+   "mean": 3.75,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 176,
+   "rank": 14,
+   "company": "Michelin Thailand",
+   "title": "APAC Graduate Program - Marketing & Sales",
+   "location": "Bangkok, Thailand",
+   "source": "workday",
+   "url": "https://example.wd3.myworkdayjobs.com/en-US/careers/job/176",
+   "posted_at": "2026-10-19T18:05:00Z",
+   "first_seen_at": "2026-10-25T18:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 4,
+    "good_at": 3,
+    "needs": 5,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 3
+   },
+   "mean": 3.75,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 107,
+   "rank": 15,
+   "company": "บริษัท ไทยเบฟเวอเรจ จำกัด (มหาชน)",
+   "title": "เจ้าหน้าที่บริหารลูกค้าองค์กร (Key Account Associate) - ช่องทางโมเดิร์นเทรด",
+   "location": "กรุงเทพมหานคร",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000107",
+   "posted_at": "2026-10-28T23:05:00Z",
+   "first_seen_at": "2026-11-04T23:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 4,
+    "good_at": 3,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 3
+   },
+   "mean": 3.5,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 115,
+   "rank": 16,
+   "company": "Thai Union Group",
+   "title": "Global Management Associate Program",
+   "location": "Samut Sakhon, Thailand",
+   "source": "smartrecruiters",
+   "url": "https://jobs.smartrecruiters.com/Example/115",
+   "posted_at": "2026-10-27T15:05:00Z",
+   "first_seen_at": "2026-11-02T15:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 4,
+    "good_at": 3,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 3
+   },
+   "mean": 3.5,
+   "gate": {
+    "result": "ask",
+    "fails": [],
+    "questions": [
+     "Based in Samut Sakhon (upcountry). Is a daily commute or relocation acceptable?"
+    ]
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 117,
+   "rank": 17,
+   "company": "Agoda",
+   "title": "Commercial Finance Analyst",
+   "location": "Bangkok, Thailand",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/example/jobs/8000117",
+   "posted_at": "2026-10-25T01:05:00Z",
+   "first_seen_at": "2026-11-02T01:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 3,
+    "good_at": 4,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "love",
+    "score": 3
+   },
+   "mean": 3.5,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  }
+ ]
+}

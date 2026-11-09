@@ -1,0 +1,64 @@
+{
+ "id": 106,
+ "rank": null,
+ "company": "Mondelēz Thailand",
+ "title": "Taste The Future Management Trainee - Commercial",
+ "location": "Bangkok, Thailand",
+ "source": "linkedin",
+ "url": "https://www.linkedin.com/jobs/view/4400000106",
+ "posted_at": "2026-10-30T06:05:00Z",
+ "first_seen_at": "2026-11-05T06:05:00Z",
+ "verdict": "HOLD",
+ "status": "new",
+ "scores": {
+  "love": 5,
+  "good_at": 3,
+  "needs": 4,
+  "paid": null
+ },
+ "paid_estimated": false,
+ "weakest": {
+  "circle": "good_at",
+  "score": 3
+ },
+ "mean": 4.0,
+ "gate": {
+  "result": "pass",
+  "fails": [],
+  "questions": []
+ },
+ "prefilter_reason": null,
+ "tracked": null,
+ "error": null,
+ "reasons": {
+  "love": "Commercial rotation in FMCG / e-commerce, one of his preferred tracks.",
+  "good_at": "Some overlap via F26 (reporting); the domain experience the JD wants is not evidenced.",
+  "needs": "Established company with formal training for graduates.",
+  "paid": "The posting does not say enough to score this circle."
+ },
+ "summary": "Good commercial fit with a clear growth path.",
+ "facts": {
+  "min_years_experience": 0,
+  "gpa_floor": null,
+  "start_kind": "fixed_date",
+  "start_date": "2027-06",
+  "graduation_years": [
+   2027
+  ],
+  "degree_completed_required": false,
+  "required_languages": [
+   "Thai",
+   "English"
+  ],
+  "required_test_scores": [],
+  "location_city": "Bangkok",
+  "location_country": "Thailand",
+  "remote": false,
+  "job_type": "graduate_programme",
+  "other_hard_requirements": []
+ },
+ "salary": null,
+ "jd_text": "Mondelēz Thailand is hiring for Taste The Future Management Trainee - Commercial in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+ "jd_missing": false,
+ "email_snippet": null
+}

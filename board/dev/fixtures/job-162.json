@@ -1,0 +1,42 @@
+{
+ "id": 162,
+ "rank": null,
+ "company": "Example Insurance",
+ "title": "Telesales Officer",
+ "location": "Bangkok, Thailand",
+ "source": "jobsdb",
+ "url": "https://th.jobsdb.com/job/90000162",
+ "posted_at": "2026-10-19T19:05:00Z",
+ "first_seen_at": "2026-10-27T19:05:00Z",
+ "verdict": "FILTERED",
+ "status": "skipped",
+ "scores": {
+  "love": null,
+  "good_at": null,
+  "needs": null,
+  "paid": null
+ },
+ "paid_estimated": false,
+ "weakest": null,
+ "mean": null,
+ "gate": {
+  "result": null,
+  "fails": [],
+  "questions": []
+ },
+ "prefilter_reason": "title_exclude: \\btelesales\\b",
+ "tracked": null,
+ "error": null,
+ "reasons": {
+  "love": null,
+  "good_at": null,
+  "needs": null,
+  "paid": null
+ },
+ "summary": null,
+ "facts": {},
+ "salary": null,
+ "jd_text": "Example Insurance is hiring for Telesales Officer in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+ "jd_missing": false,
+ "email_snippet": null
+}

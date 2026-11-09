@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "status_mail.schema.json",
+  "title": "my job hunt - employer email classification (--output-schema)",
+  "description": "One entry per email in the batch. Strict-mode safe: every property required, additionalProperties false.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["emails"],
+  "properties": {
+    "emails": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["message_id", "record_file", "type", "outcome_stage", "reason_category", "excerpt", "suggested_next_step"],
+        "properties": {
+          "message_id": {"type": "string", "description": "Echoed from the request."},
+          "record_file": {
+            "type": ["string", "null"],
+            "description": "One of the candidate record files listed in the prompt, or null when none fits."
+          },
+          "type": {
+            "enum": ["rejection", "test_invite", "interview_invite", "offer", "acknowledgement", "other"]
+          },
+          "outcome_stage": {
+            "enum": ["cv_screen", "online_test", "assessment", "interview", "final", "offer", "unknown"]
+          },
+          "reason_category": {
+            "enum": ["gpa_academic", "start_date", "experience", "language_test", "test_score",
+                     "interview_performance", "visa_location", "role_filled", "no_reason_given",
+                     "ghosted", "other"]
+          },
+          "excerpt": {"type": "string", "description": "A quote of at most 300 characters from the email."},
+          "suggested_next_step": {
+            "type": "string",
+            "description": "What the candidate should do next, in one line. Never invent a date the email does not state; empty string when there is nothing to do."
+          }
+        }
+      }
+    }
+  }
+}

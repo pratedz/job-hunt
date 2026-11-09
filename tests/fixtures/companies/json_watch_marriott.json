@@ -1,0 +1,352 @@
+{
+  "items" : [ {
+    "SearchId" : 1,
+    "Keyword" : "Thailand",
+    "CorrectedKeyword" : null,
+    "UseExactKeywordFlag" : false,
+    "SuggestedKeyword" : null,
+    "ExecuteSpellCheckFlag" : true,
+    "Location" : null,
+    "LocationId" : null,
+    "Radius" : 0,
+    "RadiusUnit" : "MI",
+    "SelectedTitlesFacet" : null,
+    "SelectedCategoriesFacet" : null,
+    "SelectedPostingDatesFacet" : null,
+    "SelectedLocationsFacet" : null,
+    "LastSelectedFacet" : null,
+    "Facets" : "TITLES;LOCATIONS;LOCATION_LEVEL1;LOCATION_LEVEL2;LOCATION_LEVEL3;CATEGORIES;POSTING_DATES;WORK_LOCATIONS;FLEX_FIELDS;ORGANIZATIONS;WORKPLACE_TYPES",
+    "Offset" : 0,
+    "Limit" : 25,
+    "SortBy" : "RELEVANCY",
+    "TotalJobsCount" : 4,
+    "Latitude" : null,
+    "Longitude" : null,
+    "SiteNumber" : "CX",
+    "JobFamilyId" : null,
+    "PostingStartDate" : null,
+    "PostingEndDate" : null,
+    "SelectedWorkLocationsFacet" : null,
+    "RequisitionId" : null,
+    "CandidateNumber" : null,
+    "WorkLocationZipCode" : null,
+    "WorkLocationCountryCode" : null,
+    "SelectedFlexFieldsFacets" : null,
+    "OrganizationId" : null,
+    "SelectedOrganizationsFacet" : null,
+    "UserTargetFacetName" : null,
+    "UserTargetFacetInputTerm" : null,
+    "HotJobFlag" : null,
+    "WorkplaceType" : null,
+    "SelectedWorkplaceTypesFacet" : null,
+    "BotQRShortCode" : null,
+    "requisitionList" : [ {
+      "Id" : "26124798",
+      "Title" : "Manager, HR Services, Thailand",
+      "PostedDate" : "2026-09-28",
+      "PostingEndDate" : null,
+      "Language" : "US",
+      "PrimaryLocationCountry" : "TH",
+      "GeographyId" : 300000084046790,
+      "HotJobFlag" : false,
+      "WorkplaceTypeCode" : null,
+      "JobFamily" : null,
+      "JobFunction" : null,
+      "WorkerType" : null,
+      "ContractType" : null,
+      "ManagerLevel" : null,
+      "JobSchedule" : null,
+      "JobShift" : null,
+      "JobType" : null,
+      "StudyLevel" : null,
+      "DomesticTravelRequired" : null,
+      "InternationalTravelRequired" : null,
+      "WorkDurationYears" : null,
+      "WorkDurationMonths" : null,
+      "WorkHours" : null,
+      "WorkDays" : null,
+      "LegalEmployer" : null,
+      "BusinessUnit" : null,
+      "Department" : null,
+      "Organization" : null,
+      "BusinessUnitId" : 300000016399808,
+      "LegalEmployerId" : 300000015017840,
+      "OrganizationId" : 300000014808409,
+      "MediaThumbURL" : null,
+      "ShortDescriptionStr" : "",
+      "PrimaryLocation" : "Bangkok, Thailand",
+      "Distance" : 74.63443,
+      "TrendingFlag" : true,
+      "BeFirstToApplyFlag" : false,
+      "Relevancy" : 74.63442993164062,
+      "WorkplaceType" : "",
+      "ExternalQualificationsStr" : null,
+      "ExternalResponsibilitiesStr" : null
+    }, {
+      "Id" : "26122167",
+      "Title" : "General Manager - Rayong Marriott Resort & Spa",
+      "PostedDate" : "2026-09-25",
+      "PostingEndDate" : null,
+      "Language" : "US",
+      "PrimaryLocationCountry" : "TH",
+      "GeographyId" : 300000084046815,
+      "HotJobFlag" : false,
+      "WorkplaceTypeCode" : null,
+      "JobFamily" : null,
+      "JobFunction" : null,
+      "WorkerType" : null,
+      "ContractType" : null,
+      "ManagerLevel" : null,
+      "JobSchedule" : null,
+      "JobShift" : null,
+      "JobType" : null,
+      "StudyLevel" : null,
+      "DomesticTravelRequired" : null,
+      "InternationalTravelRequired" : null,
+      "WorkDurationYears" : null,
+      "WorkDurationMonths" : null,
+      "WorkHours" : null,
+      "WorkDays" : null,
+      "LegalEmployer" : null,
+      "BusinessUnit" : null,
+      "Department" : null,
+      "Organization" : null,
+      "BusinessUnitId" : 300000016400918,
+      "LegalEmployerId" : 300000015742285,
+      "OrganizationId" : 300000016409066,
+      "MediaThumbURL" : null,
+      "ShortDescriptionStr" : "",
+      "PrimaryLocation" : "Rayong, Thailand",
+      "Distance" : 9.720256,
+      "TrendingFlag" : true,
+      "BeFirstToApplyFlag" : false,
+      "Relevancy" : 9.720255851745605,
+      "WorkplaceType" : "",
+      "ExternalQualificationsStr" : null,
+      "ExternalResponsibilitiesStr" : null
+    }, {
+      "Id" : "26114849",
+      "Title" : "Asia Pacific excluding China - Hotel Internship Program 2027",
+      "PostedDate" : "2026-10-08",
+      "PostingEndDate" : null,
+      "Language" : "US",
+      "PrimaryLocationCountry" : "SG",
+      "GeographyId" : 300000000298052,
+      "HotJobFlag" : false,
+      "WorkplaceTypeCode" : null,
+      "JobFamily" : null,
+      "JobFunction" : null,
+      "WorkerType" : null,
+      "ContractType" : null,
+      "ManagerLevel" : null,
+      "JobSchedule" : null,
+      "JobShift" : null,
+      "JobType" : null,
+      "StudyLevel" : null,
+      "DomesticTravelRequired" : null,
+      "InternationalTravelRequired" : null,
+      "WorkDurationYears" : null,
+      "WorkDurationMonths" : null,
+      "WorkHours" : null,
+      "WorkDays" : null,
+      "LegalEmployer" : null,
+      "BusinessUnit" : null,
+      "Department" : null,
+      "Organization" : null,
+      "BusinessUnitId" : 300000016399808,
+      "LegalEmployerId" : 300000014981624,
+      "OrganizationId" : 300000014808409,
+      "MediaThumbURL" : null,
+      "ShortDescriptionStr" : "",
+      "PrimaryLocation" : "Singapore",
+      "Distance" : 9.404694,
+      "TrendingFlag" : true,
+      "BeFirstToApplyFlag" : false,
+      "Relevancy" : 9.404693603515625,
+      "WorkplaceType" : "",
+      "ExternalQualificationsStr" : null,
+      "ExternalResponsibilitiesStr" : null
+    }, {
+      "Id" : "26139833",
+      "Title" : "General Manager - Pattaya Marriott Resort and Spa",
+      "PostedDate" : "2026-10-29",
+      "PostingEndDate" : null,
+      "Language" : "US",
+      "PrimaryLocationCountry" : "TH",
+      "GeographyId" : 300000000298106,
+      "HotJobFlag" : false,
+      "WorkplaceTypeCode" : null,
+      "JobFamily" : null,
+      "JobFunction" : null,
+      "WorkerType" : null,
+      "ContractType" : null,
+      "ManagerLevel" : null,
+      "JobSchedule" : null,
+      "JobShift" : null,
+      "JobType" : null,
+      "StudyLevel" : null,
+      "DomesticTravelRequired" : null,
+      "InternationalTravelRequired" : null,
+      "WorkDurationYears" : null,
+      "WorkDurationMonths" : null,
+      "WorkHours" : null,
+      "WorkDays" : null,
+      "LegalEmployer" : null,
+      "BusinessUnit" : null,
+      "Department" : null,
+      "Organization" : null,
+      "BusinessUnitId" : 300000016400918,
+      "LegalEmployerId" : 300000015742285,
+      "OrganizationId" : 300000016409066,
+      "MediaThumbURL" : null,
+      "ShortDescriptionStr" : "",
+      "PrimaryLocation" : "Thailand",
+      "Distance" : 8.918843,
+      "TrendingFlag" : true,
+      "BeFirstToApplyFlag" : false,
+      "Relevancy" : 8.918843269348145,
+      "WorkplaceType" : "",
+      "ExternalQualificationsStr" : null,
+      "ExternalResponsibilitiesStr" : null
+    } ],
+    "categoriesFacet" : [ {
+      "Id" : 300000120365213,
+      "Name" : "Property Leadership",
+      "TotalCount" : 2
+    }, {
+      "Id" : 300000120365195,
+      "Name" : "Management Development Programs/Interns",
+      "TotalCount" : 1
+    }, {
+      "Id" : 300000120365234,
+      "Name" : "Human Resources",
+      "TotalCount" : 1
+    } ],
+    "locationsFacet" : [ {
+      "Id" : 300000000298106,
+      "Name" : "Thailand",
+      "TotalCount" : 4
+    }, {
+      "Id" : 300000000295503,
+      "Name" : "Australia",
+      "TotalCount" : 1
+    }, {
+      "Id" : 300000000295761,
+      "Name" : "Indonesia",
+      "TotalCount" : 1
+    }, {
+      "Id" : 300000000295773,
+      "Name" : "India",
+      "TotalCount" : 1
+    }, {
+      "Id" : 300000000295800,
+      "Name" : "Japan",
+      "TotalCount" : 1
+    }, {
+      "Id" : 300000000295923,
+      "Name" : "Maldives",
+      "TotalCount" : 1
+    }, {
+      "Id" : 300000000295932,
+      "Name" : "Malaysia",
+      "TotalCount" : 1
+    }, {
+      "Id" : 300000000295971,
+      "Name" : "New Zealand",
+      "TotalCount" : 1
+    }, {
+      "Id" : 300000000298052,
+      "Name" : "Singapore",
+      "TotalCount" : 1
+    }, {
+      "Id" : 300000000298175,
+      "Name" : "Viet Nam",
+      "TotalCount" : 1
+    }, {
+      "Id" : 300000084046790,
+      "Name" : "Bangkok, Thailand",
+      "TotalCount" : 1
+    }, {
+      "Id" : 300000084046815,
+      "Name" : "Rayong",
+      "TotalCount" : 1
+    } ],
+    "postingDatesFacet" : [ {
+      "Id" : 30,
+      "Name" : "Less than 30 days",
+      "TotalCount" : 1
+    }, {
+      "Id" : 31,
+      "Name" : "Greater than 30 days",
+      "TotalCount" : 3
+    } ],
+    "titlesFacet" : [ {
+      "Id" : "50",
+      "Name" : "Property Leadership",
+      "TotalCount" : 2
+    }, {
+      "Id" : "15",
+      "Name" : "Human Resources",
+      "TotalCount" : 1
+    }, {
+      "Id" : "51",
+      "Name" : "College/University",
+      "TotalCount" : 1
+    } ],
+    "workLocationsFacet" : [ {
+      "Id" : 300000122191892,
+      "Name" : "Thailand Area Office",
+      "TotalCount" : 1
+    }, {
+      "Id" : 300000122298552,
+      "Name" : "Singapore Regional Office",
+      "TotalCount" : 1
+    }, {
+      "Id" : 300000122355824,
+      "Name" : "Rayong Marriott Resort & Spa",
+      "TotalCount" : 1
+    }, {
+      "Id" : 300018937228912,
+      "Name" : "Pattaya Marriott Resort and Spa",
+      "TotalCount" : 1
+    } ],
+    "flexFieldsFacet" : [ {
+      "Name" : "AttributeChar9",
+      "Label" : "Located Remotely?"
+    } ],
+    "organizationsFacet" : [ {
+      "Id" : 300000014808409,
+      "Name" : "Corporate",
+      "TotalCount" : 2
+    }, {
+      "Id" : 300000016409066,
+      "Name" : "Marriott Hotels & Resorts",
+      "TotalCount" : 2
+    } ],
+    "workplaceTypesFacet" : [ {
+      "Id" : "ORA_ON_SITE",
+      "Name" : "On-site",
+      "TotalCount" : 4
+    } ]
+  } ],
+  "count" : 1,
+  "hasMore" : false,
+  "limit" : 200,
+  "offset" : 0,
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://ejwl.fa.us2.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/recruitingCEJobRequisitions",
+    "name" : "recruitingCEJobRequisitions",
+    "kind" : "collection"
+  }, {
+    "rel" : "action",
+    "href" : "https://ejwl.fa.us2.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/recruitingCEJobRequisitions/action/getRequisitionsLocationCoordinates",
+    "name" : "getRequisitionsLocationCoordinates",
+    "kind" : "other"
+  }, {
+    "rel" : "action",
+    "href" : "https://ejwl.fa.us2.oraclecloud.com:443/hcmRestApi/resources/11.13.18.05/recruitingCEJobRequisitions/action/getRequisitionDetailsForMap",
+    "name" : "getRequisitionDetailsForMap",
+    "kind" : "other"
+  } ]
+}

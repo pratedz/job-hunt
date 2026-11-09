@@ -1,0 +1,84 @@
+{
+ "items": [
+  {
+   "id": 31,
+   "record_file": "61 Application Records/Example Retail Co. — Future Leader Program.md",
+   "company": "Example Retail Co.",
+   "program": "Future Leader Program",
+   "type": "rejection",
+   "proposed": {
+    "my_status": "Rejected",
+    "outcome_stage": "cv_screen",
+    "outcome_reason_category": "start_date",
+    "next_step": "None, closed."
+   },
+   "excerpt": "Thank you for your interest. We are looking for candidates who can start in January 2027, so we will not move forward with your application at this time.",
+   "email": {
+    "from": "Talent Team <careers@example-retail.invalid>",
+    "subject": "Your application: Future Leader Program",
+    "date": "2026-11-06T09:12:00Z"
+   },
+   "detected_at": "2026-11-07T00:01:00Z",
+   "current_status": "Applied"
+  },
+  {
+   "id": 32,
+   "record_file": "61 Application Records/Example Bank (Singapore) — Graduate Programme.md",
+   "company": "Example Bank (Singapore)",
+   "program": "Graduate Programme",
+   "type": "test_invite",
+   "proposed": {
+    "my_status": "Test",
+    "outcome_stage": "online_test",
+    "outcome_reason_category": null,
+    "next_step": "Complete the SOVA assessment by 14 Nov."
+   },
+   "excerpt": "We are pleased to invite you to complete our online assessment. Please complete it by 14 November 2026, 23:59 SGT.",
+   "email": {
+    "from": "Example Bank Graduate Recruitment <noreply@sova.invalid>",
+    "subject": "Next step: online assessment",
+    "date": "2026-11-06T02:40:00Z"
+   },
+   "detected_at": "2026-11-07T00:01:00Z",
+   "current_status": "Applied"
+  },
+  {
+   "id": 33,
+   "record_file": "61 Application Records/Example FMCG Co. — Management Trainee (Sales).md",
+   "company": "Example FMCG Co.",
+   "program": "Management Trainee (Sales)",
+   "type": "interview_invite",
+   "proposed": {
+    "my_status": "Interview",
+    "outcome_stage": "interview",
+    "outcome_reason_category": null,
+    "next_step": "Book an interview slot (link in the email)."
+   },
+   "excerpt": "Congratulations, you have passed the online test. Please choose a time for a 30-minute video interview using the link below.",
+   "email": {
+    "from": "Example FMCG Careers <talent@example-fmcg.invalid>",
+    "subject": "Interview invitation",
+    "date": "2026-11-05T11:05:00Z"
+   },
+   "detected_at": "2026-11-07T00:01:00Z",
+   "current_status": "Test"
+  },
+  {
+   "id": 34,
+   "record_file": "61 Application Records/Example Logistics Co. — MT Program.md",
+   "company": "Example Logistics Co.",
+   "program": "MT Program",
+   "type": "ghosted",
+   "proposed": {
+    "my_status": "Ghosted",
+    "outcome_stage": "cv_screen",
+    "outcome_reason_category": "ghosted",
+    "next_step": "None, closed."
+   },
+   "excerpt": null,
+   "email": null,
+   "detected_at": "2026-11-07T00:01:00Z",
+   "current_status": "Applied"
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "id": 4,
+ "rank": null,
+ "company": "Krungthai Bank",
+ "title": "Management Trainee Program 2027",
+ "location": "Bangkok, Thailand",
+ "source": "manual",
+ "url": "https://krungthai.com/careers/management-trainee-2027",
+ "posted_at": null,
+ "first_seen_at": "2026-11-07T15:16:19Z",
+ "verdict": "FILTERED",
+ "status": "new",
+ "scores": {
+  "love": 3,
+  "good_at": null,
+  "needs": 4,
+  "paid": 2
+ },
+ "paid_estimated": true,
+ "weakest": {
+  "circle": "paid",
+  "score": 2
+ },
+ "mean": 3.0,
+ "gate": {
+  "result": "fail",
+  "fails": [
+   "Requires a minimum GPA of 3.00; your GPAX is 2.48 (transcript)."
+  ],
+  "questions": []
+ },
+ "prefilter_reason": null,
+ "tracked": null,
+ "error": null,
+ "reasons": {
+  "love": "The programme offers corporate banking, retail banking and digital rotations, fitting his interest in finance graduate programmes.",
+  "good_at": "The posting does not specify skill requirements to assess against his finance coursework and commercial experience in F60 and F26.",
+  "needs": "The posting offers structured rotations across banking and digital functions at an established Thai bank.",
+  "paid": "estimate, THB 25,000-40,000 per month -> about THB 32,500/month. Estimated gross monthly range for a Bangkok bank management trainee programme; the posting states no salary."
+ },
+ "summary": "The programme offers useful banking exposure, but its GPA floor makes him ineligible.",
+ "facts": {
+  "min_years_experience": 0,
+  "gpa_floor": 3.0,
+  "start_kind": "fixed_date",
+  "start_date": "2027-07",
+  "graduation_years": [
+   2026,
+   2027
+  ],
+  "degree_completed_required": null,
+  "required_languages": [],
+  "required_test_scores": [],
+  "location_city": "Bangkok",
+  "location_country": "Thailand",
+  "remote": false,
+  "job_type": "graduate_programme",
+  "other_hard_requirements": []
+ },
+ "salary": {
+  "min": null,
+  "max": null,
+  "currency": "THB",
+  "period": "month",
+  "stated": false,
+  "thb_month_mid": 32500.0
+ },
+ "jd_text": "Krungthai Management Trainee Program for new graduates. Rotations across corporate banking, retail banking and digital. Requirements: bachelor's degree in business, finance, economics or related fields; minimum GPA 3.00; Thai nationality; graduating in 2026 or 2027. Programme starts July 2027.",
+ "jd_missing": false,
+ "email_snippet": null
+}

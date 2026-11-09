@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "job_input.schema.json",
+  "title": "my job hunt - job input list for `python3 -m jobhunt add --json <file>`",
+  "description": "A JSON array of jobs. One object per job. Only `source` and `title` are required; every other field may be omitted or null. Unknown fields are rejected so a typo cannot be silently ignored. This schema is validated by the app itself (hand-rolled check of the subset of keywords used here: type, enum, required, additionalProperties, properties, items, minLength, pattern).",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["source", "title"],
+    "properties": {
+      "source": {
+        "description": "Where the job came from. Decides which source_job_id patterns are recognised and which field the board shows as origin.",
+        "enum": [
+          "linkedin",
+          "jobsdb",
+          "greenhouse",
+          "lever",
+          "workday",
+          "smartrecruiters",
+          "shopee",
+          "tiktok",
+          "company_site",
+          "manual"
+        ]
+      },
+      "source_job_id": {
+        "description": "The site's own job id, as a string. If omitted, the app extracts it from `url`: linkedin `jobs/view/<id>` or `jobPosting/<id>`, jobsdb `job/<id>`, greenhouse `/jobs/<id>`. Keep leading zeros and any non-numeric suffix exactly as the site shows them.",
+        "type": ["string", "null"],
+        "minLength": 1
+      },
+      "url": {
+        "description": "The public job page. Tracking parameters (utm_*, trk, refId, trackingId, e, lipi) are stripped when the canonical URL is computed, so the same job arriving with different tracking still dedupes.",
+        "type": ["string", "null"],
+        "pattern": "^https?://"
+      },
+      "company": {
+        "description": "Hiring company as shown in the posting or email. Null when unknown.",
+        "type": ["string", "null"],
+        "minLength": 1
+      },
+      "title": {
+        "description": "Job title as shown. Required: it is what the pre-filter matches and what the board shows.",
+        "type": "string",
+        "minLength": 1
+      },
+      "location": {
+        "description": "Free text, e.g. \"Bangkok, Thailand\" or \"Singapore\". Used by the location gate through the facts extracted from the JD, not parsed here.",
+        "type": ["string", "null"],
+        "minLength": 1
+      },
+      "posted_at": {
+        "description": "Posting or email date. Date only (YYYY-MM-DD) or full ISO 8601 with offset. A bare date is read as Asia/Bangkok midnight. Used only by the `posted_within_days` pre-filter.",
+        "type": ["string", "null"],
+        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}([T ][0-9]{2}:[0-9]{2}(:[0-9]{2})?(Z|[+-][0-9]{2}:[0-9]{2})?)?$"
+      },
+      "jd_text": {
+        "description": "Full job description text as plain text. Truncated to 6000 characters before it goes to the model; the full text stays in the store.",
+        "type": ["string", "null"],
+        "minLength": 1
+      },
+      "email_snippet": {
+        "description": "The alert-email snippet, when there is no JD. The job is flagged jd_missing and scored from this.",
+        "type": ["string", "null"],
+        "minLength": 1
+      },
+      "salary_text": {
+        "description": "Salary exactly as written in the posting, e.g. \"THB 35,000-45,000 per month\". Free text; the model extracts the numbers, Python scores them.",
+        "type": ["string", "null"],
+        "minLength": 1
+      }
+    }
+  }
+}

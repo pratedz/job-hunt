@@ -1,0 +1,3715 @@
+{
+ "suggestions": [
+  {
+   "id": 31,
+   "record_file": "61 Application Records/Example Retail Co. — Future Leader Program.md",
+   "company": "Example Retail Co.",
+   "program": "Future Leader Program",
+   "type": "rejection",
+   "proposed": {
+    "my_status": "Rejected",
+    "outcome_stage": "cv_screen",
+    "outcome_reason_category": "start_date",
+    "next_step": "None, closed."
+   },
+   "excerpt": "Thank you for your interest. We are looking for candidates who can start in January 2027, so we will not move forward with your application at this time.",
+   "email": {
+    "from": "Talent Team <careers@example-retail.invalid>",
+    "subject": "Your application: Future Leader Program",
+    "date": "2026-11-06T09:12:00Z"
+   },
+   "detected_at": "2026-11-07T00:01:00Z",
+   "current_status": "Applied"
+  },
+  {
+   "id": 32,
+   "record_file": "61 Application Records/Example Bank (Singapore) — Graduate Programme.md",
+   "company": "Example Bank (Singapore)",
+   "program": "Graduate Programme",
+   "type": "test_invite",
+   "proposed": {
+    "my_status": "Test",
+    "outcome_stage": "online_test",
+    "outcome_reason_category": null,
+    "next_step": "Complete the SOVA assessment by 14 Nov."
+   },
+   "excerpt": "We are pleased to invite you to complete our online assessment. Please complete it by 14 November 2026, 23:59 SGT.",
+   "email": {
+    "from": "Example Bank Graduate Recruitment <noreply@sova.invalid>",
+    "subject": "Next step: online assessment",
+    "date": "2026-11-06T02:40:00Z"
+   },
+   "detected_at": "2026-11-07T00:01:00Z",
+   "current_status": "Applied"
+  },
+  {
+   "id": 33,
+   "record_file": "61 Application Records/Example FMCG Co. — Management Trainee (Sales).md",
+   "company": "Example FMCG Co.",
+   "program": "Management Trainee (Sales)",
+   "type": "interview_invite",
+   "proposed": {
+    "my_status": "Interview",
+    "outcome_stage": "interview",
+    "outcome_reason_category": null,
+    "next_step": "Book an interview slot (link in the email)."
+   },
+   "excerpt": "Congratulations, you have passed the online test. Please choose a time for a 30-minute video interview using the link below.",
+   "email": {
+    "from": "Example FMCG Careers <talent@example-fmcg.invalid>",
+    "subject": "Interview invitation",
+    "date": "2026-11-05T11:05:00Z"
+   },
+   "detected_at": "2026-11-07T00:01:00Z",
+   "current_status": "Test"
+  },
+  {
+   "id": 34,
+   "record_file": "61 Application Records/Example Logistics Co. — MT Program.md",
+   "company": "Example Logistics Co.",
+   "program": "MT Program",
+   "type": "ghosted",
+   "proposed": {
+    "my_status": "Ghosted",
+    "outcome_stage": "cv_screen",
+    "outcome_reason_category": "ghosted",
+    "next_step": "None, closed."
+   },
+   "excerpt": null,
+   "email": null,
+   "detected_at": "2026-11-07T00:01:00Z",
+   "current_status": "Applied"
+  }
+ ],
+ "drafts": {
+  "112": {
+   "subject": "Application: Account Manager, Customer Business Development – Alex Rivera",
+   "body": "Dear Hiring Team,\n\nI am a final-year Finance student at Bangkok Metropolitan University, graduating in May 2027 and available full-time from June 2027, and I am applying for the Account Manager, Customer Business Development role.\n\nAt Campus Co, a student-run company, I negotiated and won MetroMart as a modern-trade retail partner and helped develop an SME shelf for local suppliers, now in 100 MetroMart branches. In the same student-run company I built a 30-session sales training program for 383 reps (120 certified) and delivered 6 sessions personally.\n\nThe role's focus on growing business with retail customers is the work I want to build a career in. My CV is attached, and I would welcome a conversation.\n\nBest regards,\nAlex Rivera\n081-555-0199\nalex.rivera@example.com\nlinkedin.com/in/alex-rivera-demo",
+   "path": "job-hunt/data/drafts/2026-11-07_p-g-thailand_account-manager-customer-business-development.md",
+   "violations": [],
+   "facts_used": [
+    "F01",
+    "F02",
+    "F21",
+    "F25",
+    "F04"
+   ]
+  }
+ },
+ "jobs": [
+  {
+   "id": 1,
+   "rank": null,
+   "company": "TikTok Shop",
+   "title": "Accelerated Development Program (E-Commerce, Thailand) - 2027 Start",
+   "location": "Bangkok, Thailand",
+   "source": "manual",
+   "url": "https://lifeattiktok.com/search/A65110A",
+   "posted_at": null,
+   "first_seen_at": "2026-11-07T15:16:19Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 5,
+    "needs": 5,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 3
+   },
+   "mean": 4.5,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "The rotational e-commerce programme covers category growth and seller development, directly matching his preferred commercial roles.",
+    "good_at": "F10 and F21 support seller and partnership work, F31 and F26 show analytical work, and F20 and F25 show leadership and communication in a student-run company.",
+    "needs": "The posting offers structured rotations across category growth, seller development and operations at an established e-commerce platform.",
+    "paid": "estimate, THB 30,000-50,000 per month -> about THB 40,000/month. Estimated gross monthly range for a Bangkok e-commerce graduate programme; the posting states no salary."
+   },
+   "summary": "Strong commercial and timing fit; the main risk is the competitive multi-stage selection process.",
+   "facts": {
+    "min_years_experience": null,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 40000.0
+   },
+   "jd_text": "Bachelor/Master Graduate - 2027 Start. The Accelerated Development Program (ADP) is a rotational programme for 2027 graduates joining TikTok Shop Thailand e-commerce. Rotations cover category growth, seller development and operations. Programme starts June 2027 in Bangkok. Requirements: bachelor's or master's degree graduating in 2027; strong analytical and communication skills; leadership experience; fluent Thai and English. Selection: online test, HR interview, case day, leaders interview. Applications close 30 November 2026 or earlier when full.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 2,
+   "rank": null,
+   "company": "Agoda",
+   "title": "Associate Analyst, Marketing (Bangkok)",
+   "location": "Bangkok, Thailand",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/agoda/jobs/8194690",
+   "posted_at": null,
+   "first_seen_at": "2026-11-07T15:16:19Z",
+   "verdict": "LOW",
+   "status": "new",
+   "scores": {
+    "love": 3,
+    "good_at": 3,
+    "needs": 4,
+    "paid": 2
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 2
+   },
+   "mean": 3.0,
+   "gate": {
+    "result": "ask",
+    "fails": [],
+    "questions": [
+     "Hiring immediately; you are available from 2027-06. Will they hold the role until then?",
+     "The posting also requires: Bachelor's degree in a quantitative subject or related field. Do you meet it?"
+    ]
+   },
+   "prefilter_reason": null,
+   "tracked": {
+    "file": "61 Application Records/Agoda — Associate Analyst, Marketing (Bangkok).md",
+    "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FAgoda%20%E2%80%94%20Associate%20Analyst%2C%20Marketing%20%28Bangkok%29.md",
+    "my_status": "To apply"
+   },
+   "error": null,
+   "reasons": {
+    "love": "The role focuses on marketing analytics, reporting and experiments.",
+    "good_at": "F26 and F71 support Excel and KPI reporting, while F31 shows AI-assisted SQL analysis; direct marketing-channel experimentation is not evidenced.",
+    "needs": "Agoda is a well-established regional travel platform, and the role offers exposure to marketing performance and experiments.",
+    "paid": "estimate, THB 30,000-45,000 per month -> about THB 37,500/month. Estimated gross monthly range for an entry-level marketing analyst in Bangkok; the posting states no salary."
+   },
+   "summary": "The analytics work has some overlap with his experience, but confirm whether a June start is possible.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "immediate",
+    "start_date": null,
+    "graduation_years": [],
+    "degree_completed_required": null,
+    "required_languages": [
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "full_time",
+    "other_hard_requirements": [
+     "Bachelor's degree in a quantitative subject or related field"
+    ]
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 37500.0
+   },
+   "jd_text": "Fresh Graduates are welcome to apply! You will analyse marketing channel performance, build reports and run experiments with the marketing team. Requirements: bachelor's degree in a quantitative subject or related fields; strong Excel; SQL or Python is a plus; excellent English communication. This is a full-time position based in Bangkok. Relocation package provided for candidates outside Thailand.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 3,
+   "rank": null,
+   "company": "Agoda",
+   "title": "Account Specialist, Homes",
+   "location": "Bangkok, Thailand",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/agoda/jobs/8242288",
+   "posted_at": null,
+   "first_seen_at": "2026-11-07T15:16:19Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 4,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 3
+   },
+   "mean": 4.0,
+   "gate": {
+    "result": "fail",
+    "fails": [
+     "Requires at least 2 years of experience; you have 0 years (student-run companies are not corporate experience)."
+    ],
+    "questions": [
+     "Hiring immediately; you are available from 2027-06. Will they hold the role until then?"
+    ]
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Managing and growing a portfolio of vacation-rental partners is a commercial account role at a consumer platform.",
+    "good_at": "F21 supports negotiation and partnership development, F10 supports e-commerce channel work, and F26 shows KPI reporting; direct vacation-rental portfolio experience is not evidenced.",
+    "needs": "Agoda is a well-established regional travel platform, and the posting offers ownership of a partner portfolio.",
+    "paid": "estimate, THB 35,000-55,000 per month -> about THB 45,000/month. Estimated gross monthly range for a Bangkok account specialist role requiring prior commercial experience; the posting states no salary."
+   },
+   "summary": "The account work fits his interests, but the required prior experience is the main eligibility barrier.",
+   "facts": {
+    "min_years_experience": 2,
+    "gpa_floor": null,
+    "start_kind": "immediate",
+    "start_date": null,
+    "graduation_years": [],
+    "degree_completed_required": null,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "full_time",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 45000.0
+   },
+   "jd_text": "Manage a portfolio of vacation-rental partners and grow their bookings on Agoda. Requirements: minimum 2 years of experience in business development, account management or sales; strong negotiation skills; fluent Thai and English; data-driven mindset. Full-time, Bangkok.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 4,
+   "rank": null,
+   "company": "Krungthai Bank",
+   "title": "Management Trainee Program 2027",
+   "location": "Bangkok, Thailand",
+   "source": "manual",
+   "url": "https://krungthai.com/careers/management-trainee-2027",
+   "posted_at": null,
+   "first_seen_at": "2026-11-07T15:16:19Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": 3,
+    "good_at": null,
+    "needs": 4,
+    "paid": 2
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 2
+   },
+   "mean": 3.0,
+   "gate": {
+    "result": "fail",
+    "fails": [
+     "Requires a minimum GPA of 3.00; your GPAX is 2.48 (transcript)."
+    ],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "The programme offers corporate banking, retail banking and digital rotations, fitting his interest in finance graduate programmes.",
+    "good_at": "The posting does not specify skill requirements to assess against his finance coursework and commercial experience in F60 and F26.",
+    "needs": "The posting offers structured rotations across banking and digital functions at an established Thai bank.",
+    "paid": "estimate, THB 25,000-40,000 per month -> about THB 32,500/month. Estimated gross monthly range for a Bangkok bank management trainee programme; the posting states no salary."
+   },
+   "summary": "The programme offers useful banking exposure, but its GPA floor makes him ineligible.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": 3.0,
+    "start_kind": "fixed_date",
+    "start_date": "2027-07",
+    "graduation_years": [
+     2026,
+     2027
+    ],
+    "degree_completed_required": null,
+    "required_languages": [],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 32500.0
+   },
+   "jd_text": "Krungthai Management Trainee Program for new graduates. Rotations across corporate banking, retail banking and digital. Requirements: bachelor's degree in business, finance, economics or related fields; minimum GPA 3.00; Thai nationality; graduating in 2026 or 2027. Programme starts July 2027.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 5,
+   "rank": null,
+   "company": "Deliveree (Thailand) Limited",
+   "title": "Fresh Graduate Management Trainee Program (MT)",
+   "location": "Bangkok",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/95340875",
+   "posted_at": null,
+   "first_seen_at": "2026-11-07T15:16:19Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": null,
+    "needs": 4,
+    "paid": 1
+   },
+   "paid_estimated": false,
+   "weakest": {
+    "circle": "paid",
+    "score": 1
+   },
+   "mean": 3.3333,
+   "gate": {
+    "result": "fail",
+    "fails": [
+     "Requires a minimum GPA of 2.70; your GPAX is 2.48 (transcript).",
+     "Requires the degree to be completed when you apply; yours is conferred after May 2027."
+    ],
+    "questions": [
+     "Hiring immediately; you are available from 2027-06. Will they hold the role until then?"
+    ]
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "The MT programme rotates through operations, sales and marketing, matching his commercial interests.",
+    "good_at": "The posting does not specify enough skill requirements to assess his fit, although F10, F21 and F26 show relevant commercial and operational work.",
+    "needs": "The posting describes a structured programme with rotations across three functions.",
+    "paid": "THB 25,000-30,000 per month -> about THB 27,500/month. The posting states a salary of THB 25,000 to 30,000 per month."
+   },
+   "summary": "The rotations fit his interests, but the completed-degree requirement and GPA floor make him ineligible.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": 2.7,
+    "start_kind": "immediate",
+    "start_date": null,
+    "graduation_years": [],
+    "degree_completed_required": true,
+    "required_languages": [],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": 25000,
+    "max": 30000,
+    "currency": "THB",
+    "period": "month",
+    "stated": true,
+    "thb_month_mid": 27500.0
+   },
+   "jd_text": "We are looking for fresh graduates who have completed a bachelor's degree, with GPA 2.70 or above, to join our 12-month MT program rotating across operations, sales and marketing. Start: immediately. Salary 25,000-30,000 THB/month.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 6,
+   "rank": null,
+   "company": "Example FMCG Co.",
+   "title": "Senior Key Account Manager - Modern Trade",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000001",
+   "posted_at": null,
+   "first_seen_at": "2026-11-07T15:16:19Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "paid_estimated": false,
+   "weakest": null,
+   "mean": null,
+   "gate": {
+    "result": null,
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": "title_exclude: \\bsenior\\b",
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "summary": null,
+   "facts": {},
+   "salary": null,
+   "jd_text": "Lead modern trade key accounts. 7+ years of FMCG key account experience required.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 7,
+   "rank": null,
+   "company": "Lalamove",
+   "title": "Graduate Trainee Program 2027",
+   "location": "Hong Kong",
+   "source": "manual",
+   "url": "https://www.lalamove.com/careers/graduate-trainee-program-2027",
+   "posted_at": null,
+   "first_seen_at": "2026-11-07T15:16:19Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 3,
+    "needs": 5,
+    "paid": 5
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 3
+   },
+   "mean": 4.5,
+   "gate": {
+    "result": "ask",
+    "fails": [],
+    "questions": [
+     "Based in Hong Kong, Hong Kong; that needs a visa and relocation. Is that acceptable?"
+    ]
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "The graduate programme rotates through operations, business development and strategy, matching his commercial interests.",
+    "good_at": "The posting lists rotations but gives too little detail on skill requirements; F10, F21 and F26 provide relevant commercial and strategy evidence.",
+    "needs": "The posting describes structured rotations across three functions at Lalamove, a well-established regional logistics company.",
+    "paid": "estimate, HKD 18,000-26,000 per month -> about THB 92,400/month. Estimated gross monthly range for a Hong Kong graduate trainee role; the posting states no salary."
+   },
+   "summary": "Commercial rotations are attractive, but confirm visa sponsorship and whether the Hong Kong salary covers living costs.",
+   "facts": {
+    "min_years_experience": null,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-08",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": null,
+    "required_languages": [
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Hong Kong",
+    "location_country": "Hong Kong",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 92400.0
+   },
+   "jd_text": "Lalamove Graduate Trainee Program for 2027 graduates, based in Hong Kong, starting August 2027. Rotations across operations, business development and strategy. Requirements: bachelor's degree graduating 2027; Chinese is highly preferred; English fluency. Applications close 31 December 2026.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 101,
+   "rank": null,
+   "company": "Unilever Thailand",
+   "title": "Unilever Future Leaders Programme 2027 - Customer Development",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000101",
+   "posted_at": "2026-11-05T17:05:00Z",
+   "first_seen_at": "2026-11-06T17:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 4,
+    "needs": 5,
+    "paid": 4
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 4
+   },
+   "mean": 4.5,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Commercial rotation in FMCG / e-commerce, one of his preferred tracks.",
+    "good_at": "F20 and F25 show leadership and communication in a student-run company; F26 shows Excel reporting.",
+    "needs": "Structured rotations and a published path to manager at a growing regional company.",
+    "paid": "Estimate: the posting states no salary. THB 50,000-65,000 per month. for a comparable Bangkok graduate role."
+   },
+   "summary": "Good commercial fit with a clear growth path.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 55000
+   },
+   "jd_text": "Unilever Thailand is hiring for Unilever Future Leaders Programme 2027 - Customer Development in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 102,
+   "rank": null,
+   "company": "Nestlé Thailand",
+   "title": "Management Trainee - Sales (Modern Trade)",
+   "location": "Bangkok, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000102",
+   "posted_at": "2026-11-04T10:05:00Z",
+   "first_seen_at": "2026-11-06T10:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 4,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 3
+   },
+   "mean": 4.0,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Commercial rotation in FMCG / e-commerce, one of his preferred tracks.",
+    "good_at": "F20 and F25 show leadership and communication in a student-run company; F26 shows Excel reporting.",
+    "needs": "Established company with formal training for graduates.",
+    "paid": "Estimate: the posting states no salary. about THB 40,000-50,000 per month for a Bangkok graduate programme. for a comparable Bangkok graduate role."
+   },
+   "summary": "Good commercial fit with a clear growth path.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 42500
+   },
+   "jd_text": "Nestlé Thailand is hiring for Management Trainee - Sales (Modern Trade) in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 103,
+   "rank": null,
+   "company": "L'Oréal Thailand",
+   "title": "SeedZ Management Trainee - E-Commerce",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000103",
+   "posted_at": "2026-11-03T03:05:00Z",
+   "first_seen_at": "2026-11-06T03:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 4,
+    "needs": 4,
+    "paid": 4
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 4
+   },
+   "mean": 4.25,
+   "gate": {
+    "result": "ask",
+    "fails": [],
+    "questions": [
+     "The posting asks for TOEIC 750 or IELTS 6.5. Do you have a recent score?"
+    ]
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Commercial rotation in FMCG / e-commerce, one of his preferred tracks.",
+    "good_at": "F20 and F25 show leadership and communication in a student-run company; F26 shows Excel reporting.",
+    "needs": "Established company with formal training for graduates.",
+    "paid": "Estimate: the posting states no salary. THB 50,000-65,000 per month. for a comparable Bangkok graduate role."
+   },
+   "summary": "Strong fit on role and growth; confirm the open questions before applying.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 55000
+   },
+   "jd_text": "L'Oréal Thailand is hiring for SeedZ Management Trainee - E-Commerce in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 104,
+   "rank": null,
+   "company": "Shopee",
+   "title": "Seller Relationship Management (MKP) - Fresh Graduate",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000104",
+   "posted_at": null,
+   "first_seen_at": "2026-11-05T20:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 4,
+    "good_at": 5,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 3
+   },
+   "mean": 4.0,
+   "gate": {
+    "result": "ask",
+    "fails": [],
+    "questions": [
+     "Hiring immediately; you are available from 2027-06. Will they hold the role until then?",
+     "Based in Bangkok with occasional travel to the Singapore office. Is that acceptable?",
+     "The posting also requires: own transport for warehouse visits. Do you meet it?"
+    ]
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Customer-facing commercial work close to his preferred Key Account track.",
+    "good_at": "F10 and F21 match the partnership and seller work; F26 shows the reporting the JD asks for.",
+    "needs": "Established company with formal training for graduates.",
+    "paid": "Estimate: the posting states no salary. about THB 40,000-50,000 per month for a Bangkok graduate programme. for a comparable Bangkok graduate role."
+   },
+   "summary": "Strong fit on role and growth; confirm the open questions before applying.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "immediate",
+    "start_date": null,
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 42500
+   },
+   "jd_text": "Shopee is hiring for Seller Relationship Management (MKP) - Fresh Graduate in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 105,
+   "rank": null,
+   "company": "Grab Thailand",
+   "title": "Associate, Key Account Management (GrabFood)",
+   "location": "Bangkok, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000105",
+   "posted_at": "2026-10-31T13:05:00Z",
+   "first_seen_at": "2026-11-05T13:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 4,
+    "needs": 3,
+    "paid": 3
+   },
+   "paid_estimated": false,
+   "weakest": {
+    "circle": "needs",
+    "score": 3
+   },
+   "mean": 3.75,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Commercial rotation in FMCG / e-commerce, one of his preferred tracks.",
+    "good_at": "F20 and F25 show leadership and communication in a student-run company; F26 shows Excel reporting.",
+    "needs": "Stable employer, but the JD names no development path.",
+    "paid": "THB 40,000-45,000 per month stated in the posting -> about THB 42,500/month."
+   },
+   "summary": "Good commercial fit with a clear growth path.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": 40000,
+    "max": 45000,
+    "currency": "THB",
+    "period": "month",
+    "stated": true,
+    "thb_month_mid": 42500.0
+   },
+   "jd_text": "Grab Thailand is hiring for Associate, Key Account Management (GrabFood) in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 106,
+   "rank": null,
+   "company": "Mondelēz Thailand",
+   "title": "Taste The Future Management Trainee - Commercial",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000106",
+   "posted_at": "2026-10-30T06:05:00Z",
+   "first_seen_at": "2026-11-05T06:05:00Z",
+   "verdict": "HOLD",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 3,
+    "needs": 4,
+    "paid": null
+   },
+   "paid_estimated": false,
+   "weakest": {
+    "circle": "good_at",
+    "score": 3
+   },
+   "mean": 4.0,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Commercial rotation in FMCG / e-commerce, one of his preferred tracks.",
+    "good_at": "Some overlap via F26 (reporting); the domain experience the JD wants is not evidenced.",
+    "needs": "Established company with formal training for graduates.",
+    "paid": "The posting does not say enough to score this circle."
+   },
+   "summary": "Good commercial fit with a clear growth path.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": null,
+   "jd_text": "Mondelēz Thailand is hiring for Taste The Future Management Trainee - Commercial in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 107,
+   "rank": null,
+   "company": "บริษัท ไทยเบฟเวอเรจ จำกัด (มหาชน)",
+   "title": "เจ้าหน้าที่บริหารลูกค้าองค์กร (Key Account Associate) - ช่องทางโมเดิร์นเทรด",
+   "location": "กรุงเทพมหานคร",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000107",
+   "posted_at": "2026-10-28T23:05:00Z",
+   "first_seen_at": "2026-11-04T23:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 4,
+    "good_at": 3,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 3
+   },
+   "mean": 3.5,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Customer-facing commercial work close to his preferred Key Account track.",
+    "good_at": "Some overlap via F26 (reporting); the domain experience the JD wants is not evidenced.",
+    "needs": "Established company with formal training for graduates.",
+    "paid": "Estimate: the posting states no salary. about THB 40,000-50,000 per month for a Bangkok graduate programme. for a comparable Bangkok graduate role."
+   },
+   "summary": "Good commercial fit with a clear growth path.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "กรุงเทพมหานคร",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 42500
+   },
+   "jd_text": "ตำแหน่งนี้ดูแลลูกค้ากลุ่มโมเดิร์นเทรด วางแผนโปรโมชั่นร่วมกับคู่ค้า ติดตามยอดขายรายสัปดาห์ คุณสมบัติ: ปริญญาตรีทุกสาขา จบปี 2569-2570 สื่อสารภาษาไทยและอังกฤษได้ดี ใช้ Excel ได้คล่อง",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 108,
+   "rank": null,
+   "company": "Siam Piwat",
+   "title": "Management Trainee Program - Retail & Leasing",
+   "location": "Bangkok, Thailand",
+   "source": "manual",
+   "url": "https://example.invalid/jobs/108",
+   "posted_at": null,
+   "first_seen_at": "2026-11-04T16:05:00Z",
+   "verdict": "HOLD",
+   "status": "new",
+   "scores": {
+    "love": null,
+    "good_at": 4,
+    "needs": 4,
+    "paid": null
+   },
+   "paid_estimated": false,
+   "weakest": {
+    "circle": "good_at",
+    "score": 4
+   },
+   "mean": 4.0,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "The posting does not say enough to score this circle.",
+    "good_at": "F20 and F25 show leadership and communication in a student-run company; F26 shows Excel reporting.",
+    "needs": "Established company with formal training for graduates.",
+    "paid": "The posting does not say enough to score this circle."
+   },
+   "summary": "Good commercial fit with a clear growth path.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": null,
+   "jd_text": "Siam Piwat is hiring for Management Trainee Program - Retail & Leasing in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 109,
+   "rank": null,
+   "company": "DKSH Thailand",
+   "title": "Management Trainee - Client Management, Consumer Goods Business Unit, Bangkok Head Office (2027 intake, rotations across Sales, Marketing and Supply Chain)",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000109",
+   "posted_at": "2026-11-04T09:05:00Z",
+   "first_seen_at": "2026-11-04T09:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 4,
+    "good_at": 4,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 3
+   },
+   "mean": 3.75,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Customer-facing commercial work close to his preferred Key Account track.",
+    "good_at": "F20 and F25 show leadership and communication in a student-run company; F26 shows Excel reporting.",
+    "needs": "Established company with formal training for graduates.",
+    "paid": "Estimate: the posting states no salary. about THB 40,000-50,000 per month for a Bangkok graduate programme. for a comparable Bangkok graduate role."
+   },
+   "summary": "Good commercial fit with a clear growth path.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 42500
+   },
+   "jd_text": "DKSH Thailand is hiring for Management Trainee - Client Management, Consumer Goods Business Unit, Bangkok Head Office (2027 intake, rotations across Sales, Marketing and Supply Chain) in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 110,
+   "rank": null,
+   "company": "Lazada Thailand",
+   "title": "LazMall Brand Partnership Associate",
+   "location": "Bangkok, Thailand",
+   "source": "gmail",
+   "url": "https://example.invalid/jobs/110",
+   "posted_at": "2026-11-03T02:05:00Z",
+   "first_seen_at": "2026-11-04T02:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 4,
+    "needs": 3,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "needs",
+    "score": 3
+   },
+   "mean": 3.75,
+   "gate": {
+    "result": "ask",
+    "fails": [],
+    "questions": [
+     "Hiring immediately; you are available from 2027-06. Will they hold the role until then?"
+    ]
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Commercial rotation in FMCG / e-commerce, one of his preferred tracks.",
+    "good_at": "F20 and F25 show leadership and communication in a student-run company; F26 shows Excel reporting.",
+    "needs": "Stable employer, but the JD names no development path.",
+    "paid": "Estimate: the posting states no salary. about THB 40,000-50,000 per month for a Bangkok graduate programme. for a comparable Bangkok graduate role."
+   },
+   "summary": "Strong fit on role and growth; confirm the open questions before applying.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "immediate",
+    "start_date": null,
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 42500
+   },
+   "jd_text": null,
+   "jd_missing": true,
+   "email_snippet": "LazMall Brand Partnership Associate - Lazada Thailand - Bangkok. Work with flagship brands on campaign plans and store growth. Apply by 30 Nov."
+  },
+  {
+   "id": 111,
+   "rank": null,
+   "company": "ShopBack",
+   "title": "Management Associate - SEA Regional Track",
+   "location": "Singapore",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/example/jobs/8000111",
+   "posted_at": "2026-11-01T19:05:00Z",
+   "first_seen_at": "2026-11-03T19:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 4,
+    "needs": 5,
+    "paid": 5
+   },
+   "paid_estimated": false,
+   "weakest": {
+    "circle": "good_at",
+    "score": 4
+   },
+   "mean": 4.75,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Commercial rotation in FMCG / e-commerce, one of his preferred tracks.",
+    "good_at": "F20 and F25 show leadership and communication in a student-run company; F26 shows Excel reporting.",
+    "needs": "Structured rotations and a published path to manager at a growing regional company.",
+    "paid": "SGD 4,200-4,800 per month stated in the posting -> about THB 108,000/month."
+   },
+   "summary": "Good commercial fit with a clear growth path.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Singapore",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": 4200,
+    "max": 4800,
+    "currency": "SGD",
+    "period": "month",
+    "stated": true,
+    "thb_month_mid": 108000
+   },
+   "jd_text": "ShopBack is hiring for Management Associate - SEA Regional Track in Singapore. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 112,
+   "rank": null,
+   "company": "P&G Thailand",
+   "title": "Account Manager, Customer Business Development",
+   "location": "Bangkok, Thailand",
+   "source": "workday",
+   "url": "https://example.wd3.myworkdayjobs.com/en-US/careers/job/112",
+   "posted_at": null,
+   "first_seen_at": "2026-11-03T12:05:00Z",
+   "verdict": "CENTRE",
+   "status": "to_apply",
+   "scores": {
+    "love": 5,
+    "good_at": 5,
+    "needs": 5,
+    "paid": 4
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 4
+   },
+   "mean": 4.75,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": {
+    "file": "61 Application Records/P&G Thailand — ⭐ Account Manager, Customer Business Development.md",
+    "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FP%26G%20Thailand%20%E2%80%94%20%E2%AD%90%20Account%20Manager%2C%20Customer%20Business%20Development.md",
+    "my_status": "To apply"
+   },
+   "error": null,
+   "reasons": {
+    "love": "Commercial rotation in FMCG / e-commerce, one of his preferred tracks.",
+    "good_at": "F10 and F21 match the partnership and seller work; F26 shows the reporting the JD asks for.",
+    "needs": "Structured rotations and a published path to manager at a growing regional company.",
+    "paid": "Estimate: the posting states no salary. THB 50,000-65,000 per month. for a comparable Bangkok graduate role."
+   },
+   "summary": "Good commercial fit with a clear growth path.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 55000
+   },
+   "jd_text": "P&G Thailand is hiring for Account Manager, Customer Business Development in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 113,
+   "rank": null,
+   "company": "Ninja Van Thailand",
+   "title": "Sales Executive (B2B Logistics)",
+   "location": "Bangkok, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000113",
+   "posted_at": "2026-10-30T05:05:00Z",
+   "first_seen_at": "2026-11-03T05:05:00Z",
+   "verdict": "LOW",
+   "status": "new",
+   "scores": {
+    "love": 3,
+    "good_at": 3,
+    "needs": 2,
+    "paid": 2
+   },
+   "paid_estimated": false,
+   "weakest": {
+    "circle": "needs",
+    "score": 2
+   },
+   "mean": 2.5,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Partly commercial; much of the role is back-office support.",
+    "good_at": "Some overlap via F26 (reporting); the domain experience the JD wants is not evidenced.",
+    "needs": "Small team with no visible training or growth path.",
+    "paid": "THB 25,000-32,000 per month stated in the posting -> about THB 28,500/month."
+   },
+   "summary": "Weak on pay and growth compared with the graduate programmes on the board.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": 25000,
+    "max": 32000,
+    "currency": "THB",
+    "period": "month",
+    "stated": true,
+    "thb_month_mid": 28500.0
+   },
+   "jd_text": "Ninja Van Thailand is hiring for Sales Executive (B2B Logistics) in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 114,
+   "rank": null,
+   "company": "Krungsri (Bank of Ayudhya)",
+   "title": "Relationship Manager Trainee - SME Banking",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000114",
+   "posted_at": "2026-10-28T22:05:00Z",
+   "first_seen_at": "2026-11-02T22:05:00Z",
+   "verdict": "LOW",
+   "status": "new",
+   "scores": {
+    "love": 3,
+    "good_at": 3,
+    "needs": 4,
+    "paid": 2
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 2
+   },
+   "mean": 3.0,
+   "gate": {
+    "result": "ask",
+    "fails": [],
+    "questions": [
+     "The posting asks for an investment consultant licence (IC). Can you get it before the start date?"
+    ]
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Partly commercial; much of the role is back-office support.",
+    "good_at": "Some overlap via F26 (reporting); the domain experience the JD wants is not evidenced.",
+    "needs": "Established company with formal training for graduates.",
+    "paid": "Estimate: the posting states no salary. about THB 30,000-40,000 per month. for a comparable Bangkok graduate role."
+   },
+   "summary": "Strong fit on role and growth; confirm the open questions before applying.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 35000
+   },
+   "jd_text": "Krungsri (Bank of Ayudhya) is hiring for Relationship Manager Trainee - SME Banking in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 115,
+   "rank": null,
+   "company": "Thai Union Group",
+   "title": "Global Management Associate Program",
+   "location": "Samut Sakhon, Thailand",
+   "source": "smartrecruiters",
+   "url": "https://jobs.smartrecruiters.com/Example/115",
+   "posted_at": "2026-10-27T15:05:00Z",
+   "first_seen_at": "2026-11-02T15:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 4,
+    "good_at": 3,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 3
+   },
+   "mean": 3.5,
+   "gate": {
+    "result": "ask",
+    "fails": [],
+    "questions": [
+     "Based in Samut Sakhon (upcountry). Is a daily commute or relocation acceptable?"
+    ]
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Customer-facing commercial work close to his preferred Key Account track.",
+    "good_at": "Some overlap via F26 (reporting); the domain experience the JD wants is not evidenced.",
+    "needs": "Established company with formal training for graduates.",
+    "paid": "Estimate: the posting states no salary. about THB 40,000-50,000 per month for a Bangkok graduate programme. for a comparable Bangkok graduate role."
+   },
+   "summary": "Strong fit on role and growth; confirm the open questions before applying.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Samut Sakhon",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 42500
+   },
+   "jd_text": "Thai Union Group is hiring for Global Management Associate Program in Samut Sakhon, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 116,
+   "rank": null,
+   "company": "Example Logistics Co.",
+   "title": "Warehouse Admin Officer",
+   "location": "Chonburi, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000116",
+   "posted_at": null,
+   "first_seen_at": "2026-11-02T08:05:00Z",
+   "verdict": "LOW",
+   "status": "new",
+   "scores": {
+    "love": 1,
+    "good_at": 2,
+    "needs": 2,
+    "paid": 1
+   },
+   "paid_estimated": false,
+   "weakest": {
+    "circle": "love",
+    "score": 1
+   },
+   "mean": 1.5,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Role is far from the tracks he wants (e.g. engineering or pure audit).",
+    "good_at": "The JD asks for sales quota experience that facts.md does not evidence.",
+    "needs": "Small team with no visible training or growth path.",
+    "paid": "THB 15,000-18,000 per month stated in the posting -> about THB 16,500/month."
+   },
+   "summary": "Weak on pay and growth compared with the graduate programmes on the board.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Chonburi",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": 15000,
+    "max": 18000,
+    "currency": "THB",
+    "period": "month",
+    "stated": true,
+    "thb_month_mid": 16500.0
+   },
+   "jd_text": "Example Logistics Co. is hiring for Warehouse Admin Officer in Chonburi, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 117,
+   "rank": null,
+   "company": "Agoda",
+   "title": "Commercial Finance Analyst",
+   "location": "Bangkok, Thailand",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/example/jobs/8000117",
+   "posted_at": "2026-10-25T01:05:00Z",
+   "first_seen_at": "2026-11-02T01:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 3,
+    "good_at": 4,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "love",
+    "score": 3
+   },
+   "mean": 3.5,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Partly commercial; much of the role is back-office support.",
+    "good_at": "F20 and F25 show leadership and communication in a student-run company; F26 shows Excel reporting.",
+    "needs": "Established company with formal training for graduates.",
+    "paid": "Estimate: the posting states no salary. about THB 40,000-50,000 per month for a Bangkok graduate programme. for a comparable Bangkok graduate role."
+   },
+   "summary": "Good commercial fit with a clear growth path.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 42500
+   },
+   "jd_text": "Agoda is hiring for Commercial Finance Analyst in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 118,
+   "rank": null,
+   "company": "Central Retail",
+   "title": "Data Engineer Graduate",
+   "location": "Bangkok, Thailand",
+   "source": "lever",
+   "url": "https://jobs.lever.co/example/0118-0000",
+   "posted_at": "2026-11-01T18:05:00Z",
+   "first_seen_at": "2026-11-01T18:05:00Z",
+   "verdict": "LOW",
+   "status": "new",
+   "scores": {
+    "love": 2,
+    "good_at": 1,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 1
+   },
+   "mean": 2.5,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Mostly operations or admin work outside his preferred tracks.",
+    "good_at": "Requires technical skills not in facts.md.",
+    "needs": "Established company with formal training for graduates.",
+    "paid": "Estimate: the posting states no salary. about THB 40,000-50,000 per month for a Bangkok graduate programme. for a comparable Bangkok graduate role."
+   },
+   "summary": "Weak on pay and growth compared with the graduate programmes on the board.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 42500
+   },
+   "jd_text": "Central Retail is hiring for Data Engineer Graduate in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 119,
+   "rank": null,
+   "company": "Boon Rawd (Singha)",
+   "title": "Singha Management Trainee 2027",
+   "location": "Bangkok, Thailand",
+   "source": "manual",
+   "url": "https://example.invalid/jobs/119",
+   "posted_at": "2026-10-31T11:05:00Z",
+   "first_seen_at": "2026-11-01T11:05:00Z",
+   "verdict": "LOW",
+   "status": "new",
+   "scores": {
+    "love": 4,
+    "good_at": 3,
+    "needs": 4,
+    "paid": 2
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 2
+   },
+   "mean": 3.25,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Customer-facing commercial work close to his preferred Key Account track.",
+    "good_at": "Some overlap via F26 (reporting); the domain experience the JD wants is not evidenced.",
+    "needs": "Established company with formal training for graduates.",
+    "paid": "Estimate: the posting states no salary. about THB 30,000-40,000 per month. for a comparable Bangkok graduate role."
+   },
+   "summary": "Weak on pay and growth compared with the graduate programmes on the board.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 35000
+   },
+   "jd_text": "Boon Rawd (Singha) is hiring for Singha Management Trainee 2027 in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 120,
+   "rank": null,
+   "company": "Accenture",
+   "title": "Strategy Analyst - Commodity Markets",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000120",
+   "posted_at": null,
+   "first_seen_at": "2026-11-01T04:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 4,
+    "good_at": 3,
+    "needs": 4,
+    "paid": 4
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 3
+   },
+   "mean": 3.75,
+   "gate": {
+    "result": "ask",
+    "fails": [],
+    "questions": [
+     "Start date not stated. Will they hold a June 2027 start for a May 2027 graduate?"
+    ]
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Customer-facing commercial work close to his preferred Key Account track.",
+    "good_at": "Some overlap via F26 (reporting); the domain experience the JD wants is not evidenced.",
+    "needs": "Established company with formal training for graduates.",
+    "paid": "Estimate: the posting states no salary. THB 50,000-65,000 per month. for a comparable Bangkok graduate role."
+   },
+   "summary": "Strong fit on role and growth; confirm the open questions before applying.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 55000
+   },
+   "jd_text": "Accenture is hiring for Strategy Analyst - Commodity Markets in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 130,
+   "rank": null,
+   "company": "Bangkok Bank",
+   "title": "Management Trainee 2027",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000130",
+   "posted_at": "2026-10-28T21:05:00Z",
+   "first_seen_at": "2026-10-31T21:05:00Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": 3,
+    "good_at": 3,
+    "needs": 4,
+    "paid": 2
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 2
+   },
+   "mean": 3.0,
+   "gate": {
+    "result": "fail",
+    "fails": [
+     "Requires a minimum GPA of 3.25; your GPAX is 2.48 (transcript)."
+    ],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Partly commercial; much of the role is back-office support.",
+    "good_at": "Some overlap via F26 (reporting); the domain experience the JD wants is not evidenced.",
+    "needs": "Established company with formal training for graduates.",
+    "paid": "Estimate: the posting states no salary. about THB 30,000-40,000 per month. for a comparable Bangkok graduate role."
+   },
+   "summary": "Eligibility barrier: see the gate reasons.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": 3.25,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 35000
+   },
+   "jd_text": "Bangkok Bank is hiring for Management Trainee 2027 in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 131,
+   "rank": null,
+   "company": "McKinsey & Company",
+   "title": "Business Analyst - Bangkok",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000131",
+   "posted_at": "2026-10-27T14:05:00Z",
+   "first_seen_at": "2026-10-31T14:05:00Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": 4,
+    "good_at": 3,
+    "needs": 5,
+    "paid": 5
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 3
+   },
+   "mean": 4.25,
+   "gate": {
+    "result": "fail",
+    "fails": [
+     "Requires the degree to be completed when you apply; yours is conferred after May 2027."
+    ],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Customer-facing commercial work close to his preferred Key Account track.",
+    "good_at": "Some overlap via F26 (reporting); the domain experience the JD wants is not evidenced.",
+    "needs": "Structured rotations and a published path to manager at a growing regional company.",
+    "paid": "Estimate: the posting states no salary. THB 65,000+ per month. for a comparable Bangkok graduate role."
+   },
+   "summary": "Eligibility barrier: see the gate reasons.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 70000
+   },
+   "jd_text": "McKinsey & Company is hiring for Business Analyst - Bangkok in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 132,
+   "rank": null,
+   "company": "HEINEKEN Thailand",
+   "title": "Key Account Manager - On Trade",
+   "location": "Bangkok, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000132",
+   "posted_at": "2026-10-26T07:05:00Z",
+   "first_seen_at": "2026-10-31T07:05:00Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 3,
+    "needs": 4,
+    "paid": 4
+   },
+   "paid_estimated": false,
+   "weakest": {
+    "circle": "good_at",
+    "score": 3
+   },
+   "mean": 4.0,
+   "gate": {
+    "result": "fail",
+    "fails": [
+     "Requires at least 3 years of experience; you have 0 years (student-run companies are not corporate experience)."
+    ],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Commercial rotation in FMCG / e-commerce, one of his preferred tracks.",
+    "good_at": "Some overlap via F26 (reporting); the domain experience the JD wants is not evidenced.",
+    "needs": "Established company with formal training for graduates.",
+    "paid": "THB 50,000-60,000 per month stated in the posting -> about THB 55,000/month."
+   },
+   "summary": "Eligibility barrier: see the gate reasons.",
+   "facts": {
+    "min_years_experience": 3,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": 50000,
+    "max": 60000,
+    "currency": "THB",
+    "period": "month",
+    "stated": true,
+    "thb_month_mid": 55000.0
+   },
+   "jd_text": "HEINEKEN Thailand is hiring for Key Account Manager - On Trade in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 133,
+   "rank": null,
+   "company": "Mars Wrigley Vietnam",
+   "title": "Graduate Trainee - Sales",
+   "location": "Ho Chi Minh City, Vietnam",
+   "source": "workday",
+   "url": "https://example.wd3.myworkdayjobs.com/en-US/careers/job/133",
+   "posted_at": null,
+   "first_seen_at": "2026-10-31T00:05:00Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": 4,
+    "good_at": 3,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 3
+   },
+   "mean": 3.5,
+   "gate": {
+    "result": "fail",
+    "fails": [
+     "Requires fluent Vietnamese; your languages are Thai and English."
+    ],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Customer-facing commercial work close to his preferred Key Account track.",
+    "good_at": "Some overlap via F26 (reporting); the domain experience the JD wants is not evidenced.",
+    "needs": "Established company with formal training for graduates.",
+    "paid": "Estimate: the posting states no salary. about THB 40,000-50,000 per month for a Bangkok graduate programme. for a comparable Bangkok graduate role."
+   },
+   "summary": "Eligibility barrier: see the gate reasons.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Ho Chi Minh City",
+    "location_country": "Vietnam",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 42500
+   },
+   "jd_text": "Mars Wrigley Vietnam is hiring for Graduate Trainee - Sales in Ho Chi Minh City, Vietnam. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 134,
+   "rank": null,
+   "company": "SCB",
+   "title": "Management Trainee Program (Business track)",
+   "location": "Bangkok, Thailand",
+   "source": "manual",
+   "url": "https://example.invalid/jobs/134",
+   "posted_at": "2026-10-23T17:05:00Z",
+   "first_seen_at": "2026-10-30T17:05:00Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": 3,
+    "good_at": 3,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "love",
+    "score": 3
+   },
+   "mean": 3.25,
+   "gate": {
+    "result": "fail",
+    "fails": [
+     "Requires a minimum GPA of 3.00; your GPAX is 2.48 (transcript).",
+     "Accepts graduation years 2025-2026 only; you graduate in 2027."
+    ],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Partly commercial; much of the role is back-office support.",
+    "good_at": "Some overlap via F26 (reporting); the domain experience the JD wants is not evidenced.",
+    "needs": "Established company with formal training for graduates.",
+    "paid": "Estimate: the posting states no salary. about THB 40,000-50,000 per month for a Bangkok graduate programme. for a comparable Bangkok graduate role."
+   },
+   "summary": "Eligibility barrier: see the gate reasons.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": 3.0,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 42500
+   },
+   "jd_text": "SCB is hiring for Management Trainee Program (Business track) in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 140,
+   "rank": null,
+   "company": "Example FMCG Co.",
+   "title": "Senior Brand Manager",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000140",
+   "posted_at": "2026-10-22T10:05:00Z",
+   "first_seen_at": "2026-10-30T10:05:00Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "paid_estimated": false,
+   "weakest": null,
+   "mean": null,
+   "gate": {
+    "result": null,
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": "title_exclude: \\bsenior\\b",
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "summary": null,
+   "facts": {},
+   "salary": null,
+   "jd_text": "Example FMCG Co. is hiring for Senior Brand Manager in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 141,
+   "rank": null,
+   "company": "Shopee",
+   "title": "Lead Software Engineer, Payments",
+   "location": "Singapore",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000141",
+   "posted_at": "2026-10-30T03:05:00Z",
+   "first_seen_at": "2026-10-30T03:05:00Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "paid_estimated": false,
+   "weakest": null,
+   "mean": null,
+   "gate": {
+    "result": null,
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": "title_exclude: \\b(engineer|developer)\\b",
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "summary": null,
+   "facts": {},
+   "salary": null,
+   "jd_text": "Shopee is hiring for Lead Software Engineer, Payments in Singapore. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 142,
+   "rank": null,
+   "company": "Example Co.",
+   "title": "Store Supervisor (posted 2025)",
+   "location": "Phuket, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000142",
+   "posted_at": null,
+   "first_seen_at": "2026-10-29T20:05:00Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "paid_estimated": false,
+   "weakest": null,
+   "mean": null,
+   "gate": {
+    "result": null,
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": "posted_within_days: posted 412 days ago (limit 45)",
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "summary": null,
+   "facts": {},
+   "salary": null,
+   "jd_text": "Example Co. is hiring for Store Supervisor (posted 2025) in Phuket, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 143,
+   "rank": null,
+   "company": "Lotus's",
+   "title": "Area Manager",
+   "location": "Khon Kaen, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000143",
+   "posted_at": "2026-10-27T13:05:00Z",
+   "first_seen_at": "2026-10-29T13:05:00Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "paid_estimated": false,
+   "weakest": null,
+   "mean": null,
+   "gate": {
+    "result": null,
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": "title_exclude: \\bmanager\\b (without trainee)",
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "summary": null,
+   "facts": {},
+   "salary": null,
+   "jd_text": "Lotus's is hiring for Area Manager in Khon Kaen, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 150,
+   "rank": null,
+   "company": "TikTok",
+   "title": "Creator Operation Graduate (TikTok LIVE) 2027",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000150",
+   "posted_at": "2026-10-26T06:05:00Z",
+   "first_seen_at": "2026-10-29T06:05:00Z",
+   "verdict": null,
+   "status": "new",
+   "scores": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "paid_estimated": false,
+   "weakest": null,
+   "mean": null,
+   "gate": {
+    "result": null,
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": "codex timeout after 120 s; will retry next run",
+   "reasons": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "summary": null,
+   "facts": {},
+   "salary": null,
+   "jd_text": "TikTok is hiring for Creator Operation Graduate (TikTok LIVE) 2027 in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 151,
+   "rank": null,
+   "company": "LINE MAN Wongnai",
+   "title": "Key Account Executive - Food AMG",
+   "location": "Bangkok, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000151",
+   "posted_at": "2026-10-24T23:05:00Z",
+   "first_seen_at": "2026-10-28T23:05:00Z",
+   "verdict": null,
+   "status": "new",
+   "scores": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "paid_estimated": false,
+   "weakest": null,
+   "mean": null,
+   "gate": {
+    "result": null,
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "summary": null,
+   "facts": {},
+   "salary": null,
+   "jd_text": "LINE MAN Wongnai is hiring for Key Account Executive - Food AMG in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 152,
+   "rank": null,
+   "company": "Monee (ShopeePay)",
+   "title": "Business Development - Digital Products",
+   "location": "Bangkok, Thailand",
+   "source": "gmail",
+   "url": "https://example.invalid/jobs/152",
+   "posted_at": null,
+   "first_seen_at": "2026-10-28T16:05:00Z",
+   "verdict": null,
+   "status": "new",
+   "scores": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "paid_estimated": false,
+   "weakest": null,
+   "mean": null,
+   "gate": {
+    "result": null,
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": "codex reply failed schema validation (scores.paid: 7 is above maximum 5)",
+   "reasons": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "summary": null,
+   "facts": {},
+   "salary": null,
+   "jd_text": "Monee (ShopeePay) is hiring for Business Development - Digital Products in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 160,
+   "rank": null,
+   "company": "Cartier Thailand",
+   "title": "Commercial - Retail Trainee",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000160",
+   "posted_at": "2026-10-22T09:05:00Z",
+   "first_seen_at": "2026-10-28T09:05:00Z",
+   "verdict": "CENTRE",
+   "status": "skipped",
+   "scores": {
+    "love": 3,
+    "good_at": 3,
+    "needs": 3,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "love",
+    "score": 3
+   },
+   "mean": 3.0,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Partly commercial; much of the role is back-office support.",
+    "good_at": "Some overlap via F26 (reporting); the domain experience the JD wants is not evidenced.",
+    "needs": "Stable employer, but the JD names no development path.",
+    "paid": "Estimate: the posting states no salary. about THB 40,000-50,000 per month for a Bangkok graduate programme. for a comparable Bangkok graduate role."
+   },
+   "summary": "Good commercial fit with a clear growth path.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 42500
+   },
+   "jd_text": "Cartier Thailand is hiring for Commercial - Retail Trainee in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 161,
+   "rank": null,
+   "company": "Prudential Thailand",
+   "title": "Agency Development Management Associate",
+   "location": "Bangkok, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000161",
+   "posted_at": "2026-10-21T02:05:00Z",
+   "first_seen_at": "2026-10-28T02:05:00Z",
+   "verdict": "LOW",
+   "status": "skipped",
+   "scores": {
+    "love": 2,
+    "good_at": 3,
+    "needs": 3,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "love",
+    "score": 2
+   },
+   "mean": 2.75,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Mostly operations or admin work outside his preferred tracks.",
+    "good_at": "Some overlap via F26 (reporting); the domain experience the JD wants is not evidenced.",
+    "needs": "Stable employer, but the JD names no development path.",
+    "paid": "Estimate: the posting states no salary. about THB 40,000-50,000 per month for a Bangkok graduate programme. for a comparable Bangkok graduate role."
+   },
+   "summary": "Weak on pay and growth compared with the graduate programmes on the board.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 42500
+   },
+   "jd_text": "Prudential Thailand is hiring for Agency Development Management Associate in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 162,
+   "rank": null,
+   "company": "Example Insurance",
+   "title": "Telesales Officer",
+   "location": "Bangkok, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000162",
+   "posted_at": "2026-10-19T19:05:00Z",
+   "first_seen_at": "2026-10-27T19:05:00Z",
+   "verdict": "FILTERED",
+   "status": "skipped",
+   "scores": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "paid_estimated": false,
+   "weakest": null,
+   "mean": null,
+   "gate": {
+    "result": null,
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": "title_exclude: \\btelesales\\b",
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "summary": null,
+   "facts": {},
+   "salary": null,
+   "jd_text": "Example Insurance is hiring for Telesales Officer in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 170,
+   "rank": null,
+   "company": "Beiersdorf (NIVEA)",
+   "title": "WINNERSHIP Graduate Program - Sales",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000170",
+   "posted_at": null,
+   "first_seen_at": "2026-10-27T12:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 3,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 3
+   },
+   "mean": 3.75,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Commercial rotation in FMCG / e-commerce, one of his preferred tracks.",
+    "good_at": "Some overlap via F26 (reporting); the domain experience the JD wants is not evidenced.",
+    "needs": "Established company with formal training for graduates.",
+    "paid": "Estimate: the posting states no salary. about THB 40,000-50,000 per month for a Bangkok graduate programme. for a comparable Bangkok graduate role."
+   },
+   "summary": "Good commercial fit with a clear growth path.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 42500
+   },
+   "jd_text": "Beiersdorf (NIVEA) is hiring for WINNERSHIP Graduate Program - Sales in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 171,
+   "rank": null,
+   "company": "Suntory PepsiCo",
+   "title": "Management Trainee (Sales - Commercial)",
+   "location": "Bangkok, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000171",
+   "posted_at": "2026-10-26T05:05:00Z",
+   "first_seen_at": "2026-10-27T05:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 4,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 3
+   },
+   "mean": 4.0,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Commercial rotation in FMCG / e-commerce, one of his preferred tracks.",
+    "good_at": "F20 and F25 show leadership and communication in a student-run company; F26 shows Excel reporting.",
+    "needs": "Established company with formal training for graduates.",
+    "paid": "Estimate: the posting states no salary. about THB 40,000-50,000 per month for a Bangkok graduate programme. for a comparable Bangkok graduate role."
+   },
+   "summary": "Good commercial fit with a clear growth path.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 42500
+   },
+   "jd_text": "Suntory PepsiCo is hiring for Management Trainee (Sales - Commercial) in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 172,
+   "rank": null,
+   "company": "JD Central",
+   "title": "Category Management Associate",
+   "location": "Bangkok, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000172",
+   "posted_at": "2026-10-24T22:05:00Z",
+   "first_seen_at": "2026-10-26T22:05:00Z",
+   "verdict": "LOW",
+   "status": "new",
+   "scores": {
+    "love": 4,
+    "good_at": 3,
+    "needs": 3,
+    "paid": 2
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 2
+   },
+   "mean": 3.0,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Customer-facing commercial work close to his preferred Key Account track.",
+    "good_at": "Some overlap via F26 (reporting); the domain experience the JD wants is not evidenced.",
+    "needs": "Stable employer, but the JD names no development path.",
+    "paid": "Estimate: the posting states no salary. about THB 30,000-40,000 per month. for a comparable Bangkok graduate role."
+   },
+   "summary": "Weak on pay and growth compared with the graduate programmes on the board.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 35000
+   },
+   "jd_text": "JD Central is hiring for Category Management Associate in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 173,
+   "rank": null,
+   "company": "Minor Food",
+   "title": "Management Trainee - Restaurants",
+   "location": "Bangkok, Thailand",
+   "source": "manual",
+   "url": "https://example.invalid/jobs/173",
+   "posted_at": "2026-10-23T15:05:00Z",
+   "first_seen_at": "2026-10-26T15:05:00Z",
+   "verdict": "LOW",
+   "status": "new",
+   "scores": {
+    "love": 3,
+    "good_at": 2,
+    "needs": 3,
+    "paid": 2
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 2
+   },
+   "mean": 2.5,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Partly commercial; much of the role is back-office support.",
+    "good_at": "The JD asks for sales quota experience that facts.md does not evidence.",
+    "needs": "Stable employer, but the JD names no development path.",
+    "paid": "Estimate: the posting states no salary. about THB 30,000-40,000 per month. for a comparable Bangkok graduate role."
+   },
+   "summary": "Weak on pay and growth compared with the graduate programmes on the board.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 35000
+   },
+   "jd_text": "Minor Food is hiring for Management Trainee - Restaurants in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 174,
+   "rank": null,
+   "company": "Kraft Heinz Thailand",
+   "title": "E-commerce Sales Coordinator",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000174",
+   "posted_at": null,
+   "first_seen_at": "2026-10-26T08:05:00Z",
+   "verdict": "LOW",
+   "status": "new",
+   "scores": {
+    "love": 4,
+    "good_at": 4,
+    "needs": 3,
+    "paid": 2
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 2
+   },
+   "mean": 3.25,
+   "gate": {
+    "result": "ask",
+    "fails": [],
+    "questions": [
+     "Contract role (12 months). Is a fixed-term contract acceptable?"
+    ]
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Customer-facing commercial work close to his preferred Key Account track.",
+    "good_at": "F20 and F25 show leadership and communication in a student-run company; F26 shows Excel reporting.",
+    "needs": "Stable employer, but the JD names no development path.",
+    "paid": "Estimate: the posting states no salary. about THB 30,000-40,000 per month. for a comparable Bangkok graduate role."
+   },
+   "summary": "Strong fit on role and growth; confirm the open questions before applying.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 35000
+   },
+   "jd_text": "Kraft Heinz Thailand is hiring for E-commerce Sales Coordinator in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 175,
+   "rank": null,
+   "company": "Gulf Development",
+   "title": "GULF Graduate Associate Program",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000175",
+   "posted_at": "2026-10-21T01:05:00Z",
+   "first_seen_at": "2026-10-26T01:05:00Z",
+   "verdict": "HOLD",
+   "status": "new",
+   "scores": {
+    "love": 3,
+    "good_at": 3,
+    "needs": 5,
+    "paid": null
+   },
+   "paid_estimated": false,
+   "weakest": {
+    "circle": "love",
+    "score": 3
+   },
+   "mean": 3.6667,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Partly commercial; much of the role is back-office support.",
+    "good_at": "Some overlap via F26 (reporting); the domain experience the JD wants is not evidenced.",
+    "needs": "Structured rotations and a published path to manager at a growing regional company.",
+    "paid": "The posting does not say enough to score this circle."
+   },
+   "summary": "Good commercial fit with a clear growth path.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": null,
+   "jd_text": "Gulf Development is hiring for GULF Graduate Associate Program in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  },
+  {
+   "id": 176,
+   "rank": null,
+   "company": "Michelin Thailand",
+   "title": "APAC Graduate Program - Marketing & Sales",
+   "location": "Bangkok, Thailand",
+   "source": "workday",
+   "url": "https://example.wd3.myworkdayjobs.com/en-US/careers/job/176",
+   "posted_at": "2026-10-19T18:05:00Z",
+   "first_seen_at": "2026-10-25T18:05:00Z",
+   "verdict": "CENTRE",
+   "status": "new",
+   "scores": {
+    "love": 4,
+    "good_at": 3,
+    "needs": 5,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 3
+   },
+   "mean": 3.75,
+   "gate": {
+    "result": "pass",
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null,
+   "reasons": {
+    "love": "Customer-facing commercial work close to his preferred Key Account track.",
+    "good_at": "Some overlap via F26 (reporting); the domain experience the JD wants is not evidenced.",
+    "needs": "Structured rotations and a published path to manager at a growing regional company.",
+    "paid": "Estimate: the posting states no salary. about THB 40,000-50,000 per month for a Bangkok graduate programme. for a comparable Bangkok graduate role."
+   },
+   "summary": "Good commercial fit with a clear growth path.",
+   "facts": {
+    "min_years_experience": 0,
+    "gpa_floor": null,
+    "start_kind": "fixed_date",
+    "start_date": "2027-06",
+    "graduation_years": [
+     2027
+    ],
+    "degree_completed_required": false,
+    "required_languages": [
+     "Thai",
+     "English"
+    ],
+    "required_test_scores": [],
+    "location_city": "Bangkok",
+    "location_country": "Thailand",
+    "remote": false,
+    "job_type": "graduate_programme",
+    "other_hard_requirements": []
+   },
+   "salary": {
+    "min": null,
+    "max": null,
+    "currency": "THB",
+    "period": "month",
+    "stated": false,
+    "thb_month_mid": 42500
+   },
+   "jd_text": "Michelin Thailand is hiring for APAC Graduate Program - Marketing & Sales in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+   "jd_missing": false,
+   "email_snippet": null
+  }
+ ],
+ "applications": [
+  {
+   "record_file": "61 Application Records/P&G Thailand — ⭐ Account Manager, Customer Business Development.md",
+   "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FP%26G%20Thailand%20%E2%80%94%20%E2%AD%90%20Account%20Manager%2C%20Customer%20Business%20Development.md",
+   "company": "P&G Thailand",
+   "program": "⭐ Account Manager, Customer Business Development",
+   "my_status": "To apply",
+   "section": "Apply now",
+   "date_applied": null,
+   "days_waiting": null,
+   "next_step": "Submit via the apply link. Cover email draft: job-hunt/data/drafts/2026-11-07_p-g-thailand_account-manager-customer-business-development.md",
+   "jobhunt_id": 112,
+   "link": "https://example.wd3.myworkdayjobs.com/en-US/careers/job/112",
+   "outcome_stage": null,
+   "outcome_reason_category": null,
+   "outcome_reason": null,
+   "outcome_date": null
+  },
+  {
+   "record_file": "61 Application Records/Agoda — Associate Analyst, Marketing (Bangkok).md",
+   "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FAgoda%20%E2%80%94%20Associate%20Analyst%2C%20Marketing%20%28Bangkok%29.md",
+   "company": "Agoda",
+   "program": "Associate Analyst, Marketing",
+   "my_status": "To apply",
+   "section": "Apply now",
+   "date_applied": null,
+   "days_waiting": null,
+   "next_step": "GATE: ask if a June 2027 start is possible before applying",
+   "jobhunt_id": 2,
+   "link": "https://job-boards.greenhouse.io/agoda/jobs/8194690",
+   "outcome_stage": null,
+   "outcome_reason_category": null,
+   "outcome_reason": null,
+   "outcome_date": null
+  },
+  {
+   "record_file": "61 Application Records/BCG — ⭐ Associate, Thailand.md",
+   "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FBCG%20%E2%80%94%20%E2%AD%90%20Associate%2C%20Thailand.md",
+   "company": "BCG",
+   "program": "⭐ Associate, Thailand",
+   "my_status": "To apply",
+   "section": "Apply now",
+   "date_applied": null,
+   "days_waiting": null,
+   "next_step": "Request alumni referral first, then apply on BCG careers; ask about a Bangkok June 2027 start",
+   "jobhunt_id": null,
+   "link": "https://www.linkedin.com/jobs/view/4423910715",
+   "outcome_stage": null,
+   "outcome_reason_category": null,
+   "outcome_reason": null,
+   "outcome_date": null
+  },
+  {
+   "record_file": "61 Application Records/Alvarez & Marsal — Graduate hires – Performance Improvement.md",
+   "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FAlvarez%20%26%20Marsal%20%E2%80%94%20Graduate%20hires%20%E2%80%93%20Performance%20Improvement.md",
+   "company": "Alvarez & Marsal",
+   "program": "Graduate hires – Performance Improvement",
+   "my_status": "To apply",
+   "section": "Apply now",
+   "date_applied": null,
+   "days_waiting": null,
+   "next_step": "Request alumni referral first, then submit; ask about a June 2027 start",
+   "jobhunt_id": null,
+   "link": "https://www.linkedin.com/jobs/view/4440998313",
+   "outcome_stage": null,
+   "outcome_reason_category": null,
+   "outcome_reason": null,
+   "outcome_date": null
+  },
+  {
+   "record_file": "61 Application Records/ABeam Consulting — Graduate Analyst Program (July 2027 intake).md",
+   "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FABeam%20Consulting%20%E2%80%94%20Graduate%20Analyst%20Program%20%28July%202027%20intake%29.md",
+   "company": "ABeam Consulting",
+   "program": "Graduate Analyst Program (July 2027 intake)",
+   "my_status": "To apply",
+   "section": "Blocked",
+   "date_applied": null,
+   "days_waiting": null,
+   "next_step": "GATE: GPA ≥2.75 – check transcript first; if below, ask ABeam about an exception before applying",
+   "jobhunt_id": null,
+   "link": "https://www.linkedin.com/jobs/view/4469393745",
+   "outcome_stage": null,
+   "outcome_reason_category": null,
+   "outcome_reason": null,
+   "outcome_date": null
+  },
+  {
+   "record_file": "61 Application Records/Sea Limited — Global Management Associate Program 2027 (Shopee-Monee track).md",
+   "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FSea%20Limited%20%E2%80%94%20Global%20Management%20Associate%20Program%202027%20%28Shopee-Monee%20track%29.md",
+   "company": "Sea Limited",
+   "program": "Global Management Associate Program 2027 (Shopee/Monee track)",
+   "my_status": "Interview",
+   "section": "Apply now",
+   "date_applied": "2026-10-24",
+   "days_waiting": 14,
+   "next_step": "Invited to behavioural interview (told 5 Nov 2026). Confirm date/time and format from the invite email.",
+   "jobhunt_id": null,
+   "link": "https://www.linkedin.com/jobs/view/4455578347",
+   "outcome_stage": null,
+   "outcome_reason_category": null,
+   "outcome_reason": null,
+   "outcome_date": null
+  },
+  {
+   "record_file": "61 Application Records/Shopee - Monee — ⭐ Graduate Development Program (GDP) 2027.md",
+   "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FShopee%20-%20Monee%20%E2%80%94%20%E2%AD%90%20Graduate%20Development%20Program%20%28GDP%29%202027.md",
+   "company": "Shopee / Monee",
+   "program": "⭐ Graduate Development Program (GDP) 2027",
+   "my_status": "Interview",
+   "section": "Apply now",
+   "date_applied": "2026-10-23",
+   "days_waiting": 15,
+   "next_step": "Invited to behavioural interview (told 5 Nov 2026). Confirm date/time and format from the invite email; prep interview stories.",
+   "jobhunt_id": null,
+   "link": "https://www.linkedin.com/jobs/view/4455619735",
+   "outcome_stage": null,
+   "outcome_reason_category": null,
+   "outcome_reason": null,
+   "outcome_date": null
+  },
+  {
+   "record_file": "61 Application Records/Deutsche Bank (Singapore) — 2027 Graduate Programme – Corporate Bank.md",
+   "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FDeutsche%20Bank%20%28Singapore%29%20%E2%80%94%202027%20Graduate%20Programme%20%E2%80%93%20Corporate%20Bank.md",
+   "company": "Deutsche Bank (Singapore)",
+   "program": "2027 Graduate Programme – Corporate Bank",
+   "my_status": "Test",
+   "section": "Apply now",
+   "date_applied": "2026-10-23",
+   "days_waiting": 15,
+   "next_step": "Online test submitted 1 Nov; invited to job simulation round (told 5 Nov 2026). Check the invite email for the deadline and complete it.",
+   "jobhunt_id": null,
+   "link": "https://www.linkedin.com/jobs/view/4469303814/",
+   "outcome_stage": null,
+   "outcome_reason_category": null,
+   "outcome_reason": null,
+   "outcome_date": null
+  },
+  {
+   "record_file": "61 Application Records/CP Axtra (Makro) — ⭐ Future Leader Program 21 (Makro).md",
+   "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FCP%20Axtra%20%28Makro%29%20%E2%80%94%20%E2%AD%90%20Future%20Leader%20Program%2021%20%28Makro%29.md",
+   "company": "CP Axtra (Makro)",
+   "program": "⭐ Future Leader Program 21 (Makro)",
+   "my_status": "Applied",
+   "section": "Apply now",
+   "date_applied": "2026-10-23",
+   "days_waiting": 15,
+   "next_step": "Applied Oct 23, 2026 via LinkedIn, marked as top choice. Watch email for the online test or assessment.",
+   "jobhunt_id": null,
+   "link": "https://www.linkedin.com/jobs/view/4475738833",
+   "outcome_stage": null,
+   "outcome_reason_category": null,
+   "outcome_reason": null,
+   "outcome_date": null
+  },
+  {
+   "record_file": "61 Application Records/CP Axtra (Lotus's) — ⭐ Future Leader Program 21 (Lotus's).md",
+   "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FCP%20Axtra%20%28Lotus%27s%29%20%E2%80%94%20%E2%AD%90%20Future%20Leader%20Program%2021%20%28Lotus%27s%29.md",
+   "company": "CP Axtra (Lotus's)",
+   "program": "⭐ Future Leader Program 21 (Lotus's)",
+   "my_status": "Applied",
+   "section": "Apply now",
+   "date_applied": "2026-10-23",
+   "days_waiting": 15,
+   "next_step": "Applied Oct 23, 2026 via LinkedIn. Watch email for the online test or assessment.",
+   "jobhunt_id": null,
+   "link": "https://www.linkedin.com/jobs/view/4471315797",
+   "outcome_stage": null,
+   "outcome_reason_category": null,
+   "outcome_reason": null,
+   "outcome_date": null
+  },
+  {
+   "record_file": "61 Application Records/CPF (CP Group) — ⭐ Future Leader Program 21.md",
+   "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FCPF%20%28CP%20Group%29%20%E2%80%94%20%E2%AD%90%20Future%20Leader%20Program%2021.md",
+   "company": "CPF (CP Group)",
+   "program": "⭐ Future Leader Program 21",
+   "my_status": "Applied",
+   "section": "Apply now",
+   "date_applied": "2026-10-23",
+   "days_waiting": 15,
+   "next_step": "Watch alex.rivera@example.com (incl. spam) for Test Set 1 email; applied Commercial track, start after graduation (Jun 2027)",
+   "jobhunt_id": null,
+   "link": "https://www.linkedin.com/jobs/view/4466833156",
+   "outcome_stage": null,
+   "outcome_reason_category": null,
+   "outcome_reason": null,
+   "outcome_date": null
+  },
+  {
+   "record_file": "61 Application Records/Example Retail Co. — Future Leader Program.md",
+   "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FExample%20Retail%20Co.%20%E2%80%94%20Future%20Leader%20Program.md",
+   "company": "Example Retail Co.",
+   "program": "Future Leader Program",
+   "my_status": "Applied",
+   "section": "Apply now",
+   "date_applied": "2026-10-20",
+   "days_waiting": 18,
+   "next_step": "Watch email for the online test.",
+   "jobhunt_id": null,
+   "link": "https://example.invalid/jobs/retail",
+   "outcome_stage": null,
+   "outcome_reason_category": null,
+   "outcome_reason": null,
+   "outcome_date": null
+  },
+  {
+   "record_file": "61 Application Records/Example Bank (Singapore) — Graduate Programme.md",
+   "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FExample%20Bank%20%28Singapore%29%20%E2%80%94%20Graduate%20Programme.md",
+   "company": "Example Bank (Singapore)",
+   "program": "Graduate Programme",
+   "my_status": "Applied",
+   "section": "Apply now",
+   "date_applied": "2026-10-18",
+   "days_waiting": 20,
+   "next_step": "Watch email for the next step.",
+   "jobhunt_id": null,
+   "link": "https://example.invalid/jobs/bank",
+   "outcome_stage": null,
+   "outcome_reason_category": null,
+   "outcome_reason": null,
+   "outcome_date": null
+  },
+  {
+   "record_file": "61 Application Records/Example FMCG Co. — Management Trainee (Sales).md",
+   "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FExample%20FMCG%20Co.%20%E2%80%94%20Management%20Trainee%20%28Sales%29.md",
+   "company": "Example FMCG Co.",
+   "program": "Management Trainee (Sales)",
+   "my_status": "Test",
+   "section": "Apply now",
+   "date_applied": "2026-10-12",
+   "days_waiting": 26,
+   "next_step": "Online test submitted 30 Oct.",
+   "jobhunt_id": null,
+   "link": "https://example.invalid/jobs/fmcg",
+   "outcome_stage": null,
+   "outcome_reason_category": null,
+   "outcome_reason": null,
+   "outcome_date": null
+  },
+  {
+   "record_file": "61 Application Records/AlphaSights (Hong Kong) — Associate, Client Service, Thai Speaker, 2027.md",
+   "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FAlphaSights%20%28Hong%20Kong%29%20%E2%80%94%20Associate%2C%20Client%20Service%2C%20Thai%20Speaker%2C%202027.md",
+   "company": "AlphaSights (Hong Kong)",
+   "program": "Associate, Client Service, Thai Speaker, 2027",
+   "my_status": "Rejected",
+   "section": "Apply now",
+   "date_applied": "2026-10-09",
+   "days_waiting": 29,
+   "next_step": "Closed — not passed (stated 1 Nov, reconfirmed 5 Nov 2026). Reason not given.",
+   "jobhunt_id": null,
+   "link": "https://grnh.se/qiox333l1us",
+   "outcome_stage": "unknown",
+   "outcome_reason_category": "no_reason_given",
+   "outcome_reason": "Closed, not passed. Reason not given.",
+   "outcome_date": "2026-11-01"
+  },
+  {
+   "record_file": "61 Application Records/Example Logistics Co. — MT Program.md",
+   "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FExample%20Logistics%20Co.%20%E2%80%94%20MT%20Program.md",
+   "company": "Example Logistics Co.",
+   "program": "MT Program",
+   "my_status": "Applied",
+   "section": "Apply now",
+   "date_applied": "2026-10-02",
+   "days_waiting": 36,
+   "next_step": "Watch email for a reply.",
+   "jobhunt_id": null,
+   "link": "https://example.invalid/jobs/logistics",
+   "outcome_stage": null,
+   "outcome_reason_category": null,
+   "outcome_reason": null,
+   "outcome_date": null
+  },
+  {
+   "record_file": "61 Application Records/Example Consulting — Business Analyst.md",
+   "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FExample%20Consulting%20%E2%80%94%20Business%20Analyst.md",
+   "company": "Example Consulting",
+   "program": "Business Analyst",
+   "my_status": "Rejected",
+   "section": "Archive",
+   "date_applied": "2026-09-28",
+   "days_waiting": 40,
+   "next_step": "Closed.",
+   "jobhunt_id": null,
+   "link": "https://example.invalid/jobs/consulting",
+   "outcome_stage": "online_test",
+   "outcome_reason_category": "test_score",
+   "outcome_reason": "Did not pass the numerical test cut-off.",
+   "outcome_date": "2026-10-15",
+   "_ikigai": "L4 G3 N4 P4e",
+   "_weakest": "good_at"
+  },
+  {
+   "record_file": "61 Application Records/Example Telecom — Graduate MT.md",
+   "obsidian_url": "obsidian://open?vault=Career-Wiki&file=61%20Application%20Records%2FExample%20Telecom%20%E2%80%94%20Graduate%20MT.md",
+   "company": "Example Telecom",
+   "program": "Graduate MT",
+   "my_status": "Ghosted",
+   "section": "Archive",
+   "date_applied": "2026-09-20",
+   "days_waiting": 48,
+   "next_step": "Closed: no reply after 30 days.",
+   "jobhunt_id": null,
+   "link": "https://example.invalid/jobs/telecom",
+   "outcome_stage": "cv_screen",
+   "outcome_reason_category": "ghosted",
+   "outcome_reason": "No reply 30 days after applying.",
+   "outcome_date": "2026-10-20",
+   "_ikigai": "L3 G3 N3 P2e",
+   "_weakest": "paid"
+  }
+ ],
+ "site_changes": [
+  {
+   "id": 7,
+   "company": "CP Axtra",
+   "url": "https://www.cpaxtra.com/en/careers",
+   "detected_at": "2026-11-07T00:02:00Z",
+   "new_links": [
+    {
+     "href": "https://www.cpaxtra.com/en/careers/future-leader-22",
+     "text": "Future Leader Program 22 - register interest"
+    },
+    {
+     "href": "https://careers.example-retail.invalid/job/Bangkok-Retail-Management-Trainee-13976/59380144/",
+     "text": "59380144"
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "company": "Boon Rawd Brewery",
+   "url": "https://www.boonrawd.co.th/careers",
+   "detected_at": "2026-11-06T00:03:00Z",
+   "new_links": []
+  }
+ ],
+ "last_run": {
+  "at": "2026-11-07T00:00:41Z",
+  "sources": {
+   "gmail": {
+    "found": 23,
+    "new": 9,
+    "prefiltered": 3,
+    "scored": 6,
+    "errors": 0
+   },
+   "linkedin": {
+    "found": 61,
+    "new": 14,
+    "prefiltered": 6,
+    "scored": 8,
+    "errors": 1
+   },
+   "jobsdb": {
+    "found": 48,
+    "new": 11,
+    "prefiltered": 4,
+    "scored": 7,
+    "errors": 0
+   },
+   "greenhouse": {
+    "found": 112,
+    "new": 3,
+    "prefiltered": 2,
+    "scored": 1,
+    "errors": 0
+   },
+   "workday": {
+    "found": 0,
+    "new": 0,
+    "prefiltered": 0,
+    "scored": 0,
+    "errors": 1
+   }
+  }
+ }
+}

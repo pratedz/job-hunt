@@ -1,0 +1,71 @@
+{
+ "id": 171,
+ "rank": null,
+ "company": "Suntory PepsiCo",
+ "title": "Management Trainee (Sales - Commercial)",
+ "location": "Bangkok, Thailand",
+ "source": "jobsdb",
+ "url": "https://th.jobsdb.com/job/90000171",
+ "posted_at": "2026-10-26T05:05:00Z",
+ "first_seen_at": "2026-10-27T05:05:00Z",
+ "verdict": "CENTRE",
+ "status": "new",
+ "scores": {
+  "love": 5,
+  "good_at": 4,
+  "needs": 4,
+  "paid": 3
+ },
+ "paid_estimated": true,
+ "weakest": {
+  "circle": "paid",
+  "score": 3
+ },
+ "mean": 4.0,
+ "gate": {
+  "result": "pass",
+  "fails": [],
+  "questions": []
+ },
+ "prefilter_reason": null,
+ "tracked": null,
+ "error": null,
+ "reasons": {
+  "love": "Commercial rotation in FMCG / e-commerce, one of his preferred tracks.",
+  "good_at": "F20 and F25 show leadership and communication in a student-run company; F26 shows Excel reporting.",
+  "needs": "Established company with formal training for graduates.",
+  "paid": "Estimate: the posting states no salary. about THB 40,000-50,000 per month for a Bangkok graduate programme. for a comparable Bangkok graduate role."
+ },
+ "summary": "Good commercial fit with a clear growth path.",
+ "facts": {
+  "min_years_experience": 0,
+  "gpa_floor": null,
+  "start_kind": "fixed_date",
+  "start_date": "2027-06",
+  "graduation_years": [
+   2027
+  ],
+  "degree_completed_required": false,
+  "required_languages": [
+   "Thai",
+   "English"
+  ],
+  "required_test_scores": [],
+  "location_city": "Bangkok",
+  "location_country": "Thailand",
+  "remote": false,
+  "job_type": "graduate_programme",
+  "other_hard_requirements": []
+ },
+ "salary": {
+  "min": null,
+  "max": null,
+  "currency": "THB",
+  "period": "month",
+  "stated": false,
+  "thb_month_mid": 42500
+ },
+ "jd_text": "Suntory PepsiCo is hiring for Management Trainee (Sales - Commercial) in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+ "jd_missing": false,
+ "email_snippet": null
+}

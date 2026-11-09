@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "score_batch.schema.json",
+  "title": "job hunt - structured output for one scoring batch",
+  "description": "Kept to the strict-mode-safe JSON Schema keyword set: type, properties, required, additionalProperties, items, enum. Every property is listed in `required` and every object forbids extra properties, so the model cannot return a partial object. Nullable fields use [\"<type>\", \"null\"]. Range limits (1-5, date shapes, currency codes) are enforced in Python.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["jobs"],
+  "properties": {
+    "jobs": {
+      "type": "array",
+      "description": "One entry per job in the batch, in the same order as the request, echoing the request `id` exactly.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "facts", "love", "good_at", "needs", "paid", "summary"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "The request id, copied verbatim. Used to match the reply to the stored job."
+          },
+          "facts": {
+            "type": "object",
+            "description": "JD facts, exactly the contract in config/profile.toml. null means the JD does not say. Extract only what the text supports; do not infer.",
+            "additionalProperties": false,
+            "required": [
+              "min_years_experience",
+              "gpa_floor",
+              "start_kind",
+              "start_date",
+              "graduation_years",
+              "degree_completed_required",
+              "required_languages",
+              "required_test_scores",
+              "location_city",
+              "location_country",
+              "remote",
+              "job_type",
+              "other_hard_requirements"
+            ],
+            "properties": {
+              "min_years_experience": {
+                "type": ["integer", "null"],
+                "description": "Minimum years of experience the posting requires. 0 when it asks for fresh graduates or none. null when the posting does not say."
+              },
+              "gpa_floor": {
+                "type": ["number", "null"],
+                "description": "Stated minimum GPA on a 4.0 scale. null when not stated or stated on another scale that cannot be converted."
+              },
+              "start_kind": {
+                "enum": ["fixed_date", "immediate", "flexible", "unknown"],
+                "description": "immediate = must start now; fixed_date = a stated start date (put it in start_date); flexible = \"as soon as possible\" or negotiable."
+              },
+              "start_date": {
+                "type": ["string", "null"],
+                "description": "Stated start date as YYYY-MM. null when there is no fixed date."
+              },
+              "graduation_years": {
+                "type": "array",
+                "items": {"type": "integer"},
+                "description": "Graduation years the posting accepts, e.g. [2026, 2027]. Empty array when the posting does not restrict graduation year."
+              },
+              "degree_completed_required": {
+                "type": ["boolean", "null"],
+                "description": "true only when the posting requires the candidate to already hold the degree at application time."
+              },
+              "required_languages": {
+                "type": "array",
+                "items": {"type": "string"},
+                "description": "Languages the posting requires, not merely prefers. Use plain names, e.g. \"Thai\", \"English\", \"Chinese\", \"Korean\", \"Japanese\". Empty array when none are required."
+              },
+              "required_test_scores": {
+                "type": "array",
+                "items": {"type": "string"},
+                "description": "Required test scores, e.g. \"TOEIC 600\", \"IELTS 6.5\". Empty array when none are required."
+              },
+              "location_city": {
+                "type": ["string", "null"],
+                "description": "City the role is based in, e.g. \"Bangkok\", \"Singapore\"."
+              },
+              "location_country": {
+                "type": ["string", "null"],
+                "description": "Country the role is based in, e.g. \"Thailand\", \"Singapore\", \"Hong Kong\"."
+              },
+              "remote": {
+                "type": "boolean",
+                "description": "true when the role is fully remote. false when it is on site or hybrid, or when the posting does not say."
+              },
+              "job_type": {
+                "enum": ["graduate_programme", "full_time", "internship", "contract", "part_time", "unknown"],
+                "description": "graduate_programme covers management trainee and structured graduate schemes."
+              },
+              "other_hard_requirements": {
+                "type": "array",
+                "items": {"type": "string"},
+                "description": "Other non-negotiable conditions a fresh graduate in Bangkok may not meet, quoted or closely paraphrased: driving licence, relocation, age limit, nationality or work authorisation, portfolio, and similar. Empty array when there are none."
+              }
+            }
+          },
+          "love": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["score", "reason"],
+            "description": "Ikigai circle 1, what he loves doing, scored 1-5 from config/rubric.md. null when the JD and facts.md do not give enough to judge.",
+            "properties": {
+              "score": {"type": ["integer", "null"], "enum": [1, 2, 3, 4, 5, null]},
+              "reason": {
+                "type": "string",
+                "description": "One sentence, citing a short quote from the JD or a line from facts.md. Never invent a preference."
+              }
+            }
+          },
+          "good_at": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["score", "reason"],
+            "description": "Ikigai circle 2, what he is good at, scored 1-5 from config/rubric.md against the evidence in facts.md. null when there is not enough evidence.",
+            "properties": {
+              "score": {"type": ["integer", "null"], "enum": [1, 2, 3, 4, 5, null]},
+              "reason": {
+                "type": "string",
+                "description": "One sentence, citing JD requirements against a facts.md line. Never invent a skill or a number."
+              }
+            }
+          },
+          "needs": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["score", "reason"],
+            "description": "Ikigai circle 3, what the world needs: how much the role's actual work matters. Scored 1-5 from config/rubric.md. null when the JD does not describe the work.",
+            "properties": {
+              "score": {"type": ["integer", "null"], "enum": [1, 2, 3, 4, 5, null]},
+              "reason": {
+                "type": "string",
+                "description": "One sentence. The basis is the posting or well-established public knowledge, as config/rubric.md defines (company momentum and growth path); it is not limited to the work itself."
+              }
+            }
+          },
+          "paid": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["salary_min", "salary_max", "currency", "period", "stated", "reason"],
+            "description": "Salary evidence for Ikigai circle 4. Report the numbers only; Python computes the 1-5 score from config/profile.toml anchors.",
+            "properties": {
+              "salary_min": {
+                "type": ["number", "null"],
+                "description": "Lower bound of the monthly or annual salary in `currency`, as a plain number without separators. When a single figure is given, use it for both min and max."
+              },
+              "salary_max": {
+                "type": ["number", "null"],
+                "description": "Upper bound in the same period and currency."
+              },
+              "currency": {
+                "type": ["string", "null"],
+                "description": "ISO 4217 code as written in the posting: THB, SGD, USD, HKD."
+              },
+              "period": {
+                "type": ["string", "null"],
+                "enum": ["month", "year", null],
+                "description": "The period the numbers are per. null when not stated."
+              },
+              "stated": {
+                "type": "boolean",
+                "description": "true only when the posting states the salary. false when the numbers above are your estimate for this role and market."
+              },
+              "reason": {
+                "type": "string",
+                "description": "One sentence: the quoted salary line, or on what basis the estimate was made when stated is false."
+              }
+            }
+          },
+          "summary": {
+            "type": "string",
+            "description": "One line: why this job is or is not worth applying to, in plain language, no numbers except those in facts.md."
+          }
+        }
+      }
+    }
+  }
+}

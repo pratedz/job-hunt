@@ -1,0 +1,76 @@
+{
+ "last_run": {
+  "at": "2026-11-07T00:00:41Z",
+  "sources": {
+   "gmail": {
+    "found": 23,
+    "new": 9,
+    "prefiltered": 3,
+    "scored": 6,
+    "errors": 0
+   },
+   "linkedin": {
+    "found": 61,
+    "new": 14,
+    "prefiltered": 6,
+    "scored": 8,
+    "errors": 1
+   },
+   "jobsdb": {
+    "found": 48,
+    "new": 11,
+    "prefiltered": 4,
+    "scored": 7,
+    "errors": 0
+   },
+   "greenhouse": {
+    "found": 112,
+    "new": 3,
+    "prefiltered": 2,
+    "scored": 1,
+    "errors": 0
+   },
+   "workday": {
+    "found": 0,
+    "new": 0,
+    "prefiltered": 0,
+    "scored": 0,
+    "errors": 1
+   }
+  }
+ },
+ "tabs": {
+  "all": 29,
+  "centre": 17,
+  "hold": 3,
+  "low": 9,
+  "filtered": 13,
+  "skipped": 3,
+  "to_apply": 4,
+  "applied": 13,
+  "lessons": 3
+ },
+ "shortfall": {
+  "love": 2,
+  "good_at": 3,
+  "needs": 2,
+  "paid": 8
+ },
+ "filtered_top_reasons": [
+  {
+   "reason": "Requires a minimum GPA of 3.00",
+   "count": 2
+  },
+  {
+   "reason": "Requires the degree to be completed when you apply",
+   "count": 2
+  },
+  {
+   "reason": "title_exclude: \\bsenior\\b",
+   "count": 2
+  }
+ ],
+ "site_changes_unseen": 2,
+ "suggestions_pending": 4,
+ "unscored": 3
+}

@@ -1,0 +1,42 @@
+{
+ "id": 6,
+ "rank": null,
+ "company": "Example FMCG Co.",
+ "title": "Senior Key Account Manager - Modern Trade",
+ "location": "Bangkok, Thailand",
+ "source": "linkedin",
+ "url": "https://www.linkedin.com/jobs/view/4400000001",
+ "posted_at": null,
+ "first_seen_at": "2026-11-07T15:16:19Z",
+ "verdict": "FILTERED",
+ "status": "new",
+ "scores": {
+  "love": null,
+  "good_at": null,
+  "needs": null,
+  "paid": null
+ },
+ "paid_estimated": false,
+ "weakest": null,
+ "mean": null,
+ "gate": {
+  "result": null,
+  "fails": [],
+  "questions": []
+ },
+ "prefilter_reason": "title_exclude: \\bsenior\\b",
+ "tracked": null,
+ "error": null,
+ "reasons": {
+  "love": null,
+  "good_at": null,
+  "needs": null,
+  "paid": null
+ },
+ "summary": null,
+ "facts": {},
+ "salary": null,
+ "jd_text": "Lead modern trade key accounts. 7+ years of FMCG key account experience required.",
+ "jd_missing": false,
+ "email_snippet": null
+}

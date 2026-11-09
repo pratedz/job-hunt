@@ -1,0 +1,52 @@
+{
+ "lessons": [
+  {
+   "company": "AlphaSights (Hong Kong)",
+   "program": "Associate, Client Service, Thai Speaker, 2027",
+   "my_status": "Rejected",
+   "outcome_stage": "unknown",
+   "outcome_reason_category": "no_reason_given",
+   "outcome_reason": "Closed, not passed. Reason not given.",
+   "outcome_date": "2026-11-01",
+   "ikigai": null,
+   "weakest_circle": null
+  },
+  {
+   "company": "Example Consulting",
+   "program": "Business Analyst",
+   "my_status": "Rejected",
+   "outcome_stage": "online_test",
+   "outcome_reason_category": "test_score",
+   "outcome_reason": "Did not pass the numerical test cut-off.",
+   "outcome_date": "2026-10-15",
+   "ikigai": "L4 G3 N4 P4e",
+   "weakest_circle": "good_at"
+  },
+  {
+   "company": "Example Telecom",
+   "program": "Graduate MT",
+   "my_status": "Ghosted",
+   "outcome_stage": "cv_screen",
+   "outcome_reason_category": "ghosted",
+   "outcome_reason": "No reply 30 days after applying.",
+   "outcome_date": "2026-10-20",
+   "ikigai": "L3 G3 N3 P2e",
+   "weakest_circle": "paid"
+  }
+ ],
+ "by_stage": {
+  "unknown": 1,
+  "online_test": 1,
+  "cv_screen": 1
+ },
+ "by_category": {
+  "no_reason_given": 1,
+  "test_score": 1,
+  "ghosted": 1
+ },
+ "by_weakest_circle": {
+  "null": 1,
+  "good_at": 1,
+  "paid": 1
+ }
+}

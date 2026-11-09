@@ -1,0 +1,441 @@
+{
+ "total": 13,
+ "jobs": [
+  {
+   "id": 131,
+   "rank": 1,
+   "company": "McKinsey & Company",
+   "title": "Business Analyst - Bangkok",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000131",
+   "posted_at": "2026-10-27T14:05:00Z",
+   "first_seen_at": "2026-10-31T14:05:00Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": 4,
+    "good_at": 3,
+    "needs": 5,
+    "paid": 5
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 3
+   },
+   "mean": 4.25,
+   "gate": {
+    "result": "fail",
+    "fails": [
+     "Requires the degree to be completed when you apply; yours is conferred after May 2027."
+    ],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 3,
+   "rank": 2,
+   "company": "Agoda",
+   "title": "Account Specialist, Homes",
+   "location": "Bangkok, Thailand",
+   "source": "greenhouse",
+   "url": "https://job-boards.greenhouse.io/agoda/jobs/8242288",
+   "posted_at": null,
+   "first_seen_at": "2026-11-07T15:16:19Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 4,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 3
+   },
+   "mean": 4.0,
+   "gate": {
+    "result": "fail",
+    "fails": [
+     "Requires at least 2 years of experience; you have 0 years (student-run companies are not corporate experience)."
+    ],
+    "questions": [
+     "Hiring immediately; you are available from 2027-06. Will they hold the role until then?"
+    ]
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 132,
+   "rank": 3,
+   "company": "HEINEKEN Thailand",
+   "title": "Key Account Manager - On Trade",
+   "location": "Bangkok, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000132",
+   "posted_at": "2026-10-26T07:05:00Z",
+   "first_seen_at": "2026-10-31T07:05:00Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": 3,
+    "needs": 4,
+    "paid": 4
+   },
+   "paid_estimated": false,
+   "weakest": {
+    "circle": "good_at",
+    "score": 3
+   },
+   "mean": 4.0,
+   "gate": {
+    "result": "fail",
+    "fails": [
+     "Requires at least 3 years of experience; you have 0 years (student-run companies are not corporate experience)."
+    ],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 133,
+   "rank": 4,
+   "company": "Mars Wrigley Vietnam",
+   "title": "Graduate Trainee - Sales",
+   "location": "Ho Chi Minh City, Vietnam",
+   "source": "workday",
+   "url": "https://example.wd3.myworkdayjobs.com/en-US/careers/job/133",
+   "posted_at": null,
+   "first_seen_at": "2026-10-31T00:05:00Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": 4,
+    "good_at": 3,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "good_at",
+    "score": 3
+   },
+   "mean": 3.5,
+   "gate": {
+    "result": "fail",
+    "fails": [
+     "Requires fluent Vietnamese; your languages are Thai and English."
+    ],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 134,
+   "rank": 5,
+   "company": "SCB",
+   "title": "Management Trainee Program (Business track)",
+   "location": "Bangkok, Thailand",
+   "source": "manual",
+   "url": "https://example.invalid/jobs/134",
+   "posted_at": "2026-10-23T17:05:00Z",
+   "first_seen_at": "2026-10-30T17:05:00Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": 3,
+    "good_at": 3,
+    "needs": 4,
+    "paid": 3
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "love",
+    "score": 3
+   },
+   "mean": 3.25,
+   "gate": {
+    "result": "fail",
+    "fails": [
+     "Requires a minimum GPA of 3.00; your GPAX is 2.48 (transcript).",
+     "Accepts graduation years 2025-2026 only; you graduate in 2027."
+    ],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 4,
+   "rank": 6,
+   "company": "Krungthai Bank",
+   "title": "Management Trainee Program 2027",
+   "location": "Bangkok, Thailand",
+   "source": "manual",
+   "url": "https://krungthai.com/careers/management-trainee-2027",
+   "posted_at": null,
+   "first_seen_at": "2026-11-07T15:16:19Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": 3,
+    "good_at": null,
+    "needs": 4,
+    "paid": 2
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 2
+   },
+   "mean": 3.0,
+   "gate": {
+    "result": "fail",
+    "fails": [
+     "Requires a minimum GPA of 3.00; your GPAX is 2.48 (transcript)."
+    ],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 130,
+   "rank": 7,
+   "company": "Bangkok Bank",
+   "title": "Management Trainee 2027",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000130",
+   "posted_at": "2026-10-28T21:05:00Z",
+   "first_seen_at": "2026-10-31T21:05:00Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": 3,
+    "good_at": 3,
+    "needs": 4,
+    "paid": 2
+   },
+   "paid_estimated": true,
+   "weakest": {
+    "circle": "paid",
+    "score": 2
+   },
+   "mean": 3.0,
+   "gate": {
+    "result": "fail",
+    "fails": [
+     "Requires a minimum GPA of 3.25; your GPAX is 2.48 (transcript)."
+    ],
+    "questions": []
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 5,
+   "rank": 8,
+   "company": "Deliveree (Thailand) Limited",
+   "title": "Fresh Graduate Management Trainee Program (MT)",
+   "location": "Bangkok",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/95340875",
+   "posted_at": null,
+   "first_seen_at": "2026-11-07T15:16:19Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": 5,
+    "good_at": null,
+    "needs": 4,
+    "paid": 1
+   },
+   "paid_estimated": false,
+   "weakest": {
+    "circle": "paid",
+    "score": 1
+   },
+   "mean": 3.3333,
+   "gate": {
+    "result": "fail",
+    "fails": [
+     "Requires a minimum GPA of 2.70; your GPAX is 2.48 (transcript).",
+     "Requires the degree to be completed when you apply; yours is conferred after May 2027."
+    ],
+    "questions": [
+     "Hiring immediately; you are available from 2027-06. Will they hold the role until then?"
+    ]
+   },
+   "prefilter_reason": null,
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 6,
+   "rank": 9,
+   "company": "Example FMCG Co.",
+   "title": "Senior Key Account Manager - Modern Trade",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000001",
+   "posted_at": null,
+   "first_seen_at": "2026-11-07T15:16:19Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "paid_estimated": false,
+   "weakest": null,
+   "mean": null,
+   "gate": {
+    "result": null,
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": "title_exclude: \\bsenior\\b",
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 140,
+   "rank": 10,
+   "company": "Example FMCG Co.",
+   "title": "Senior Brand Manager",
+   "location": "Bangkok, Thailand",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000140",
+   "posted_at": "2026-10-22T10:05:00Z",
+   "first_seen_at": "2026-10-30T10:05:00Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "paid_estimated": false,
+   "weakest": null,
+   "mean": null,
+   "gate": {
+    "result": null,
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": "title_exclude: \\bsenior\\b",
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 141,
+   "rank": 11,
+   "company": "Shopee",
+   "title": "Lead Software Engineer, Payments",
+   "location": "Singapore",
+   "source": "linkedin",
+   "url": "https://www.linkedin.com/jobs/view/4400000141",
+   "posted_at": "2026-10-30T03:05:00Z",
+   "first_seen_at": "2026-10-30T03:05:00Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "paid_estimated": false,
+   "weakest": null,
+   "mean": null,
+   "gate": {
+    "result": null,
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": "title_exclude: \\b(engineer|developer)\\b",
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 142,
+   "rank": 12,
+   "company": "Example Co.",
+   "title": "Store Supervisor (posted 2025)",
+   "location": "Phuket, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000142",
+   "posted_at": null,
+   "first_seen_at": "2026-10-29T20:05:00Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "paid_estimated": false,
+   "weakest": null,
+   "mean": null,
+   "gate": {
+    "result": null,
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": "posted_within_days: posted 412 days ago (limit 45)",
+   "tracked": null,
+   "error": null
+  },
+  {
+   "id": 143,
+   "rank": 13,
+   "company": "Lotus's",
+   "title": "Area Manager",
+   "location": "Khon Kaen, Thailand",
+   "source": "jobsdb",
+   "url": "https://th.jobsdb.com/job/90000143",
+   "posted_at": "2026-10-27T13:05:00Z",
+   "first_seen_at": "2026-10-29T13:05:00Z",
+   "verdict": "FILTERED",
+   "status": "new",
+   "scores": {
+    "love": null,
+    "good_at": null,
+    "needs": null,
+    "paid": null
+   },
+   "paid_estimated": false,
+   "weakest": null,
+   "mean": null,
+   "gate": {
+    "result": null,
+    "fails": [],
+    "questions": []
+   },
+   "prefilter_reason": "title_exclude: \\bmanager\\b (without trainee)",
+   "tracked": null,
+   "error": null
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "id": 172,
+ "rank": null,
+ "company": "JD Central",
+ "title": "Category Management Associate",
+ "location": "Bangkok, Thailand",
+ "source": "jobsdb",
+ "url": "https://th.jobsdb.com/job/90000172",
+ "posted_at": "2026-10-24T22:05:00Z",
+ "first_seen_at": "2026-10-26T22:05:00Z",
+ "verdict": "LOW",
+ "status": "new",
+ "scores": {
+  "love": 4,
+  "good_at": 3,
+  "needs": 3,
+  "paid": 2
+ },
+ "paid_estimated": true,
+ "weakest": {
+  "circle": "paid",
+  "score": 2
+ },
+ "mean": 3.0,
+ "gate": {
+  "result": "pass",
+  "fails": [],
+  "questions": []
+ },
+ "prefilter_reason": null,
+ "tracked": null,
+ "error": null,
+ "reasons": {
+  "love": "Customer-facing commercial work close to his preferred Key Account track.",
+  "good_at": "Some overlap via F26 (reporting); the domain experience the JD wants is not evidenced.",
+  "needs": "Stable employer, but the JD names no development path.",
+  "paid": "Estimate: the posting states no salary. about THB 30,000-40,000 per month. for a comparable Bangkok graduate role."
+ },
+ "summary": "Weak on pay and growth compared with the graduate programmes on the board.",
+ "facts": {
+  "min_years_experience": 0,
+  "gpa_floor": null,
+  "start_kind": "fixed_date",
+  "start_date": "2027-06",
+  "graduation_years": [
+   2027
+  ],
+  "degree_completed_required": false,
+  "required_languages": [
+   "Thai",
+   "English"
+  ],
+  "required_test_scores": [],
+  "location_city": "Bangkok",
+  "location_country": "Thailand",
+  "remote": false,
+  "job_type": "graduate_programme",
+  "other_hard_requirements": []
+ },
+ "salary": {
+  "min": null,
+  "max": null,
+  "currency": "THB",
+  "period": "month",
+  "stated": false,
+  "thb_month_mid": 35000
+ },
+ "jd_text": "JD Central is hiring for Category Management Associate in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+ "jd_missing": false,
+ "email_snippet": null
+}

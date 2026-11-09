@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cover_email.schema.json",
+  "title": "my job hunt - cover email draft (--output-schema)",
+  "description": "Passed to `codex exec --output-schema` for the cover email. Same strict-mode rules as score_batch: every property required, additionalProperties false, nullable via type arrays.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subject", "body", "language", "facts_used"],
+  "properties": {
+    "subject": {
+      "type": "string",
+      "description": "Application: <exact role title> - <candidate name>. One line, no newlines."
+    },
+    "body": {
+      "type": "string",
+      "description": "The whole email text without the subject line, starting with the greeting and ending with the sign-off and contact block. 120-180 words in English."
+    },
+    "language": {
+      "enum": ["en", "th"],
+      "description": "en unless the posting is written mainly in Thai."
+    },
+    "facts_used": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "The facts.md IDs the draft relies on, e.g. [\"F23\", \"F21\"]."
+    }
+  }
+}

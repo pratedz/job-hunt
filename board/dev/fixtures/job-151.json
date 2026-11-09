@@ -1,0 +1,42 @@
+{
+ "id": 151,
+ "rank": null,
+ "company": "LINE MAN Wongnai",
+ "title": "Key Account Executive - Food AMG",
+ "location": "Bangkok, Thailand",
+ "source": "jobsdb",
+ "url": "https://th.jobsdb.com/job/90000151",
+ "posted_at": "2026-10-24T23:05:00Z",
+ "first_seen_at": "2026-10-28T23:05:00Z",
+ "verdict": null,
+ "status": "new",
+ "scores": {
+  "love": null,
+  "good_at": null,
+  "needs": null,
+  "paid": null
+ },
+ "paid_estimated": false,
+ "weakest": null,
+ "mean": null,
+ "gate": {
+  "result": null,
+  "fails": [],
+  "questions": []
+ },
+ "prefilter_reason": null,
+ "tracked": null,
+ "error": null,
+ "reasons": {
+  "love": null,
+  "good_at": null,
+  "needs": null,
+  "paid": null
+ },
+ "summary": null,
+ "facts": {},
+ "salary": null,
+ "jd_text": "LINE MAN Wongnai is hiring for Key Account Executive - Food AMG in Bangkok, Thailand. You will work with cross-functional teams, analyse sales and customer data, prepare weekly reports and present recommendations to managers. Requirements: bachelor's degree in any field (2026-2027 graduates welcome); good command of English and Thai; strong Excel; a team player who learns quickly. We offer structured training, mentoring and a clear career path.",
+ "jd_missing": false,
+ "email_snippet": null
+}

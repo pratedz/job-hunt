@@ -1,0 +1,1048 @@
+# Default template. Launch `python3 -m jobhunt board` to generate config/profile.toml
+# from your Resume + Career Wiki Q&A, or copy this file to config/profile.toml manually.
+
+[onboarding]
+completed = false
+
+[candidate]
+name = "Your Name"
+email = "you@example.com"
+degree = "Bachelor's degree"
+gpa = 0.0                       # Optional: set your confirmed GPA on a 4.0 scale (0.0 = unset)
+graduation_year = 2027
+degree_completed = false
+fulltime_experience_years = 0   # Full-time corporate years (student clubs do not count)
+languages = ["Thai", "English"]
+test_scores = []                # e.g. ["IELTS 7.5", "TOEIC 850"]
+nationality = "Thai"
+based_in = "Bangkok, Thailand"
+
+
+[gates.experience]
+pass_max_years = 0              # 0 or not stated -> pass
+ask_max_years = 1               # 1 year -> ask ("Do you consider fresh graduates?"); 2+ -> fail
+
+[gates.gpa]
+
+[gates.start]
+available_th = "2027-06"        # Local roles
+available_abroad = "2027-07"    # Roles needing relocation or visa sponsorship
+immediate = "ask"
+fixed_date_before_available = "fail"
+late_start_after_months = 2     # Fixed start > 2 months after available month -> ask
+late_start = "ask"
+flexible = "pass"
+unknown = "pass"
+
+[gates.graduation]
+
+[gates.degree]
+completed_required = "fail"     # Set "pass" once your degree is already conferred
+
+[gates.language]
+have = ["Thai", "English"]
+other_required = "fail"
+test_score_required = "ask"
+
+[gates.location]
+pass_cities = ["Bangkok", "Nonthaburi", "Samut Prakan", "Pathum Thani"]
+pass_countries = ["Singapore"]
+remote = "pass"
+unknown = "pass"
+other = "ask"
+
+[gates.job_type]
+graduate_programme = "pass"
+full_time = "pass"
+unknown = "pass"
+internship = "ask"
+contract = "ask"
+part_time = "fail"
+
+[gates.other]
+hard_requirements = "ask"
+
+[paid]
+anchors_thb_month = [25000, 35000, 45000, 55000]   # <25k=1 · 25-35k=2 · 35-45k=3 · 45-55k=4 · >=55k=5
+sgd_to_thb = 25.0
+usd_to_thb = 33.0
+hkd_to_thb = 4.2
+
+[prefilter]
+title_exclude = [   # seniority: an include_override (trainee, graduate, junior ...) cancels these
+  '\bsenior\b', '\bsr\.?\b', '\b(team|tech|technical|project|engineering) lead\b', '\bhead of\b', '\bdirector\b',
+  '\bprincipal\b', '\bvice president\b', '\bvp\b', '\bchief\b',
+  '\b(senior|general|country|regional|group|division|department|assistant general) manager\b',
+  '\bcustomer service\b', '\bcall cent(er|re)\b', '\blive chat\b', '\bsecretary\b', '\baccountant\b', '\bcashier\b',
+  '\breceptionist\b', '\badmin(istrative|istration)? (assistant|officer|staff|clerk)\b', '\bmessenger\b', '\bhousekeep\w*',
+  '\bwait(er|ress)\b', '\bbarista\b', '\bsecurity guard\b', '\bloan\b', '\bpayroll\b',
+]
+title_exclude_hard = [   # off-track professions: always filtered, include_overrides do NOT cancel these
+  '\bsoftware engineer\b', '\bdeveloper\b', '\bdevops\b', '\bdata (scientist|engineer)\b', '\bmachine learning\b',
+  '\b(mechanical|electrical|civil|chemical|process|qa|test) engineer\b', '\bnurse\b', '\bpharmacist\b', '\bphysician\b',
+  '\bdoctor\b', '\bchef\b', '\bdriver\b', '\btechnician\b', '\bteacher\b', '\btutor\b',
+]
+include_overrides = ['\btrainee\b', '\bgraduate\b', '\bfresh\b', '\bjunior\b', '\bentry\b', '\bintern(ship)?\b', '\bnew grad\b']
+posted_within_days = 3          # SEARCH window for daily runs (what we ask the job sites for); not a filter
+posted_within_days_first_run = 14
+max_age_days = 30               # pre-filter: drop only postings older than this
+
+[sources]
+jobthai = true  # public commercial/trainee search; bounded independently of JD fetches
+gmail = true
+linkedin = true
+jobsdb = true
+companies = true
+
+[jobthai]
+keywords = ["management trainee", "key account", "business development"]
+max_pages = 1
+max_requests = 3  # search budget; host cap leaves room for job descriptions
+locations = ["Bangkok", "Nonthaburi", "Samut Prakan", "Pathum Thani"]
+title_include = ["key account", "management trainee", "graduate", "business development", "e-commerce", "trade marketing"]
+
+[search]
+keywords = [
+  "management trainee", "graduate program", "fresh graduate", "key account",
+  "trade marketing", "business development", "e-commerce", "strategy analyst",
+]
+linkedin_locations = ["Bangkok, Thailand", "Singapore"]
+jobsdb_locations = ["Bangkok"]
+max_pages = 5                   # JobsDB: 30 per page
+linkedin_max_pages = 2          # LinkedIn guest: 10 cards per page (start=0,10,20..); kept low to avoid HTTP 429
+linkedin_queries = [
+  ["management trainee", "Bangkok, Thailand"], ["graduate program", "Bangkok, Thailand"], ["fresh graduate", "Bangkok, Thailand"],
+  ["key account", "Bangkok, Thailand"], ["trade marketing", "Bangkok, Thailand"], ["e-commerce", "Bangkok, Thailand"],
+  ["management trainee", "Singapore"], ["graduate programme", "Singapore"],
+]
+
+[limits]
+min_seconds_between_requests = 3
+max_requests_per_host_per_run = 40
+max_scored_per_run = 80
+
+[limits.per_host]                # overrides for hosts that need more (search pages + JD fetches share the host)
+"www.jobthai.com" = 20
+"careers.loreal.com" = 20
+"www.linkedin.com" = 45          # guest budget is tight: 429 after ~75 req (3 s) on run 1 and after 18 req (8 s) 40 min later
+"th.jobsdb.com" = 150
+
+[limits.timeout_per_host]        # seconds; default 20
+"api.lever.co" = 60               # Lalamove list is ~1.2 MB; timed out at 20 s on 8 Nov 2026
+
+[limits.delay_per_host]          # seconds between requests, overriding min_seconds_between_requests
+"www.linkedin.com" = 8           # first live run (7 Nov 2026) got HTTP 429 after ~75 requests at 3 s
+
+[gmail]
+account = "you@example.com"
+keychain_service = "jobhunt-gmail"
+imap_host = "imap.gmail.com"
+alert_from_domains = ["linkedin.com", "jobsdb.com", "seek.com.au"]   # refined from real samples in M2
+days_daily = 3
+days_first_run = 14
+
+
+[companies_filter]
+keep = ["Thailand", "Bangkok", "Singapore", "Nonthaburi", "Samut Prakan", "Pathum Thani", "Chachoengsao", "Chonburi", "Chon Buri", "Laem Chabang", "Ayutthaya", "Rayong"]
+
+[[companies]]
+name = "Agoda"
+domain = "agoda.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "greenhouse"
+board = "agoda"
+verified = "2026-11-07: HTTP 200, 340 postings"
+
+[[companies]]
+name = "Unilever"
+domain = "unilever.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "workday"
+tenant = "unilever"
+wd_host = "wd3"
+site = "Unilever_Experienced_Professionals"
+search_text = "Thailand"
+verified = "2026-11-07: HTTP 200, 11 postings"
+
+[[companies]]
+name = "Unilever (Early Careers)"
+domain = "unilever.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "workday"
+tenant = "unilever"
+wd_host = "wd3"
+site = "Unilever_Early_Careers"
+search_text = "Thailand"
+verified = "2026-11-07: HTTP 200, 0 postings"
+
+[[companies]]
+name = "Mondelez"
+domain = "mondelezinternational.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "workday"
+tenant = "mdlz"
+wd_host = "wd3"
+site = "External"
+search_text = "Thailand"
+verified = "2026-11-07: HTTP 200, 11 postings"
+
+[[companies]]
+name = "Mars"
+domain = "mars.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "workday"
+tenant = "mars"
+wd_host = "wd3"
+site = "External"
+search_text = "Thailand"
+verified = "2026-11-07: HTTP 200, 7 postings"
+
+[[companies]]
+name = "Pernod Ricard"
+domain = "pernod-ricard.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "workday"
+tenant = "pernodricard"
+wd_host = "wd3"
+site = "pernod-ricard"
+search_text = "Thailand"
+verified = "2026-11-07: HTTP 200, 3 postings"
+
+[[companies]]
+name = "Cartier / Richemont"
+domain = "cartier.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "workday"
+tenant = "richemont"
+wd_host = "wd3"
+site = "broadbean_external"
+search_text = "Thailand"
+verified = "2026-11-07: HTTP 200, 3 postings"
+
+[[companies]]
+name = "Kraft Heinz"
+domain = "kraftheinzcompany.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "workday"
+tenant = "heinz"
+wd_host = "wd1"
+site = "KraftHeinz_Careers"
+search_text = "Thailand"
+verified = "2026-11-07: HTTP 200, 3 postings"
+
+[[companies]]
+name = "Abbott"
+domain = "abbott.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "workday"
+tenant = "abbott"
+wd_host = "wd5"
+site = "abbottcareers"
+search_text = "Thailand"
+verified = "2026-11-07: HTTP 200, 15 postings"
+
+[[companies]]
+name = "HP"
+domain = "hp.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "workday"
+tenant = "hp"
+wd_host = "wd5"
+site = "ExternalCareerSite"
+search_text = "Thailand"
+verified = "2026-11-07: HTTP 200, 10 postings"
+
+[[companies]]
+name = "P&G"
+domain = "pg.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "workday"
+tenant = "pg"
+wd_host = "wd5"
+site = "1000"
+search_text = "Thailand"
+verified = "2026-11-07: HTTP 200, 17 postings"
+
+[[companies]]
+name = "Michelin"
+domain = "michelin.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "workday"
+tenant = "michelinhr"
+wd_host = "wd3"
+site = "Michelin"
+search_text = "Thailand"
+verified = "2026-11-07: HTTP 200, 58 postings"
+
+[[companies]]
+name = "ShopBack"
+domain = "shopback.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "lever"
+company = "shopback-2"
+verified = "2026-11-07: HTTP 200, 79 postings"
+
+[[companies]]
+name = "Lalamove"
+domain = "lalamove.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "lever"
+company = "lalamove"
+verified = "2026-11-07: HTTP 200, 143 postings"
+
+[[companies]]
+name = "AlphaSights"
+domain = "alphasights.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "greenhouse"
+board = "alphasights"
+verified = "2026-11-07: HTTP 200, 64 postings"
+
+[[companies]]
+name = "Minor International"
+domain = "minor.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "smartrecruiters"
+smartrecruiters_id = "MinorInternational"
+verified = "2026-11-07: HTTP 200, 132 postings (3 with country=th)"
+country = "th"
+
+[[companies]]
+name = "Grab"
+domain = "grab.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "smartrecruiters"
+smartrecruiters_id = "Grab"
+verified = "2026-11-07: HTTP 200, 23 postings (country=th)"
+country = "th"
+
+[[companies]]
+name = "Shopee"
+domain = "shopee.co.th"              # logo source (M9): the backend fetches this site's own icon
+adapter = "sea_ats"
+url = "https://ats.workatsea.com/ats/api/v1/user/job/list/?limit=100&offset=0&city_ids=31"
+max_pages = 5
+verified = "2026-11-08: HTTP 200, Bangkok-area filter city_ids=31, total 380 in probe"
+note = "Public application URL remains unverified; import preserves job ID and JD without inventing a link. Existing stored URLs are not rewritten."
+
+[[companies]]
+name = "Sea"
+domain = "sea.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "sea_ats"
+url = "https://career.sea.com/api/user/job/list?external_entity_id=3&limit=100&offset=0&post_type=1&city_ids=31"
+verified = "2026-11-07: HTTP 200, 1 posting (Bangkok filter)"
+note = "data.job_list[] has job_description + requirements; city_ids=31 is Bangkok"
+
+[[companies]]
+name = "TikTok / TikTok Shop / ByteDance"
+domain = "tiktok.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "none"
+note = "client-rendered, no public endpoint; covered by LinkedIn/JobsDB search"
+verified = "failed: HTTP 200 but client-rendered, 0 jobs in HTML; no public GET job endpoint found"
+
+[[companies]]
+name = "L'Oreal"
+domain = "loreal.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "loreal"
+url = "https://careers.loreal.com/en/search-jobs/Thailand/3456/2/1605651/15x5/101/50/2"
+verified = "2026-11-08: public search and JobPosting detail verified; bounded first-page import"
+link_pattern = "/job/" # retained for rollback to watch
+
+[[companies]]
+name = "Nestle"
+domain = "nestle.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "watch"
+url = "https://jobdetails.nestle.com/search/?q=&locationsearch=Thailand"
+verified = "2026-11-07: HTTP 200, 48 postings"
+link_pattern = "/job/"
+
+[[companies]]
+name = "HEINEKEN"
+domain = "theheinekencompany.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "none"
+note = "no Thailand filter on its site (global list only); covered by LinkedIn/JobsDB search"
+verified = "2026-11-07: HTTP 200, 10 postings on page 1 (global, 0 Thailand)"
+
+[[companies]]
+name = "CP Axtra"
+domain = "cpaxtra.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "watch"
+url = "https://www.cpaxtracareers.com/en/jobs"
+verified = "2026-11-07: HTTP 200, 361 postings"
+link_pattern = "/jobs?/"
+
+[[companies]]
+name = "LINE MAN Wongnai"
+domain = "lmwn.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "none"
+note = "jobs render client-side (embedded React Query state); watch sees 0 links (M3, 7 Nov 2026); covered by LinkedIn/JobsDB search"
+verified = "2026-11-07: HTTP 200, 41 postings in embedded state"
+
+[[companies]]
+name = "Central Group"
+domain = "centralgroup.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "watch"
+url = "https://careers.centralgroup.com/search/?q=&sortColumn=referencedate&sortDirection=desc"
+verified = "2026-11-07: HTTP 200, 85 postings"
+link_pattern = "/job/"
+
+[[companies]]
+name = "Marriott"
+domain = "marriott.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "json_watch"
+url = "https://ejwl.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList&finder=findReqs;siteNumber=CX,keyword=Thailand,limit=25"
+list_path = "items.0.requisitionList"
+id_key = "Id"
+title_key = "Title"
+verified = "2026-11-07: HTTP 200, 4 postings"
+
+[[companies]]
+name = "Thai Union"
+domain = "thaiunion.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "none"
+note = "Cornerstone client-rendered shell; covered by LinkedIn/JobsDB search"
+verified = "failed: HTTP 200 but client-rendered shell, 0 jobs in HTML"
+
+[[companies]]
+name = "True"
+domain = "true.th"              # logo source (M9): the backend fetches this site's own icon
+adapter = "watch"
+url = "https://careers.true.th/sitemap.xml"
+verified = "2026-11-07: HTTP 200, 28 postings"
+link_pattern = "/job/"
+
+[[companies]]
+name = "DKSH"
+domain = "dksh.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "watch"
+url = "https://jobs.dksh.com/search/?q=&locationsearch=Thailand"
+verified = "2026-11-07: HTTP 200, 15 postings on page 1"
+link_pattern = "/job/"
+
+[[companies]]
+name = "Beiersdorf"
+domain = "beiersdorf.com"              # logo source (M9): the backend fetches this site's own icon
+adapter = "watch"
+url = "https://www.beiersdorf.com/career/your-application/job-search?country=Thailand&count=10&sort=date"
+verified = "2026-11-07: HTTP 200, 10 postings"
+link_pattern = "job"
+
+[[companies]]
+name = "Coca-Cola ThaiNamthip"
+domain = "thainamthip.co.th"              # logo source (M9): the backend fetches this site's own icon
+adapter = "watch"
+url = "https://www.thainamthip.co.th/en/career"
+verified = "2026-11-07: HTTP 200 (curl), 31 postings"
+link_pattern = "career"
+
+[[companies]]
+name = "Suntory PepsiCo Thailand"
+domain = "suntorypepsico.co.th"              # logo source (M9): the backend fetches this site's own icon
+adapter = "none"
+note = "Akamai 403 to scripted requests; covered by LinkedIn/JobsDB search"
+verified = "failed: HTTP 403 Akamai Access Denied to scripted requests"
+
+
+[logo_domains]
+"Deloitte" = "deloitte.com"
+"ABeam Consulting" = "abeam.com"
+"Air Liquide" = "airliquide.com"
+"Boston Consulting Group (BCG)" = "bcg.com"
+"BCG" = "bcg.com"
+"BRG" = "thinkbrg.com"
+"BRG (Berkeley Research Group)" = "thinkbrg.com"
+"JD.COM" = "jd.com"
+"JINGDONG (JD) Thailand" = "jd.com"
+"JPMorganChase" = "jpmorganchase.com"
+"JPMorgan Chase (Singapore)" = "jpmorganchase.com"
+"Alvarez & Marsal" = "alvarezandmarsal.com"
+"Ascend Group (TrueMoney)" = "ascendcorp.com"
+"Citi (Singapore)" = "citi.com"
+"CP Axtra (Lotus's)" = "lotuss.com"
+"CP Axtra (Makro)" = "makro.co.th"
+"CPF (CP Group)" = "cpfworldwide.com"
+"DBS Bank (Singapore)" = "dbs.com"
+"Deutsche Bank (Singapore)" = "db.com"
+"Transsion (Singapore)" = "transsion.com"
+"UBS (Singapore)" = "ubs.com"
+"Bloomberg" = "bloomberg.com"
+"Cognizant" = "cognizant.com"
+"Douyin Group (HK) Limited" = "bytedance.com"
+"Grand Hyatt" = "hyatt.com"
+"IMDA" = "imda.gov.sg"
+"Siemens" = "siemens.com"
+"Chatrium Hospitality" = "chatrium.com"
+"LUXASIA" = "luxasia.com"
+"Beca" = "beca.com"
+"GSK" = "gsk.com"
+"Xendit" = "xendit.co"
+"Accor Asia Corporate Offices" = "accor.com"
+"Adecco" = "adecco.com"
+"AECOM" = "aecom.com"
+"Alibaba Cloud" = "alibabacloud.com"
+"Analog Devices" = "analog.com"
+"Applied Materials South East Asia" = "appliedmaterials.com"
+"Bureau Veritas Consumer Products Services (Thailand) Ltd." = "bureauveritas.com"
+"Chubb" = "chubb.com"
+"Delta Electronics Southeast Asia & Oceania" = "deltaww.com"
+"Exyte" = "exyte.net"
+"EY" = "ey.com"
+"Funding Societies | Modalku Group" = "fundingsocieties.com"
+"Infineon Technologies" = "infineon.com"
+"Jaymart Group" = "jaymart.co.th"
+"KPMG Singapore" = "kpmg.com"
+"KPMG Thailand" = "kpmg.com"
+"Logicalis Asia Pacific" = "logicalis.com"
+"Medtronic" = "medtronic.com"
+"NielsenIQ (Thailand) Limited" = "nielseniq.com"
+"NTT DATA, Inc." = "nttdata.com"
+"Pinsent Masons" = "pinsentmasons.com"
+"PwC Singapore" = "pwc.com"
+"Reckitt" = "reckitt.com"
+"Roche" = "roche.com"
+"Rockwell Automation" = "rockwellautomation.com"
+"Sika" = "sika.com"
+"TISCO Financial Group Public Company Limited" = "tisco.co.th"
+"Xiaomi Technology" = "mi.com"
+
+"Monee" = "monee.com"                                 # sea.com/products/monee and monee.com
+"AstraZeneca" = "astrazeneca.com"
+"Aurora Design Public Company Limited" = "auroradesign.co.th"
+"CJ MORE" = "cjmore.co.th"
+"Central Retail Corporation Public Company Limited" = "centralretail.com"
+"Clinixir" = "clinixir.com"
+"Dexian Asia Pacific" = "dexian.com"
+"GUILCOR GROUP" = "guilcor.com"
+"HGC Global Communications Limited" = "hgc.com.hk"
+"ICAP-AP (Thailand) Co., Ltd." = "tpicap.com"
+"Leschaco Service Ltd." = "leschaco.com"
+"Links International" = "linksinternational.com"
+"Nila Solutions Co., Ltd." = "nilasolutions.co"
+"Pertamina Lubricants (Thailand) Co., Ltd." = "pertaminalubricants.co.th"
+"RISE - Innovation Consulting" = "riseaccel.com"
+"The Luxury Collection" = "theluxurycollection.com"
+"Canonical" = "canonical.com"
+"JAC Recruitment" = "jac-recruitment.com"
+"Public Service Division (Singapore)" = "psd.gov.sg"
+"BIT Official" = "bit.com"                            # bit.com brand update, formerly Matrixport
+"Foodmax" = "foodmax.me"
+"Jersey Electricity" = "jec.co.uk"
+"Lazada" = "lazada.com"
+"Lotus's" = "lotuss.com"
+"Makro PRO" = "makro.co.th"
+"Procter & Gamble" = "pg.com"
+"Procter & Gamble Trading (Thailand) Ltd." = "pg.com"
+"adidas" = "adidas.com"
+"Accenture Solutions Co., Ltd.(AIOC)" = "accenture.com"
+"aCommerce Co., Ltd." = "acommerce.asia"
+"Amazon Web Services (AWS)" = "aws.amazon.com"
+"Amazon Web Services (Thailand) Limited" = "aws.amazon.com"
+"ANKER INNOVATIONS AUSTRALIA PTY LTD" = "anker.com"
+"ANYMIND (THAILAND) LIMITED" = "anymindgroup.com"
+"Aurecon" = "aurecongroup.com"
+"Bangchak Corporation Public Company Limited" = "bangchak.co.th"
+"Bank of Ayudhya Public Company Limited" = "krungsri.com"
+"Berli Jucker Public Company Limited" = "bjc.co.th"
+"Betagro Public Company Limited" = "betagro.com"
+"Big C Supercenter Public Company Limited" = "bigc.co.th"
+"BNY" = "bny.com"
+"Catalent" = "catalent.com"
+"Chevron" = "chevron.com"
+"CJ Logistics" = "cjlogistics.com"
+"CNH Industrial Services (Thailand) Limited" = "cnh.com"
+"Coface" = "coface.com"
+"Concentrix" = "concentrix.com"
+"Deliveree (Thailand) Limited" = "deliveree.com"
+"DHL eCommerce Solutions (Thailand) Limited" = "dhl.com"
+"Docusign" = "docusign.com"
+"DP World" = "dpworld.com"
+"DSV - Global Transport and Logistics" = "dsv.com"
+"EVEANDBOY Public Company Limited" = "eveandboy.com"
+"Expeditors (Thailand) Ltd." = "expeditors.com"
+"FrieslandCampina (Thailand) PCL." = "frieslandcampina.com"
+"FUJITSU (THAILAND) CO., LTD." = "fujitsu.com"
+"goFLUENT Philippines, Inc." = "gofluent.com"
+"Gulf Development PCL." = "gulf.co.th"
+"IBM" = "ibm.com"
+"ICHITAN GROUP PCL." = "ichitan.com"
+"Kasikorn Securities PCL" = "kasikornsecurities.com"
+"Konvy" = "konvy.com"
+"LG Electronics Thailand" = "lg.com"
+"Mastercard" = "mastercard.com"
+"Microchip Technology Inc." = "microchip.com"
+"Micron Technology" = "micron.com"
+"Moët Hennessy" = "moet-hennessy.com"
+"MR. D.I.Y. Holding (Thailand) Public Company Limited" = "mrdiy.com"
+"NVIDIA" = "nvidia.com"
+"NXP Semiconductors" = "nxp.com"
+"Onto Innovation" = "ontoinnovation.com"
+"Pinterest" = "pinterest.com"
+"PTG Energy Public Company Limited" = "ptg.co.th"
+"Qatar Airways" = "qatarairways.com"
+"Regional Container Lines Public Company Limited" = "rclgroup.com"
+"Ripple" = "ripple.com"
+"SATS Ltd." = "sats.com.sg"
+"Solventum" = "solventum.com"
+"Star Petroleum Refining Public Company Limited" = "sprc.co.th"
+"Symrise AG" = "symrise.com"
+"Thai Beverage Public Company Limited" = "thaibev.com"
+"Thai Samsung Electronics Co., Ltd." = "samsung.com"
+"Thales" = "thalesgroup.com"
+"THE MALL GROUP CO., LTD. ( HEAD OFFICE )" = "themallgroup.com"
+"The Siam Cement Public Company Limited (SCG)" = "scg.com"
+"Tilleke & Gibbins International Ltd." = "tilleke.com"
+"transcosmos (Thailand) Co., Ltd." = "trans-cosmos.co.jp"
+"Traveloka" = "traveloka.com"
+"UBE Chemicals (Asia) PCL." = "ube.com"
+"Vantive" = "vantive.com"
+"Vertiv" = "vertiv.com"
+"Weichai Singapore Pte Ltd" = "weichaipower.com"
+"Central Group (Central Pattana Public Company Limited)" = "centralpattana.co.th"
+
+[logo_assets]
+"deloitte.com" = "https://www.deloitte.com/favicon.ico"
+"marriott.com" = "https://www.marriott.com/favicon.ico"
+"hyatt.com" = "https://www.hyatt.com/favicon.ico"
+"grab.com" = "https://www.grab.com/favicon.ico"
+"abbott.com" = "https://www.abbott.com/favicon.ico"
+"hp.com" = "https://www.hp.com/favicon.ico"
+"loreal.com" = "https://www.loreal.com/favicon.ico"
+"bloomberg.com" = "https://www.bloomberg.com/favicon.ico"
+"shopback.com" = "https://www.shopback.sg/favicon.ico"
+"airliquide.com" = "https://www.airliquide.com/favicon.ico"
+"monee.com" = "https://www.monee.com/favicon.ico"
+
+[llm]
+provider = "codex"              # Choose 1 OAuth subscription: "codex" | "claude" | "gemini"
+model = ""                      # Leave empty to use your subscription's default model
+reasoning_effort = "low"
+batch_size = 8
+timeout_seconds = 300
+
+[tracking]
+ghosted_after_days = 30
+lessons_in_prompt = 10
+
+[vault]
+path = "data/wiki"              # Built-in local wiki (or point to an Obsidian vault folder)
+records_dir = "61 Application Records"
+
+[board]
+host = "127.0.0.1"
+port = 8765
+notify = true                   # macOS notification at the end of the daily run (local only)
+
+[coverage]
+enabled = true  # bounded company recovery, with persistent coverage checks
+lookback_days = 30
+stale_after_days = 10
+linkedin_requests = 6  # 6 recovery + 16 existing role pages = current 22 search cap
+jobsdb_requests = 30
+location = "Thailand"
+
+[[coverage.targets]]
+name = "Agoda"
+industry = "travel technology"
+focus_status = "exploratory"
+queries = ["Agoda"]
+
+[[coverage.targets]]
+name = "Unilever"
+industry = "FMCG/consumer"
+focus_status = "core-aligned"
+queries = ["Unilever"]
+direct_names = ["Unilever", "Unilever (Early Careers)"]
+
+[[coverage.targets]]
+name = "Mondelez"
+industry = "FMCG/food"
+focus_status = "core-aligned"
+queries = ["Mondelez"]
+aliases = ["Mondelēz International", "Mondelez International"]
+
+[[coverage.targets]]
+name = "Mars"
+industry = "FMCG/food"
+focus_status = "core-aligned"
+queries = ["Mars"]
+
+[[coverage.targets]]
+name = "Pernod Ricard"
+industry = "FMCG/beverages"
+focus_status = "core-aligned"
+queries = ["Pernod Ricard"]
+
+[[coverage.targets]]
+name = "Cartier / Richemont"
+industry = "consumer retail"
+focus_status = "core-aligned"
+queries = ["Cartier", "Richemont"]
+
+[[coverage.targets]]
+name = "Kraft Heinz"
+industry = "FMCG/food"
+focus_status = "core-aligned"
+queries = ["Kraft Heinz"]
+
+[[coverage.targets]]
+name = "Abbott"
+industry = "healthcare commercial"
+focus_status = "exploratory"
+queries = ["Abbott"]
+
+[[coverage.targets]]
+name = "HP"
+industry = "B2B commercial technology"
+focus_status = "exploratory"
+queries = ["HP"]
+aliases = ["HP Inc.", "HP Inc"]
+
+[[coverage.targets]]
+name = "P&G"
+industry = "FMCG/consumer"
+focus_status = "core-aligned"
+queries = ["P&G", "Procter & Gamble"]
+aliases = ["Procter & Gamble"]
+
+[[coverage.targets]]
+name = "Michelin"
+industry = "industrial/automotive"
+focus_status = "exploratory"
+queries = ["Michelin"]
+
+[[coverage.targets]]
+name = "ShopBack"
+industry = "e-commerce"
+focus_status = "core-aligned"
+queries = ["ShopBack"]
+
+[[coverage.targets]]
+name = "Lalamove"
+industry = "logistics"
+focus_status = "exploratory"
+queries = ["Lalamove"]
+
+[[coverage.targets]]
+name = "AlphaSights"
+industry = "professional services"
+focus_status = "optional-consulting"
+queries = ["AlphaSights"]
+
+[[coverage.targets]]
+name = "Minor International"
+industry = "hospitality/food service"
+focus_status = "exploratory"
+queries = ["Minor International", "Minor Food"]
+
+[[coverage.targets]]
+name = "Grab"
+industry = "platform commerce"
+focus_status = "core-aligned"
+queries = ["Grab"]
+
+[[coverage.targets]]
+name = "Shopee"
+industry = "e-commerce"
+focus_status = "core-aligned"
+queries = ["Shopee"]
+
+[[coverage.targets]]
+name = "Sea"
+industry = "platform commerce"
+focus_status = "core-aligned"
+queries = ["Sea"]
+aliases = ["Sea Limited"]
+
+[[coverage.targets]]
+name = "TikTok / TikTok Shop / ByteDance"
+industry = "e-commerce"
+focus_status = "core-aligned"
+queries = ["TikTok", "ByteDance"]
+
+[[coverage.targets]]
+name = "L'Oreal"
+industry = "FMCG/consumer"
+focus_status = "core-aligned"
+queries = ["L'Oreal"]
+aliases = ["L’Oréal", "L'Oréal", "LOreal"]
+
+[[coverage.targets]]
+name = "Nestle"
+industry = "FMCG/food"
+focus_status = "core-aligned"
+queries = ["Nestle"]
+aliases = ["Nestlé"]
+
+[[coverage.targets]]
+name = "HEINEKEN"
+industry = "FMCG/beverages"
+focus_status = "core-aligned"
+queries = ["HEINEKEN"]
+
+[[coverage.targets]]
+name = "CP Axtra"
+industry = "retail"
+focus_status = "core-aligned"
+queries = ["CP Axtra", "Makro", "Lotus's"]
+
+[[coverage.targets]]
+name = "LINE MAN Wongnai"
+industry = "platform commerce"
+focus_status = "core-aligned"
+queries = ["LINE MAN Wongnai"]
+
+[[coverage.targets]]
+name = "Central Group"
+industry = "retail"
+focus_status = "core-aligned"
+queries = ["Central Group", "Central Retail"]
+
+[[coverage.targets]]
+name = "Marriott"
+industry = "hospitality"
+focus_status = "exploratory"
+queries = ["Marriott"]
+
+[[coverage.targets]]
+name = "Thai Union"
+industry = "FMCG/food"
+focus_status = "core-aligned"
+queries = ["Thai Union"]
+
+[[coverage.targets]]
+name = "True"
+industry = "telecom"
+focus_status = "exploratory"
+queries = ["True"]
+aliases = ["True Corporation"]
+
+[[coverage.targets]]
+name = "DKSH"
+industry = "commercial distribution"
+focus_status = "exploratory"
+queries = ["DKSH"]
+
+[[coverage.targets]]
+name = "Beiersdorf"
+industry = "FMCG/consumer"
+focus_status = "core-aligned"
+queries = ["Beiersdorf"]
+
+[[coverage.targets]]
+name = "Coca-Cola ThaiNamthip"
+industry = "FMCG/beverages"
+focus_status = "core-aligned"
+queries = ["ThaiNamthip"]
+
+[[coverage.targets]]
+name = "Suntory PepsiCo Thailand"
+industry = "FMCG/beverages"
+focus_status = "core-aligned"
+queries = ["Suntory PepsiCo"]
+
+[[coverage.targets]]
+name = "BJC / Berli Jucker"
+queries = ["Berli Jucker", "BJC"]
+aliases = ["Big C"]
+industry = "FMCG/retail"
+focus_status = "core-aligned"
+
+[[coverage.targets]]
+name = "CPF"
+queries = ["Charoen Pokphand Foods", "CPF"]
+aliases = []
+industry = "FMCG/food"
+focus_status = "core-aligned"
+
+[[coverage.targets]]
+name = "CP ALL"
+queries = ["CP ALL"]
+aliases = ["CPALL"]
+industry = "retail"
+focus_status = "core-aligned"
+
+[[coverage.targets]]
+name = "Osotspa"
+queries = ["Osotspa"]
+aliases = ["โอสถสภา"]
+industry = "FMCG/consumer"
+focus_status = "core-aligned"
+
+[[coverage.targets]]
+name = "Carabao Group"
+queries = ["Carabao"]
+aliases = ["Carabao Group"]
+industry = "FMCG/consumer"
+focus_status = "core-aligned"
+
+[[coverage.targets]]
+name = "Com7"
+queries = ["Com7"]
+aliases = ["Comseven"]
+industry = "retail"
+focus_status = "core-aligned"
+
+[[coverage.targets]]
+name = "Central Pattana"
+queries = ["Central Pattana"]
+aliases = ["CPN"]
+industry = "property/retail"
+focus_status = "exploratory"
+
+[[coverage.targets]]
+name = "Centara"
+queries = ["Centara"]
+aliases = ["Central Plaza Hotel"]
+industry = "hospitality"
+focus_status = "exploratory"
+
+[[coverage.targets]]
+name = "Betagro"
+queries = ["Betagro"]
+aliases = ["เบทาโกร"]
+industry = "FMCG/food"
+focus_status = "core-aligned"
+
+[[coverage.targets]]
+name = "AIS"
+queries = ["Advanced Info Service"]
+aliases = ["AIS", "Advanced Info Service Public Company Limited"]
+industry = "telecom"
+focus_status = "exploratory"
+
+[[coverage.targets]]
+name = "AP Thailand"
+queries = ["AP Thailand"]
+aliases = ["AP (Thailand)"]
+industry = "property"
+focus_status = "exploratory"
+
+[[coverage.targets]]
+name = "AMATA"
+queries = ["AMATA"]
+aliases = ["Amata Corporation"]
+industry = "industrial/property"
+focus_status = "exploratory"
+
+[[coverage.targets]]
+name = "PTG Energy"
+queries = ["PTG Energy"]
+aliases = []
+industry = "energy/retail"
+focus_status = "exploratory"
+
+[[coverage.targets]]
+name = "PTT"
+queries = ["PTT"]
+aliases = ["PTT Public Company Limited"]
+industry = "energy"
+focus_status = "exploratory"
+
+[[coverage.targets]]
+name = "PTT Oil and Retail"
+queries = ["PTT Oil and Retail"]
+aliases = ["PTT Oil and Retail Business"]
+industry = "energy/retail"
+focus_status = "exploratory"
+
+[[coverage.targets]]
+name = "Erawan Group"
+queries = ["Erawan Group"]
+aliases = ["The Erawan Group"]
+industry = "hospitality"
+focus_status = "exploratory"
+
+[[coverage.targets]]
+name = "Microsoft"
+queries = ["Microsoft"]
+aliases = ["Microsoft Corporation"]
+industry = "B2B commercial technology"
+focus_status = "exploratory"
+
+[[coverage.targets]]
+name = "Accenture"
+queries = ["Accenture"]
+aliases = ["Accenture plc"]
+industry = "consulting/professional services"
+focus_status = "optional-consulting"
+
+[[coverage.targets]]
+name = "Johnson & Johnson"
+queries = ["Johnson & Johnson"]
+aliases = ["J&J", "Johnson and Johnson"]
+industry = "healthcare commercial"
+focus_status = "exploratory"
+
+[[coverage.targets]]
+name = "IBM"
+queries = ["IBM"]
+aliases = ["International Business Machines"]
+industry = "B2B commercial technology"
+focus_status = "exploratory"
+
+[[coverage.targets]]
+name = "Colgate-Palmolive"
+queries = ["Colgate-Palmolive"]
+aliases = ["Colgate"]
+industry = "FMCG/consumer"
+focus_status = "core-aligned"
+
+[[coverage.targets]]
+name = "Kimberly-Clark"
+queries = ["Kimberly-Clark"]
+aliases = ["Kimberly Clark"]
+industry = "FMCG/consumer"
+focus_status = "core-aligned"
+
+[[coverage.targets]]
+name = "Nike"
+queries = ["Nike"]
+aliases = ["NIKE, Inc."]
+industry = "consumer retail"
+focus_status = "core-aligned"
+
+[[coverage.targets]]
+name = "Alphabet / Google"
+queries = ["Google"]
+aliases = ["Alphabet", "Google"]
+industry = "B2B commercial technology"
+focus_status = "exploratory"
+
+[[coverage.targets]]
+name = "Amazon / AWS"
+queries = ["Amazon Web Services"]
+aliases = ["Amazon", "AWS"]
+industry = "B2B commercial technology"
+focus_status = "exploratory"
+
+[[coverage.targets]]
+name = "FedEx"
+queries = ["FedEx"]
+aliases = ["Federal Express"]
+industry = "logistics"
+focus_status = "exploratory"
+
+[[coverage.targets]]
+name = "Pfizer"
+queries = ["Pfizer"]
+aliases = []
+industry = "healthcare commercial"
+focus_status = "exploratory"
+
+[[coverage.targets]]
+name = "Oracle"
+queries = ["Oracle"]
+aliases = ["Oracle Corporation"]
+industry = "B2B commercial technology"
+focus_status = "exploratory"
+
+[[coverage.targets]]
+name = "Salesforce"
+queries = ["Salesforce"]
+aliases = ["Salesforce, Inc."]
+industry = "B2B commercial technology"
+focus_status = "exploratory"
+
+[[coverage.targets]]
+name = "UPS"
+queries = ["UPS"]
+aliases = ["United Parcel Service"]
+industry = "logistics"
+focus_status = "exploratory"
+
+[[coverage.targets]]
+name = "Hilton"
+queries = ["Hilton"]
+aliases = ["Hilton Worldwide"]
+industry = "hospitality"
+focus_status = "exploratory"
+
+[[coverage.targets]]
+name = "Cisco"
+queries = ["Cisco"]
+aliases = ["Cisco Systems"]
+industry = "B2B commercial technology"
+focus_status = "exploratory"

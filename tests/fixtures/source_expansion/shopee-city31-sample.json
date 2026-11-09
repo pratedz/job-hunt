@@ -1,0 +1,49 @@
+{
+  "fetched": "2026-11-08",
+  "url": "https://ats.workatsea.com/ats/api/v1/user/job/list/?limit=20&offset=0&city_ids=31",
+  "http": 200,
+  "total": 380,
+  "note": "city_ids=31 is broader than Bangkok city. No public job URL field in the list payload. Do not use the career.sea.com/position/{id} template.",
+  "jobs": [
+    {
+      "title": "Outbound Lead, Wangnoi",
+      "id": "J02210175",
+      "city": 31
+    },
+    {
+      "title": "Fleet Maintenance Lead",
+      "id": "J02206264",
+      "city": 31
+    },
+    {
+      "title": "Strategy & Transformation (Scommerce)",
+      "id": "J02200228",
+      "city": 31
+    },
+    {
+      "title": "Livestream Affiliate Key Account Management (Shopee)",
+      "id": "J02209903",
+      "city": 31
+    },
+    {
+      "title": "Campaign Operations (Contract) (ShopeeFood)",
+      "id": "J02209881",
+      "city": 31
+    },
+    {
+      "title": "Sortation Operations Lead - Samut Prakan",
+      "id": "J02209853",
+      "city": 31
+    },
+    {
+      "title": "Regional Seller Operations and Strategy (Shopee)",
+      "id": "J02190066",
+      "city": 31
+    },
+    {
+      "title": "Listing Project Management  (Shopee)",
+      "id": "J02201768",
+      "city": 31
+    }
+  ]
+}

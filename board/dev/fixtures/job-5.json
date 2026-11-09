@@ -1,0 +1,71 @@
+{
+ "id": 5,
+ "rank": null,
+ "company": "Deliveree (Thailand) Limited",
+ "title": "Fresh Graduate Management Trainee Program (MT)",
+ "location": "Bangkok",
+ "source": "jobsdb",
+ "url": "https://th.jobsdb.com/job/95340875",
+ "posted_at": null,
+ "first_seen_at": "2026-11-07T15:16:19Z",
+ "verdict": "FILTERED",
+ "status": "new",
+ "scores": {
+  "love": 5,
+  "good_at": null,
+  "needs": 4,
+  "paid": 1
+ },
+ "paid_estimated": false,
+ "weakest": {
+  "circle": "paid",
+  "score": 1
+ },
+ "mean": 3.3333,
+ "gate": {
+  "result": "fail",
+  "fails": [
+   "Requires a minimum GPA of 2.70; your GPAX is 2.48 (transcript).",
+   "Requires the degree to be completed when you apply; yours is conferred after May 2027."
+  ],
+  "questions": [
+   "Hiring immediately; you are available from 2027-06. Will they hold the role until then?"
+  ]
+ },
+ "prefilter_reason": null,
+ "tracked": null,
+ "error": null,
+ "reasons": {
+  "love": "The MT programme rotates through operations, sales and marketing, matching his commercial interests.",
+  "good_at": "The posting does not specify enough skill requirements to assess his fit, although F10, F21 and F26 show relevant commercial and operational work.",
+  "needs": "The posting describes a structured programme with rotations across three functions.",
+  "paid": "THB 25,000-30,000 per month -> about THB 27,500/month. The posting states a salary of THB 25,000 to 30,000 per month."
+ },
+ "summary": "The rotations fit his interests, but the completed-degree requirement and GPA floor make him ineligible.",
+ "facts": {
+  "min_years_experience": 0,
+  "gpa_floor": 2.7,
+  "start_kind": "immediate",
+  "start_date": null,
+  "graduation_years": [],
+  "degree_completed_required": true,
+  "required_languages": [],
+  "required_test_scores": [],
+  "location_city": "Bangkok",
+  "location_country": "Thailand",
+  "remote": false,
+  "job_type": "graduate_programme",
+  "other_hard_requirements": []
+ },
+ "salary": {
+  "min": 25000,
+  "max": 30000,
+  "currency": "THB",
+  "period": "month",
+  "stated": true,
+  "thb_month_mid": 27500.0
+ },
+ "jd_text": "We are looking for fresh graduates who have completed a bachelor's degree, with GPA 2.70 or above, to join our 12-month MT program rotating across operations, sales and marketing. Start: immediately. Salary 25,000-30,000 THB/month.",
+ "jd_missing": false,
+ "email_snippet": null
+}
